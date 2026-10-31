@@ -1,0 +1,8 @@
+# Öğrenci kaydı, yerel belirteç ve çıktılar git'e girmez
+veri/
+e2e-cikti/
+node_modules/
+__pycache__/
+*.pyc
+*.log
+.DS_Store
