@@ -32,8 +32,8 @@ Arılar olmasa birçok bitki meyve veremezdi. Çünkü arılar çiçekten çiçe
 ? Arılar çiçeklerden ne toplar? | Nektar | Su | Yaprak
 ? Arıların yaşadığı yere ne denir? | Kovan | Ağıl | Kümes
 ? Her kovanda kaç kraliçe arı yaşar? | Bir | İki | Binlerce -> “bir kraliçe arı ve binlerce işçi arı”
-? Arılar neden önemlidir? | Çiçekten çiçeğe polen taşırlar | Ağaçları keserler | Meyveleri toplarlar
-? İşçi arılar ne yapar? | Çiçek toplar, kovanı temizler, yavruları besler | Yalnızca uyur | Kovandan hiç çıkmaz
+? Arılar neden önemlidir? | Çiçekten çiçeğe polen taşırlar | Meyveleri ağaçtan koparırlar | Kovanı çiçeklerle doldururlar
+? Metne göre işçi arıların görevlerinden biri hangisidir? | Yavruları beslemek | Kraliçe arıyı korumak | Çiçek tohumu ekmek -> “Çiçek toplar, kovanı temizler ve yavruları besler.”
 
 @okuma
 sv: 12
@@ -46,10 +46,10 @@ Güneş denizleri, gölleri ve nehirleri ısıtır. Sular buharlaşır ve göky�
 
 Bulutlardaki damlacıklar birleşip ağırlaşınca yere düşer. Buna yağmur denir. Yağmur suları tekrar denizlere, göllere ve nehirlere ulaşır. Böylece su yolculuğu baştan başlar.
 
-? Su gökyüzüne nasıl çıkar? | Buharlaşarak | Donarak | Dökülerek
-? Bulutlar neden oluşur? | Buhar soğuyup damlacıklara dönüşünce | Güneş büyüyünce | Rüzgâr esince
-? Damlacıklar ne zaman yere düşer? | Birleşip ağırlaşınca | Isınınca | Hafifleyince
-? Yağmur suları sonunda nereye ulaşır? | Denizlere, göllere ve nehirlere | Güneşe | Dağların tepesine
+? Su gökyüzüne nasıl çıkar? | Buharlaşarak | Donarak | Sıçrayarak
+? Bulutlar neden oluşur? | Buhar soğuyup damlacıklara dönüşünce | Güneş suyu tamamen kurutunca | Rüzgâr suyu gökyüzüne savurunca
+? Damlacıklar ne zaman yere düşer? | Birleşip ağırlaşınca | Soğuyup hafifleyince | Gökyüzüne yükselince
+? Yağmur suları sonunda nereye ulaşır? | Denizlere, göllere ve nehirlere | Yalnızca denizlere ve okyanuslara | Doğrudan çöllerdeki kum tepelerine
 ? Metne göre yukarıda hava nasıldır? | Soğuk | Sıcak | Rüzgârsız
 
 @okuma
@@ -65,11 +65,11 @@ Kökler topraktan su ve mineral alır. Yapraklar havadan karbondioksit gazını 
 
 Fotosentez sırasında oksijen de oluşur ve havaya verilir. İnsanlar ve hayvanlar bu oksijeni soluyarak yaşar.
 
-? Bitkiler besinlerini nasıl elde eder? | Kendileri üretir | Hayvanlardan alır | Topraktaki böcekleri yer
+? Bitkiler besinlerini nasıl elde eder? | Kendileri üretir | Hayvanlardan alır | Rüzgârdan toplar
 ? Kökler topraktan ne alır? | Su ve mineral | Karbondioksit | Güneş ışığı
-? Fotosentez için hangi üçü gerekir? | Su, karbondioksit ve güneş ışığı | Toprak, rüzgâr ve ısı | Oksijen, şeker ve su
+? Fotosentez için hangi üçü gerekir? | Su, karbondioksit ve güneş ışığı | Su, oksijen ve güneş ışığı | Mineral, rüzgâr ve güneş ışığı
 ? Fotosentez sırasında havaya ne verilir? | Oksijen | Karbondioksit | Şeker
-? Yaprakların içindeki yeşil madde ne yapar? | Işığın yardımıyla su ve karbondioksiti şekere çevirir | Kökleri toprağa bağlar | Meyveyi olgunlaştırır
+? Yaprakların içindeki yeşil madde ne yapar? | Su ve karbondioksiti şekere çevirir | Su ile şekeri karbondioksite çevirir | Kökleri toprağa bağlayıp suyu tutar -> “Yeşil madde, güneş ışığının yardımıyla su ile karbondioksiti şekere dönüştürür.”
 
 @okuma
 sv: 22
@@ -85,8 +85,8 @@ Bu hamur geniş bir elekten geçirilir ve suyunun büyük bölümü süzülür. 
 Kullanılmış kâğıtlar da geri dönüştürülerek yeniden hamura çevrilebilir. Bu sayede daha az ağaç kesilir.
 
 ? Kâğıdın hammaddesi çoğunlukla nedir? | Ağaç | Taş | Kum
-? Odun parçaları kaynatılınca ne olur? | Yumuşak, sulu bir hamur oluşur | Katı bir blok oluşur | Toz oluşur
-? Hamur ince bir tabaka haline nasıl getirilir? | Silindirler arasında preslenerek | Elle yoğurularak | Dondurularak
+? Odun parçaları kaynatılınca ne olur? | Yumuşak, sulu bir hamur oluşur | Sert, kuru bir blok oluşur | Köpüklü bir sıvıya dönüşür
+? Hamur ince bir tabaka haline nasıl getirilir? | Silindirler arasında preslenerek | Kalıplara dökülüp dondurularak | Elle yoğrulup bekletilerek
 ? Hangisi doğru sıradır? | Kesme → kaynatma → eleme → presleme → kurutma | Kurutma → kaynatma → kesme → presleme → eleme | Kaynatma → kesme → kurutma → eleme → presleme
 ? Geri dönüşümün metindeki yararı nedir? | Daha az ağaç kesilir | Kâğıt daha beyaz olur | Kâğıt daha ince olur
 
@@ -103,11 +103,11 @@ Sesin yayılması için bir ortama ihtiyaç vardır. Ortam hava, su ya da katı 
 
 Ses, katı maddelerde havadan daha hızlı yayılır. Bu yüzden kulağınızı ahşap bir masaya dayarsanız uzaktaki bir vuruşu daha çabuk duyabilirsiniz.
 
-? Ses nasıl oluşur? | Bir şeyin titremesiyle | Havanın soğumasıyla | Işığın yayılmasıyla
-? Uzayda sesler neden yayılamaz? | Orada sesi taşıyacak hava yoktur | Orası çok soğuktur | Astronotlar sessiz kalır
+? Ses nasıl oluşur? | Bir şeyin titremesiyle | Havanın hızla soğumasıyla | Işığın yayılmasıyla
+? Uzayda sesler neden yayılamaz? | Orada sesi taşıyacak hava yoktur | Orada kulaklar titreşimi algılayamaz | Astronotlar telsiz kullandığı için
 ? Astronotlar birbirleriyle nasıl konuşur? | Telsizle | Bağırarak | Yazarak
 ? Ses hangi ortamda daha hızlı yayılır? | Katı maddede | Havada | Boşlukta
-? Metinde “ortam” sözcüğü hangi anlamda kullanılmıştır? | Sesin içinde yayıldığı madde | Bir odanın içi | Kalabalık bir yer
+? Metinde “ortam” sözcüğü hangi anlamda kullanılmıştır? | Sesin içinde yayıldığı madde | Sesin geldiği yön ve uzaklık | Bir odanın genel havası
 
 @okuma
 sv: 32
@@ -124,9 +124,9 @@ Bir mıknatısı ortadan ikiye kırsanız bile elinizde iki yeni mıknatıs olur
 
 ? İki mıknatısın aynı kutupları birbirine ne yapar? | İter | Çeker | Hiçbir şey yapmaz
 ? Aşağıdakilerden hangisi mıknatıs tarafından çekilir? | Demir | Bakır | Altın
-? Bir mıknatıs ortadan kırılırsa ne olur? | İki yeni mıknatıs olur ve her birinin iki kutbu bulunur | Mıknatıslık biter | Tek kutuplu iki parça olur
-? Pusulalar neden kuzeyi gösterir? | Dünya büyük bir mıknatıs gibi davrandığı için | Rüzgâr kuzeyden estiği için | İçlerinde küçük bir güneş olduğu için
-? Metnin ana fikri nedir? | Mıknatısların özelliklerini anlatmak | Pusula yapımını anlatmak | Metallerin fiyatını anlatmak
+? Bir mıknatıs ortadan kırılırsa ne olur? | Her parça iki kutuplu yeni bir mıknatıs olur | Parçalardan biri mıknatıslığını yitirir | Parçaların biri yalnız kuzey kutbu taşır
+? Pusulalar neden kuzeyi gösterir? | Dünya büyük bir mıknatıs gibi davrandığı için | Kuzeyde çok büyük bir demir dağı olduğu için | Pusula iğnesi kuzey rüzgârıyla itildiği için
+? Metnin ana fikri nedir? | Mıknatısların özelliklerini anlatmak | Pusulanın nasıl yapıldığını anlatmak | Dünyanın nasıl oluştuğunu anlatmak
 
 @okuma
 sv: 38
@@ -141,11 +141,11 @@ Yüzyıllar sonra posta teşkilatları kuruldu ve mektuplar düzenli olarak taş
 
 Yöntem değişti, ama amaç hep aynı kaldı: haberi karşıdaki kişiye ulaştırmak.
 
-? İlk çağlarda haberi kimler taşırdı? | Haberciler | Gemiciler | Pilotlar
-? Metin, güvercinle haberleşme için ne söylüyor? | Her zaman güvenilir değildi | En hızlı yöntemdi | Hiç kullanılmadı
-? Telgraf mesajları nasıl gönderirdi? | Teller aracılığıyla elektrik sinyali olarak | Güvercinlerle | Davul sesiyle
+? İlk çağlarda haberi kimler taşırdı? | Haberciler | Gemiciler | Çobanlar
+? Metin, güvercinle haberleşme için ne söylüyor? | Her zaman güvenilir değildi | Her zaman en hızlı yöntemdi | Yalnızca savaşlarda kullanılırdı
+? Telgraf mesajları nasıl gönderirdi? | Teller üzerinden elektrik sinyaliyle | Davul ve ateşle tepeden tepeye | Atlı haberciler aracılığıyla
 ? Metinde geçen yöntemlerden hangisi en son ortaya çıkmıştır? | İnternet | Telgraf | Ateş yakmak
-? Yazar, bütün bu yöntemler için hangi ortak noktayı vurguluyor? | Amaç hep haberi ulaştırmaktı | Hepsi çok hızlıydı | Hepsi aynı sinyali kullanırdı
+? Yazar, bütün bu yöntemler için hangi ortak noktayı vurguluyor? | Amaç hep haberi ulaştırmaktı | Hepsinde elektrik kullanılırdı | Hepsi yalnızca atla taşınırdı
 
 @okuma
 sv: 44
@@ -160,11 +160,11 @@ Depremin yerin içinde başladığı noktaya odak, yeryüzünde tam üstüne den
 
 Depremi önceden kesin olarak bilmek bugün mümkün değildir. Bu yüzden asıl koruma, binaları depreme dayanıklı yapmak ve sarsıntı sırasında ne yapılacağını önceden öğrenmektir. Uzmanlar, sarsıntı sırasında “çök, kapan, tutun” hareketini önerir.
 
-? Deprem nasıl oluşur? | Kayalarda biriken gerilim aniden boşalınca | Yağmur yeraltına sızınca | Rüzgâr dağlara çarpınca
-? Depremin yeryüzündeki tam üst noktasına ne denir? | Merkez üssü | Odak | Levha
-? Büyüklük ölçeğinde sayı büyüdükçe ne olur? | Açığa çıkan enerji çok hızlı artar | Deprem daha kısa sürer | Deprem daha yavaş yayılır
-? Metne göre bugün neyi yapmak mümkün değildir? | Depremi önceden kesin olarak bilmek | Binaları dayanıklı yapmak | Depreme hazırlanmak
-? Yazara göre asıl koruma yolu nedir? | Binaları dayanıklı yapmak ve ne yapılacağını öğrenmek | Depremi tahmin eden cihazlar almak | Sarsıntı gelince dışarı koşmak
+? Deprem nasıl oluşur? | Kayalarda biriken gerilim aniden boşalınca | Levhalar birbirinden uzaklaşıp soğuyunca | Yeraltı suları yüzeye çıkınca
+? Depremin yeryüzündeki tam üst noktasına ne denir? | Merkez üssü | Odak | Gerilim
+? Büyüklük ölçeğinde sayı büyüdükçe ne olur? | Açığa çıkan enerji çok hızlı artar | Açığa çıkan enerji yalnızca biraz artar | Depremin odağı daha derinde olur
+? Deprem tahmini hakkında metin ne söylüyor? | Önceden kesin olarak bilinemez | Levha hareketleriyle gün gün hesaplanabilir | Küçük sarsıntılara bakarak kesin bilinir
+? Yazara göre asıl koruma yolu nedir? | Binaları dayanıklı yapıp ne yapılacağını öğrenmek | Depremi önceden bildiren cihazlar kullanmak | Sarsıntı başlayınca hemen dışarı koşmak
 
 @okuma
 sv: 58
@@ -177,12 +177,12 @@ Vücudumuz yaşamak için yalnızca enerjiye değil, çok küçük miktarlarda d
 
 Vitamin eksikliği çeşitli sağlık sorunlarına yol açabilir. Ancak bu, her vitamini hap olarak almanın yararlı olduğu anlamına gelmez. Dengeli beslenen çoğu insan, ihtiyacı olan vitaminlerin büyük bölümünü yediği besinlerden karşılar. Fazla miktarda alınan bazı vitaminler vücutta birikerek zarar da verebilir. Bu yüzden vitamin takviyesi kullanmadan önce bir hekime danışmak en doğrusudur.
 
-? Vitaminler hakkında hangisi doğrudur? | Vücut çoğunu kendi üretemez, besinlerle almalıdır | Vücut hepsini kendi üretir | Yalnızca hap olarak alınır
-? D vitaminini vücut hangi yolla da üretebilir? | Güneş ışığıyla | Soğuk havayla | Uykuyla
+? Vitaminler hakkında hangisi doğrudur? | Vücut çoğunu kendi üretemez, besinlerle almalıdır | Vücut hepsini yeterince kendi üretir, besin gerekmez | Yalnızca hap biçiminde alındığında işe yarar
+? D vitaminini vücut hangi yolla da üretebilir? | Güneş ışığıyla | Bol hareketle | Soğuk havayla
 ? Hangi vitamin görmeye yardımcıdır? | A | C | D
-? Yazar vitamin takviyesi için ne öneriyor? | Kullanmadan önce hekime danışmayı | Her gün mutlaka almayı | Hiçbir zaman kullanmamayı
-? “Fazla miktarda alınan bazı vitaminler zarar verebilir” cümlesinden ne anlaşılır? | Daha fazla her zaman daha iyi değildir | Vitaminler hiç alınmamalıdır | Zarar yalnızca çocuklarda görülür
-? Bu metinde yazarın asıl vurgusu hangisidir? | Vitaminler önemlidir ama dengeli beslenme çoğu zaman yeterlidir | Herkes hap vitamin kullanmalıdır | Vitaminler zararlıdır
+? Yazar vitamin takviyesi için ne öneriyor? | Kullanmadan önce hekime danışmayı | Herkesin her gün hap almasını | Hiçbir koşulda kullanmamayı
+? “Fazla miktarda alınan bazı vitaminler zarar verebilir” cümlesinden ne anlaşılır? | Daha fazla her zaman daha iyi değildir | Vitaminlerin hepsi vücuda zarar verir | Zarar yalnızca çocuklarda görülür
+? Bu metinde yazarın asıl vurgusu hangisidir? | Vitaminler önemlidir, ama dengeli beslenme çoğu zaman yeterlidir | Vitaminler önemlidir, bu yüzden herkes her gün hap kullanmalıdır | Vitaminler faydalı görünse de aslında vücut için zararlıdır
 
 @okuma
 sv: 50
@@ -197,11 +197,11 @@ Aşılar sayesinde çiçek hastalığı dünyadan tamamen silinmiştir; çocuk f
 
 Aşıların önemli bir yararı da toplumsal korumadır. Yeterince çok kişi aşılandığında, aşı olamayan bebekler ve hasta insanlar da hastalıktan korunmuş olur; çünkü mikrop yayılacak yer bulamaz.
 
-? Aşı bağışıklık sistemine ne yapar? | Mikrobu hastalık yapmadan tanıtır | Mikrobu vücuda sokup hasta eder | Savunma maddelerini siler
+? Aşı bağışıklık sistemine ne yapar? | Mikrobu hastalık yapmadan tanıtır | Mikrobu vücuda sokup hasta eder | Savunma maddelerini vücuttan temizler
 ? Metne göre dünyadan tamamen silinen hastalık hangisidir? | Çiçek hastalığı | Çocuk felci | Grip
-? Aşının yan etkileri çoğunlukla nasıldır? | Hafif ve kısa sürelidir | Ağır ve uzun sürelidir | Hiç görülmez
-? “Toplumsal koruma” ile ne kastedilmektedir? | Çok kişi aşılanınca aşı olamayanların da korunması | Devletin herkese ilaç dağıtması | Okulların kapatılması
-? Yazar aşıyı neden bir tür “tanıtma” olarak anlatıyor? | Bağışıklık sisteminin mikrobu hatırlamasını açıklamak için | Aşının tadını anlatmak için | Mikropları sevimli göstermek için
+? Aşının yan etkileri çoğunlukla nasıldır? | Hafif ve kısa sürelidir | Ağır ve uzun sürelidir | Hiçbir zaman görülmez
+? “Toplumsal koruma” ile ne kastedilmektedir? | Çok kişi aşılanınca aşısız kişilerin de korunması | Her hastanın ayrı bir odada tedavi edilmesi | Aşıların yalnızca çocuklara ücretsiz verilmesi
+? Yazar aşıyı neden bir tür “tanıtma” olarak anlatıyor? | Bağışıklığın mikrobu hatırlamasını anlatmak için | Mikrobun vücutta nasıl çoğaldığını göstermek için | Hastalığın ne kadar tehlikeli olduğunu vurgulamak için
 
 @okuma
 sv: 66
@@ -216,11 +216,11 @@ Bu sorunları çözmek için toplumlar yavaş yavaş herkesin değer verdiği or
 
 Para bugün ilk bakışta yalnızca bir ödeme aracıdır; oysa üç işlevi vardır: değişim aracı olmak, değer ölçüsü olmak ve değeri saklamak. Bir paranın değeri, ondan yapılan metale ya da kâğıda değil, insanların onu kabul edeceğine duydukları güvene dayanır.
 
-? Takasın en büyük sorunu neydi? | Karşı tarafın tam sizin elinizdekine ihtiyaç duyması gerekiyordu | Malların çok ağır olması | Çiftçilerin çalışmak istememesi
-? Metne göre metaller paraya dönüşürken hangisi neden olarak belirtilmemiştir? | Çok güzel parlamaları | Dayanıklı olmaları | Kolay taşınmaları
-? Lidyalılar sikkelerini neyden yaptı? | Altın ve gümüş karışımından | Deniz kabuğundan | Kâğıttan
-? Aşağıdakilerden hangisi paranın işlevlerinden biridir? | Değeri saklamak | Mal üretmek | Vergi toplamak
-? Yazarın paranın değeri hakkındaki düşüncesi nedir? | Değer, insanların paraya duyduğu güvene dayanır | Değer metalin ağırlığındadır | Değer paranın rengine bağlıdır
+? Takasın en büyük sorunu neydi? | Karşı tarafın elinizdekine ihtiyaç duyması gerekiyordu | Malların hepsinin aynı ağırlıkta olması gerekiyordu | Alışverişin yalnızca pazar yerlerinde yapılması gerekiyordu
+? Metne göre metaller para olarak neden öne çıktı? | Bölünebilmeleri | Çok parlak olmaları | Her yerde bol bulunmaları
+? Lidyalılar sikkelerini neyden yaptı? | Altın ve gümüş karışımından | Tuz ve tahıl karışımından | Bakır ve demir karışımından
+? Aşağıdakilerden hangisi paranın işlevlerinden biridir? | Değerin saklanmasını sağlamak | Mal üretmeyi hızlandırmak | Vergi toplamayı sağlamak
+? Yazarın paranın değeri hakkındaki düşüncesi nedir? | Değer, insanların ona duyduğu güvene dayanır | Değer, paranın yapıldığı madenin cinsine dayanır | Değer, devletin parayı ne kadar bastığına dayanır
 
 @okuma
 sv: 6
@@ -237,7 +237,7 @@ Su çok soğuyunca buz olur. Buz katıdır ve serttir. Su ısınınca buhar olur
 ? Buz nasıl bir şeydir? | Katı ve sert | Akıcı | Görünmez
 ? Su ısınınca ne olur? | Buhar olur | Buz olur | Toprak olur
 ? Çay kaynarken çaydanlıktan ne çıkar? | Buhar | Buz | Kar
-? Suyu ne için kullanırız? | İçmek ve elimizi yıkamak için | Yürümek için | Uyumak için
+? Suyu ne için kullanırız? | İçmek ve el yıkamak için | Giyinmek ve uyumak için | Koşmak ve zıplamak için
 
 @okuma
 sv: 10
@@ -250,7 +250,7 @@ Dünya kendi çevresinde döner. Bir tam dönüş yaklaşık yirmi dört saat s�
 
 Biz Dünya ile birlikte döndüğümüz için Güneş sabah doğuyor, akşam batıyor gibi görünür. Aslında Güneş doğmaz ve batmaz. Dünya döner.
 
-? Dünya kendi çevresinde bir kez dönmek için ne kadar zaman harcar? | Yaklaşık yirmi dört saat | Bir yıl | Bir hafta
+? Dünya kendi çevresinde bir kez dönmek için ne kadar zaman harcar? | Yaklaşık yirmi dört saat | Yaklaşık bir yıl | Yaklaşık bir ay
 ? Dünyanın Güneş’e dönük tarafında ne olur? | Gündüz | Gece | Kış
 ? Güneş’e dönük olmayan tarafta ne olur? | Gece | Gündüz | Yaz
 ? Güneş neden doğup batıyor gibi görünür? | Dünya döndüğü için | Güneş yürüdüğü için | Ay büyüdüğü için
@@ -267,11 +267,11 @@ Bir kelebek, tırtıl olarak başlar. Dişi kelebek yumurtalarını bir yaprağ�
 
 Tırtıl yeterince büyüyünce hareketsiz bir pupaya dönüşür. Bu dönemde vücudu içeriden tamamen değişir. Bir süre sonra pupa açılır ve içinden kelebek çıkar. Kelebek kanatlarını kurutur ve uçmaya başlar.
 
-? Dişi kelebek yumurtalarını nereye bırakır? | Bir yaprağın üzerine | Suyun içine | Toprağın altına
+? Dişi kelebek yumurtalarını nereye bırakır? | Bir yaprağın üzerine | Bir çiçeğin içine | Toprağın altına
 ? Yumurtadan ne çıkar? | Tırtıl | Kelebek | Pupa
-? Tırtıl çoğunlukla ne yapar? | Yaprak yer ve büyür | Uçar | Uyur
+? Tırtıl çoğunlukla ne yapar? | Yaprak yer ve büyür | Çiçekten nektar içer | Pupanın içinde dinlenir
 ? Kelebeğin yaşam döngüsü hangi sıradadır? | Yumurta → tırtıl → pupa → kelebek | Yumurta → kelebek → tırtıl → pupa | Tırtıl → yumurta → kelebek → pupa
-? Pupa döneminde ne olur? | Vücut içeriden tamamen değişir | Tırtıl yumurta bırakır | Tırtıl hızla yürür
+? Pupa döneminde ne olur? | Vücut içeriden tamamen değişir | Tırtıl yaprak yiyip hızla büyür | Pupa kanatlarını kurutup uçar
 
 @okuma
 sv: 20
@@ -284,11 +284,11 @@ Ağzımızda çok sayıda bakteri yaşar. Bu bakterilerin çoğu zararsızdır, 
 
 Dişleri günde en az iki kez fırçalamak bakteri tabakasını temizler. Şekerli yiyecekleri gün boyu sık sık atıştırmak yerine bir seferde yiyip sonra dişleri fırçalamak daha yararlıdır. Dişçiye düzenli gitmek de sorunların erken fark edilmesini sağlar.
 
-? Dişin mineyi aşındıran asidi ne üretir? | Şekerle beslenen bakteriler | Diş fırçası | Su
+? Dişin mineyi aşındıran asidi ne üretir? | Şekerle beslenen bakteriler | Ağızdaki tüm bakteriler | Yediğimiz şekerin kendisi
 ? Diş çürüğü nasıl oluşur? | Asit mineyi aşındırınca | Dişler çok sert olunca | Dişler çok beyaz olunca
 ? Metne göre günde en az kaç kez fırçalamak gerekir? | İki | Bir | Beş
-? Hangisi daha yararlıdır? | Şekerli yiyeceği bir seferde yiyip dişleri fırçalamak | Gün boyu sürekli şekerli atıştırmak | Hiç fırçalamamak
-? Dişçiye düzenli gitmenin yararı nedir? | Sorunlar erken fark edilir | Dişler hiç çürümez | Bakteriler tamamen yok olur
+? Hangisi daha yararlıdır? | Şekeri bir seferde yiyip dişleri fırçalamak | Şekeri gün boyu azar azar atıştırmak | Dişleri yalnızca haftada bir fırçalamak
+? Dişçiye düzenli gitmenin yararı nedir? | Sorunlar erken fark edilir | Fırçalamaya hiç gerek kalmaz | Bakteriler ağızdan tamamen yok olur
 
 @okuma
 sv: 25
@@ -303,11 +303,11 @@ Dünya bir yıl boyunca Güneş’in çevresinde dolanırken ekseni hep aynı y�
 
 Bu nedenle Türkiye’de yaz olduğunda Avustralya’da kış yaşanır.
 
-? Mevsimlerin asıl nedeni nedir? | Dünya’nın ekseninin eğik olması | Dünya’nın Güneş’e yaklaşıp uzaklaşması | Ay’ın Dünya’yı çekmesi
+? Mevsimlerin asıl nedeni nedir? | Dünya’nın ekseninin eğik olması | Dünya’nın Güneş’e yaklaşıp uzaklaşması | Güneş’in her yıl ısınıp soğuması
 ? Türkiye’de yaz olduğunda Avustralya’da hangi mevsim yaşanır? | Kış | Yaz | Sonbahar
-? Kuzey Yarımküre Güneş’e daha dönükken ne olur? | Işınlar daha dik gelir, günler uzar | Günler kısalır | Hava hep soğuk kalır
-? Birçok kişi mevsimlerin nedeni hakkında neyi sanır? | Dünya’nın Güneş’e yaklaşıp uzaklaştığını | Eksenin eğik olduğunu | Ay’ın etkisini
-? Yazar bu metni yazarken ne yapıyor? | Yaygın bir yanlışı düzeltiyor | Bir şiir anlatıyor | Bir ürün satıyor
+? Kuzey Yarımküre Güneş’e daha dönükken ne olur? | Işınlar daha dik gelir, günler uzar | Işınlar eğik gelir, günler kısalır | Gece ile gündüz her zaman eşit olur
+? Birçok kişi mevsimlerin nedeni hakkında neyi sanır? | Dünya’nın Güneş’e yaklaşıp uzaklaştığını | Dünya’nın ekseninin eğik olduğunu | Güneş’in her yıl ısınıp soğuduğunu
+? Yazar bu metni yazarken ne yapıyor? | Yaygın bir yanlışı düzeltiyor | Bir deneyin sonucunu duyuruyor | Bir yolculuğun anısını anlatıyor
 
 @okuma
 sv: 29
@@ -323,10 +323,10 @@ Rüzgâr, güneş ve akan su gibi kaynaklar ise yenilenebilirdir; kullanıldık�
 Ancak her yöntemin bir sınırı vardır: rüzgâr her zaman esmez, güneş de geceleri yoktur. Bu yüzden elektriği depolamak ve farklı kaynakları birlikte kullanmak önemlidir.
 
 ? Aşağıdakilerden hangisi fosil yakıttır? | Kömür | Rüzgâr | Güneş
-? Fosil yakıtlar neden yenilenmez? | Oluşmaları milyonlarca yıl sürdüğü için | Çok ucuz oldukları için | Hiç yanmadıkları için
+? Fosil yakıtlar neden yenilenmez? | Oluşmaları milyonlarca yıl sürdüğü için | Havaya karbondioksit verdikleri için | Rüzgâr ve güneşle üretildikleri için
 ? Güneş panelleri ne ile elektrik üretir? | Işıkla | Rüzgârla | Suyla
-? Yenilenebilir kaynakların sınırı nedir? | Rüzgâr her zaman esmez, güneş geceleri yoktur | Hiç elektrik üretmezler | Havaya karbondioksit verirler
-? Yazar neyi önemli buluyor? | Elektriği depolamayı ve kaynakları birlikte kullanmayı | Yalnızca fosil yakıt kullanmayı | Rüzgâr türbinlerini kapatmayı
+? Yenilenebilir kaynakların sınırı nedir? | Rüzgâr her zaman esmez, güneş geceleri yoktur | Kullandıkça birkaç yıl içinde tükenirler | Havaya fosil yakıttan fazla karbondioksit verirler
+? Yazar neyi önemli buluyor? | Elektriği depolamayı ve kaynakları birleştirmeyi | Tek bir yenilenebilir kaynağa bağlı kalmayı | Rüzgâr türbinlerini tamamen kapatmayı
 
 @okuma
 sv: 34
@@ -341,11 +341,11 @@ On beşinci yüzyılın ortalarında Almanya’da Johannes Gutenberg, hareketli 
 
 Osmanlı’da Müslümanların kurduğu ilk matbaa ise çok daha sonra, on sekizinci yüzyılın başında İbrahim Müteferrika tarafından kuruldu.
 
-? Matbaadan önce kitaplar nasıl çoğaltılırdı? | Elle kopyalanarak | Makineyle | Fotokopiyle
-? Kitaplar neden çok pahalıydı? | Bir kitabı kopyalamak aylar sürerdi | Kâğıt hiç yoktu | Kimse okumak istemezdi
-? Gutenberg ne geliştirdi? | Hareketli metal harflerle baskı yapan bir makine | Telgraf | Yeni bir kâğıt türü
-? Matbaanın sonuçlarından biri nedir? | Kitaplar ucuzladı ve okuma yazma yaygınlaştı | Kitaplar azaldı | Yazıcılar çoğaldı
-? Osmanlı’da Müslümanların kurduğu ilk matbaayı kim kurdu? | İbrahim Müteferrika | Johannes Gutenberg | Mimar Sinan
+? Matbaadan önce kitaplar nasıl çoğaltılırdı? | Elle kopyalanarak | Kalıplara dökülerek | Duvarlara yazılarak
+? Kitaplar neden çok pahalıydı? | Bir kitabı kopyalamak aylar sürerdi | Kitapları yalnızca saraylar basardı | Kitaplar çok uzak yerlerden getirilirdi
+? Gutenberg ne geliştirdi? | Hareketli metal harfli bir baskı makinesi | Mürekkepsiz çalışan bir yazı makinesi | Harfleri taşa oyan bir yazı aleti
+? Matbaanın sonuçlarından biri nedir? | Kitaplar ucuzladı, okuma yazma yaygınlaştı | Yazıcılar daha çok kitap kopyalamaya başladı | Kitaplar daha da pahalı hale geldi
+? Osmanlı’da Müslümanların kurduğu ilk matbaayı kim kurdu? | İbrahim Müteferrika | Johannes Gutenberg | Katip Çelebi
 
 @okuma
 sv: 36
@@ -362,8 +362,8 @@ Dünya’nın merkezine ulaşmak mümkün değildir. Yapılan en derin sondaj bi
 
 ? Biz Dünya’nın hangi katmanı üzerinde yaşarız? | Kabuk | Manto | Dış çekirdek
 ? Dünya’nın hacminin büyük bölümünü hangi katman oluşturur? | Manto | Kabuk | İç çekirdek
-? Dış çekirdek neden sıvı haldedir? | Metaller çok sıcak olduğu için | İçinde su olduğu için | Basınç hiç olmadığı için
-? İç çekirdek neden katıdır? | Çok büyük basınç altında olduğu için | Çok soğuk olduğu için | İçinde buz olduğu için
+? Dış çekirdek neden sıvı haldedir? | Metaller çok sıcak olduğu için | Basınç çok yüksek olduğu için | Manto ile temas ettiği için
+? İç çekirdek neden katıdır? | Çok büyük basınç altında olduğu için | Metaller yeterince soğuk olduğu için | Demir ve nikel içermediği için
 ? Metne göre Dünya’nın merkezine ulaşmak ne durumdadır? | Mümkün değildir | Kolaydır | Çoktan yapılmıştır
 
 @okuma
@@ -380,10 +380,10 @@ Aktarıldığına göre Sinan, İstanbul’daki Şehzade Camii’ni çıraklık,
 Sinan’ın yaptığı yapılardan birçoğu bugün de ayaktadır.
 
 ? Mimar Sinan hangi yüzyılda yaşadı? | On altıncı | On dokuzuncu | Onuncu
-? Sinan mühendislik deneyimini nasıl kazandı? | Seferlerde köprü, kale ve depo yaparak | Yurtdışında okuyarak | Gemi yaparak
+? Sinan mühendislik deneyimini nasıl kazandı? | Seferlerde köprü, kale ve depo yaparak | Saray okulunda uzun yıllar okuyarak | Yabancı ustaların yanında çalışarak
 ? Sinan hangi camiyi ustalık eseri olarak nitelendirmiştir? | Selimiye Camii’ni | Şehzade Camii’ni | Süleymaniye Camii’ni
 ? Selimiye Camii hangi şehirdedir? | Edirne | İstanbul | Bursa
-? Metne göre Sinan’ın yapılarının bugünkü durumu nedir? | Birçoğu bugün de ayaktadır | Hepsi yıkılmıştır | Hiçbiri bilinmemektedir
+? Metne göre Sinan’ın yapılarının bugünkü durumu nedir? | Birçoğu bugün de ayaktadır | Çoğu depremlerde yıkılmıştır | Yalnızca birkaçı kalmıştır
 
 @okuma
 sv: 43
@@ -396,11 +396,11 @@ Ay kendi ışığını yaymaz; yalnızca Güneş’ten aldığı ışığı yans
 
 Ay’ın bir yeni aydan bir sonraki yeni aya dönüşü yaklaşık yirmi dokuz buçuk gün sürer. Evreleri Dünya’nın gölgesinin yarattığını düşünenler yanılır; Dünya’nın gölgesi yalnızca ay tutulması sırasında Ay’a düşer.
 
-? Ay’ın ışığı nereden gelir? | Güneş’ten gelir, Ay yansıtır | Ay’ın kendisinden | Dünya’dan
-? Yeni aydan bir sonraki yeni aya yaklaşık ne kadar sürer? | Yirmi dokuz buçuk gün | Yedi gün | Bir yıl
-? Dolunayda biz ne görürüz? | Ay’ın aydınlık yüzünün tamamını | Ay’ın hiçbir bölümünü | Yalnızca ince bir orak
-? Metne göre Ay’ın evrelerinin nedeni nedir? | Aydınlık yarının ne kadarını gördüğümüz | Dünya’nın gölgesi | Bulutlar
-? Dünya’nın gölgesi Ay’a ne zaman düşer? | Ay tutulması sırasında | Her gece | Yeni ayda
+? Ay’ın ışığı nereden gelir? | Güneş’ten gelir, Ay yansıtır | Dünya’dan gelen ışıktan oluşur | Ay’ın kendi sıcak çekirdeğinden
+? Yeni aydan bir sonraki yeni aya yaklaşık ne kadar sürer? | Yirmi dokuz buçuk gün | On dört buçuk gün | Otuz altı buçuk gün
+? Dolunayda biz ne görürüz? | Ay’ın aydınlık yüzünün tamamını | Ay’ın karanlık yüzünün tamamını | Yalnızca ince bir parlak orak
+? Metne göre Ay’ın evrelerinin nedeni nedir? | Aydınlık yarının ne kadarını gördüğümüz | Dünya’nın gölgesinin Ay’a düşmesi | Ay’ın Güneş’ten ışık almayı bırakması
+? Dünya’nın gölgesi Ay’a ne zaman düşer? | Ay tutulması sırasında | Son dördün evresinde | Yeni ay evresinde
 
 @okuma
 sv: 54
@@ -415,11 +415,11 @@ Jeneratörün dönmesi için bir güce gerek vardır. Termik santrallerde kömü
 
 Demek ki çoğu santralde ortak nokta aynıdır: bir güç türbini döndürür, türbin jeneratörü, jeneratör de elektriği üretir. Güneş panelleri ise bu zincirin dışındadır; ışıktan doğrudan elektrik üretirler.
 
-? Jeneratörde elektrik akımı nasıl oluşur? | Bir telin yanında mıknatıs döndürülünce | Telin donmasıyla | Suyun tuzlanmasıyla
-? Bu ilkeyi kim keşfetti? | Michael Faraday | Thomas Edison | Isaac Newton
-? Termik ve nükleer santrallerin ortak noktası nedir? | İkisinde de ısı suyu buhara çevirir | İkisi de rüzgârdan yararlanır | İkisi de baraja ihtiyaç duyar
+? Jeneratörde elektrik akımı nasıl oluşur? | Bir telin yanında mıknatıs döndürülünce | Bir mıknatısın yanında su ısıtılınca | Bir tel suya batırılıp ısıtılınca
+? Bu ilkeyi kim keşfetti? | Michael Faraday | Alessandro Volta | Nikola Tesla
+? Termik ve nükleer santrallerin ortak noktası nedir? | İkisinde de ısı suyu buhara çevirir | İkisinde de akan su türbini çevirir | İkisi de yakıt olarak kömür yakar
 ? Hangisi “güç → türbin → jeneratör” zincirinin dışındadır? | Güneş panelleri | Hidroelektrik santral | Rüzgâr santrali
-? Hidroelektrik santralde türbini ne döndürür? | Barajdan akan su | Yakılan kömür | Atom çekirdeği
+? Hidroelektrik santralde türbini ne döndürür? | Barajdan akan su | Yüksek basınçlı buhar | Doğrudan güneş ışığı
 
 @okuma
 sv: 62
@@ -434,8 +434,8 @@ Bu nedenle soğuk bir kış gününde “küresel ısınma yok” demek, tek bir
 
 Karbondioksit gibi sera gazları, Dünya’dan uzaya kaçan ısının bir kısmını tutar. İnsan faaliyetleri, özellikle fosil yakıtların yakılması, bu gazların miktarını artırdığı için küresel ortalama sıcaklık yükselmektedir. Ancak bu, her bölgenin her mevsimde daha sıcak olacağı anlamına gelmez; yağış düzeni değişebilir ve bazı bölgelerde aşırı hava olayları artabilir.
 
-? Hava durumu neyi anlatır? | Belli bir yerdeki kısa süreli koşulları | Uzun yıllık ortalamayı | Yalnızca yağışı
-? İklim için bilim insanları genellikle kaç yıllık verinin ortalamasına bakar? | Otuz | Üç | Bin
-? “Soğuk bir günde küresel ısınma yok” demek neden hatalı bir çıkarımdır? | Tek günün hava durumundan iklim hakkında sonuç çıkarır | Sıcaklık hiç ölçülmemiştir | Kış günleri hiç soğuk olmaz
-? Sera gazları ne yapar? | Dünya’dan kaçan ısının bir kısmını tutar | Güneş ışığını tamamen durdurur | Yağmuru kesinlikle artırır
-? Metne göre küresel ortalama sıcaklığın yükselmesi ne anlama gelmez? | Her bölgenin her mevsimde daha sıcak olacağı | Karbondioksitin artması | İklimin uzun yılların verisiyle anlaşılması
+? Hava durumu neyi anlatır? | Belli bir yerdeki kısa süreli koşulları | Aynı yerde otuz yıllık ortalamayı | Yalnızca yağış ve rüzgâr miktarını
+? İklim için bilim insanları genellikle kaç yıllık verinin ortalamasına bakar? | Otuz | Yüz | Beş
+? “Soğuk bir günde küresel ısınma yok” demek neden hatalı bir çıkarımdır? | Tek bir günden iklim sonucu çıkarır | Soğuk günlerde sera gazları azalır | Küresel ortalama hiç ölçülemez
+? Sera gazları ne yapar? | Dünya’dan kaçan ısının bir kısmını tutar | Dünya’ya gelen Güneş ışığını yansıtır | Atmosferdeki yağmur miktarını sabitler
+? Metne göre küresel ortalama sıcaklığın yükselmesiyle ilgili hangisi doğrudur? | Bazı bölgelerde aşırı hava olayları artabilir | Her bölge her mevsimde mutlaka daha sıcak olur | Hava durumu tek günde iklimi tamamen belirler -> Metin, yağış düzeninin değişebileceğini ve bazı bölgelerde aşırı hava olaylarının artabileceğini söyler; her bölgenin her mevsimde ısınacağını söylemez.

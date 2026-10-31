@@ -85,7 +85,7 @@
           { "p": "Hatırlayamadığın nesne için **durak değil, resim** zayıftır. Çözüm:" },
           { "liste": ["O duraktaki resmi **daha büyük ve daha tuhaf** yap.", "Bir **ses ya da koku** ekle.", "Nesneyle **kendini** ilişkilendir (sana bir şey yapsın)."], "sirali": true }
         ] },
-        { "tur": "soru", "bolum": "Küçük kontrol", "soru": "Bir nesneyi hatırlayamadın. İlk ne yaparsın?", "secenekler": ["O duraktaki resmi daha abartılı yaparım", "Listeyi 10 kez yazarım", "Rotamı baştan değiştiririm"] },
+        { "tur": "soru", "bolum": "Küçük kontrol", "soru": "Bir nesneyi hatırlayamadın. İlk ne yaparsın?", "secenekler": ["O duraktaki resmi daha abartılı yaparım", "Listeyi arka arkaya 10 kez yazarım", "Rotamı tamamen baştan değiştiririm"] },
         { "tur": "soru", "bolum": "Küçük kontrol", "soru": "Sırası önemli 12 maddelik bir listeyi ezberleyeceksin. Hangi yöntem?", "secenekler": ["Hafıza sarayı", "Baş harf cümlesi", "Hepsini tek cümleye sığdırmak"] }
       ]
     },

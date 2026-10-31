@@ -7,7 +7,7 @@ import * as srsModul from './srs.js';
 import { esnekSeri, etkinGunler } from './oyunlastir.js';
 
 const ANAHTAR = 'od3.durum';
-export const SURUM = '3.3.0';
+export const SURUM = '3.3.1';
 
 function bos() {
   return {

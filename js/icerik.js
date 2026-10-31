@@ -3,6 +3,7 @@
 import { birlestir, indeksle } from './paket.js';
 import { dogrula } from './dogrula.js';
 import { depo } from './store.js';
+import { bilinenSozcukleriKur, sozcukleriTopla } from './metin.js';
 
 export const durum = { ic: null, idx: null, sonuc: null, hata: null };
 
@@ -21,6 +22,7 @@ export async function yukle() {
   durum.ic = birlestir(paketler);
   durum.idx = indeksle(durum.ic);
   durum.sonuc = dogrula(durum.ic, durum.idx);
+  bilinenSozcukleriKur(sozcukleriTopla(durum.ic.kelimeler));
   return durum;
 }
 

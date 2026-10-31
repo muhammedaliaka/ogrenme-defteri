@@ -25,11 +25,11 @@ function celdiriciler(dogru, havuz, tumu, alan, n, rng) {
   return secilen;
 }
 
-function mcqKur({ id, soru, sesKaynagi, emoji, dogruKelime, alan, celdirici, rng, aciklama, bolum, kare, emojiSecenek, maddeId, gorev }) {
+function mcqKur({ id, soru, sesKaynagi, emoji, emojiSonra, dogruKelime, alan, celdirici, rng, aciklama, bolum, kare, emojiSecenek, maddeId, gorev }) {
   const secenekler = karistir([{ k: dogruKelime, dogru: true }, ...celdirici.map((k) => ({ k, dogru: false }))], rng)
     .map((o) => ({ m: o.k[alan], emoji: emojiSecenek ? o.k.emoji : undefined, dogru: o.dogru }));
   return {
-    t: 'mcq', id, soru, ses: sesKaynagi, emoji, secenekler, dogru: secenekler.findIndex((s) => s.dogru), aciklama, bolum, kare,
+    t: 'mcq', id, soru, ses: sesKaynagi, emoji, emojiSonra, secenekler, dogru: secenekler.findIndex((s) => s.dogru), aciklama, bolum, kare,
     puan: true, maddeId, gorev,
   };
 }
@@ -44,7 +44,8 @@ export function kelimeSorusu(tur, k, { havuz, tumu, ctx, rng, bolum, maddeId }) 
   }
   if (tur === 'anlam-sec') {
     const c = celdiriciler(k, havuz, tumu, 'tr', 3, rng);
-    return mcqKur({ id, soru: k.en, sesKaynagi: ses(ctx, k.en), emoji: k.emoji, dogruKelime: k, alan: 'tr', celdirici: c, rng, bolum, aciklama: ornekAciklama, maddeId: maddeKimlik, gorev: 'İngilizce kelimenin Türkçesini seç' });
+    // resim cevaptan SONRA gösterilir: soruda görünürse kelimeyi bilmeyen öğrenci resimden Türkçesini bulur (ölçümü şişirir)
+    return mcqKur({ id, soru: k.en, sesKaynagi: ses(ctx, k.en), emojiSonra: k.emoji, dogruKelime: k, alan: 'tr', celdirici: c, rng, bolum, aciklama: ornekAciklama, maddeId: maddeKimlik, gorev: 'İngilizce kelimenin Türkçesini seç' });
   }
   if (tur === 'kelime-sec') {
     const c = celdiriciler(k, havuz, tumu, 'en', 3, rng);

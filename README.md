@@ -40,6 +40,7 @@ Telefonda tam özellik (mikrofon, çevrimdışı, ana ekrana ekleme) için `http
 | `node scripts/denetim-sure.mjs` | Her dersin tahmini süresini ve tekdüzeliğini denetler (uzun/yorucu dersleri bulur) |
 | `node scripts/hareket-video.mjs --model <piper.onnx>` | Spor hareket videolarını yeniden üretir (ffmpeg, Playwright, Piper gerekir) |
 | `node scripts/ekle.mjs giris/dosya.txt` | Düz metin giriş dosyasını içerik paketine çevirir ve doğrular (`--kuru`: yalnız dene) |
+| `node scripts/vasat-ogrenci.mjs` | **“Vasat öğrenci” denetimi:** soruları metni anlamadan çözmeye çalışan basit okuyucular (en uzun seçenek, metni tara, anahtar sözcük, resim ipucu…) içeriğe karşı koşturulur; şansın üstüne çıkan ipuçlarını gösterir (`--ayrinti`: soru soru) |
 | `node scripts/mcp.mjs` | MCP sunucusu (yapay zekâ istemcisi başlatır; elle çalıştırılmaz). `npm run` ile **değil**, doğrudan `node` ile çalıştır |
 
 ## Klasörler

@@ -46,3 +46,23 @@ test('liste karşılaştırma: var olan ve yerindeki öğeler', () => {
 
 test('liste ayırma', () => { assert.deepEqual(listeyeAyir('a, b\nc;d'), ['a', 'b', 'c', 'd']); });
 test('düzenleme uzaklığı', () => { assert.equal(mesafe('kitten', 'sitting'), 3); });
+
+test('yakın kabul: başka bir geçerli sözcük yazım hatası sayılmaz (vasat öğrencinin tipik karıştırmaları)', async () => {
+  const { bilinenSozcukleriKur, sozcukleriTopla } = await import('../../js/metin.js');
+  const { icerikDogrula } = await import('../../scripts/dogrula.mjs');
+  const { fileURLToPath } = await import('node:url');
+  const { ic } = icerikDogrula(fileURLToPath(new URL('../../icerik', import.meta.url)));
+  bilinenSozcukleriKur(sozcukleriTopla(ic.kelimeler));
+  try {
+    for (const [hedef, yazilan] of [['three', 'tree'], ['eight', 'night'], ['house', 'horse'], ['thirty', 'thirsty'], ['where', 'here'], ['shirt', 'short'], ['mouth', 'month'], ['bread', 'break']]) {
+      assert.equal(karsilastir(yazilan, [hedef]).durum, 'yok', `${yazilan} ≠ ${hedef}`);
+    }
+    // gerçek yazım hataları yine kabul edilir
+    assert.equal(karsilastir('thursdey', ['Thursday']).durum, 'yakin');
+    assert.equal(karsilastir('brekfast', ['breakfast']).durum, 'yakin');
+    assert.equal(karsilastir('Three', ['three']).durum, 'tam');
+    // cümlede: tek sözcük başka geçerli sözcükse yakın değil
+    assert.equal(karsilastir('I like the horse.', ['I like the house']).durum, 'yok');
+    assert.equal(karsilastir('I like the housse.', ['I like the house']).durum, 'yakin');
+  } finally { bilinenSozcukleriKur([]); }
+});

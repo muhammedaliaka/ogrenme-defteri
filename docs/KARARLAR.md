@@ -115,6 +115,9 @@ Ayrıntı ve kanıt tablosu: `SEVIYE_SISTEMI.md`. Kararlar:
 
 Ayrıntı: `DIS_UYGULAMALAR.md`. Özet: otomatik bağlantı yok, sonuç elle girilir, görevler isteğe bağlıdır; mağaza bağlantıları üçüncü taraf kaynaklarla teyit edildi (Google'ın kendi sayfasından değil).
 
+- **“Vasat öğrenci” denetimi bir vekildir, gerçek öğrenci değildir.** `scripts/vasat-ogrenci.mjs` metni anlamayan basit okuyucuları (en uzun seçenek, metni tara, anahtar sözcük okuyucusu…) koşturur. İlk çalıştırmada okumada doğru seçenek %70 oranında en uzundu (şans %33); seçenekler yeniden yazıldıktan sonra okuma %46, dinleme %44. “Metni tara” gibi arama okuyucuları kısa metinlerde hâlâ şansın üstünde çıkar; metinde cevabı bulmak okuma becerisinin parçasıdır, bu yüzden tümüyle yok edilmeye çalışılmadı. Gerçek bir öğrenciyle ya da öğretmenle yapılan gözden geçirmenin yerini tutmaz.
+- **Yazılan yanıtta “yakın” kabulü bilinen sözcükleri dışlar.** `three` yerine `tree` (ya da `eight`/`night`, `house`/`horse`) yazmak yazım hatası sayılmaz, çünkü başka bir geçerli sözcüktür. Yakınlık yalnız kelime bankasında olmayan yazımlara tanınır.
+
 ## Bilerek yapılmayanlar ve bilinen sınırlar
 
 - **Rapor bir yapay zekâ tarafından okunarak denenmedi.** Biçimi örnek ve gerçek ders kayıtlarıyla (tarayıcı testi) denetlendi: her soru satırında soru, öğrenci yanıtı ve doğru yanıt var, "undefined/null" yok, kayıt sayısı satır sayısıyla eşleşiyor. Bir yapay zekânın bu raporu ne kadar iyi yorumladığı ayrıca denenmedi.

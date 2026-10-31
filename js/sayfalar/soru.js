@@ -34,7 +34,7 @@ export const mcq = (sayfa, api) => {
     dugmeler.forEach((d, i) => { d.disabled = true; if (i === sayfa.dogru) d.classList.add('dogru'); else if (i === secili) d.classList.add('yanlis'); });
     const dogruCevap = sayfa.secenekler[sayfa.dogru].m;
     api.puanla({ dogru, yanit: sayfa.secenekler[secili].m, dogruCevap, soru: sayfa.soru, baglam: { duyulan: sayfa.ses?.metin && sayfa.ses.metin !== sayfa.soru ? sayfa.ses.metin : null, secenekler: sayfa.secenekler.map((o) => o.m) } });
-    api.bildirim({ tip: dogru ? 'dogru' : 'yanlis', baslik: dogru ? 'Doğru!' : 'Doğrusu:', metin: dogru ? (sayfa.aciklama || '') : `${dogruCevap}${sayfa.aciklama ? ' — ' + sayfa.aciklama : ''}` });
+    api.bildirim({ tip: dogru ? 'dogru' : 'yanlis', baslik: dogru ? 'Doğru!' : 'Doğrusu:', metin: (sayfa.emojiSonra ? sayfa.emojiSonra + ' ' : '') + (dogru ? (sayfa.aciklama || '') : `${dogruCevap}${sayfa.aciklama ? ' — ' + sayfa.aciklama : ''}`) });
   };
   api.alt('Kontrol et', kontrol, { devre: true });
   return h('div', soruBasi(sayfa), sayfa.metinBak ? h('details.ac', h('summary', '📖 Metne bak'), h('div.metin-blok', sayfa.metinBak.map((m) => h('p', m)))) : null, kap);

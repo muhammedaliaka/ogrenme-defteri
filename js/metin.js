@@ -62,6 +62,17 @@ export function mesafe(a, b) {
   return onceki[n];
 }
 
+// Bilinen İngilizce sözcükler (kelime bankası + örnek cümleler). "Yakın" kabulünde, yazılan şey bunlardan biriyse bir yazım hatası değil,
+// BAŞKA bir sözcüktür (three/tree, eight/night, house/horse, thirty/thirsty…): doğru sayılmaz. Küme boşsa kural devre dışıdır.
+let BILINEN = new Set();
+export function bilinenSozcukleriKur(sozcukler) { BILINEN = new Set([...sozcukler].map((w) => sadelestir(w)).filter(Boolean)); }
+/** Kelime listesinden (en + örnek cümle) bilinen sözcük kümesi. */
+export function sozcukleriTopla(kelimeler) {
+  const k = new Set();
+  for (const w of kelimeler) for (const m of [w.en, w.ornek?.en]) for (const t of sadelestir(m || '').split(' ')) if (t) k.add(t);
+  return k;
+}
+
 /**
  * Yanıtı kabul edilen yanıtlarla karşılaştırır.
  * dönüş: { durum: 'tam' | 'yakin' | 'yok', eslesen }
@@ -77,6 +88,8 @@ export function karsilastir(yanit, kabul, { tr = false } = {}) {
     const kk = sadelestir(k, { tr });
     if (tr && asciiKatla(kk) === asciiKatla(y)) return { durum: 'yakin', eslesen: k };
     const tekSozcuk = !kk.includes(' ');
+    // değişen sözcük başka geçerli bir sözcükse (night ↔ eight) bu yazım hatası değil, farklı sözcüktür
+    if (!tr && y.split(' ').some((w) => !kk.split(' ').includes(w) && BILINEN.has(w))) continue;
     if (kk.length >= 5 && mesafe(y, kk) === 1 && (tekSozcuk || Math.abs(y.length - kk.length) <= 1)) return { durum: 'yakin', eslesen: k };
   }
   return { durum: 'yok', eslesen: liste[0] };

@@ -113,8 +113,8 @@
        "soru": "Öğleden sonra parkta ne yapıyor?",
        "secenekler": [
         "Arkadaşlarıyla futbol oynuyor",
-        "Kitap okuyor",
-        "Bisiklete biniyor"
+        "Arkadaşlarıyla bisiklete biniyor",
+        "Kardeşiyle alışveriş yapıyor"
        ]
       },
       {
@@ -249,8 +249,8 @@
        "soru": "İstasyon nerede?",
        "secenekler": [
         "Büyük marketin karşısında",
-        "Bankanın yanında",
-        "Kafenin arkasında"
+        "Bankanın hemen yanında",
+        "Postanenin arkasında"
        ],
        "aciklama": "“opposite the big supermarket”"
       },
@@ -266,8 +266,8 @@
        "soru": "Otobüs ne sıklıkla geliyor?",
        "secenekler": [
         "Yirmi dakikada bir",
-        "Beş dakikada bir",
-        "Saatte bir"
+        "On beş dakikada bir",
+        "Yarım saatte bir"
        ]
       }
      ],
@@ -313,32 +313,32 @@
        "soru": "Randevu başlangıçta ne zamandı?",
        "secenekler": [
         "Yarın dokuz buçuk",
-        "Yarın iki buçuk",
-        "Bugün beş"
+        "Yarın on buçuk",
+        "Bugün dokuz buçuk"
        ]
       },
       {
        "soru": "Randevu neden değişiyor?",
        "secenekler": [
         "Doktorun toplantısı var",
-        "Hasta gelemiyor",
-        "Muayenehane kapalı"
+        "Muayenehane yeniden boyanıyor",
+        "Doktor tatile çıkıyor"
        ]
       },
       {
        "soru": "Önerilen yeni saat nedir?",
        "secenekler": [
         "Öğleden sonra ikiyi çeyrek geçe",
-        "Sabah dokuz",
-        "Akşam beş"
+        "Öğleden sonra üçü çeyrek geçe",
+        "Sabah dokuzu çeyrek geçe"
        ]
       },
       {
        "soru": "Yeni saat uygun değilse ne yapılmalı?",
        "secenekler": [
         "Bugün beşten önce geri aranmalı",
-        "Yarın sabah gelinmeli",
-        "Hiçbir şey yapılmamalı"
+        "Yarın sabah kliniğe gelinmeli",
+        "Randevu otomatik iptal olur"
        ]
       },
       {
@@ -383,7 +383,7 @@
        "soru": "Manchester treni neden gecikiyor?",
        "secenekler": [
         "Bir sinyal sorunu yüzünden",
-        "Hava kötü olduğu için",
+        "Yoğun kar yağışı yüzünden",
         "Makinist gelmediği için"
        ]
       },
@@ -391,16 +391,16 @@
        "soru": "Gecikme ne kadar sürecek?",
        "secenekler": [
         "Yaklaşık yirmi beş dakika",
-        "Yaklaşık bir saat",
-        "Yaklaşık beş dakika"
+        "Yaklaşık elli beş dakika",
+        "Yaklaşık on beş dakika"
        ]
       },
       {
        "soru": "Manchester yolcuları hangi peronda beklemeli?",
        "secenekler": [
-        "Dördüncü",
-        "İkinci",
-        "Altıncı"
+        "Dördüncü peronda",
+        "İkinci peronda",
+        "Altıncı peronda"
        ]
       },
       {
@@ -423,8 +423,8 @@
        "soru": "Anonsta gecikme nedeniyle bilet ücretinin iade edileceği söyleniyor mu?",
        "secenekler": [
         "Hayır, bundan söz edilmiyor",
-        "Evet, tamamı",
-        "Evet, yarısı"
+        "Evet, ücretin tamamı iade edilecek",
+        "Hayır, iade yapılmayacağı söyleniyor"
        ],
        "aciklama": "Duymadığın bir şeyi tahmin etme."
       }
@@ -462,7 +462,7 @@
        "soru": "Konuşmacı eskiden ne düşünüyordu?",
        "secenekler": [
         "Uzun çalışma oturumlarının en iyisi olduğunu",
-        "Hiç çalışmamak gerektiğini",
+        "Kısa çalışma oturumlarının daha iyi olduğunu",
         "Sadece geceleri çalışmak gerektiğini"
        ]
       },
@@ -470,31 +470,31 @@
        "soru": "Eski yöntemin sorunu neydi?",
        "secenekler": [
         "Ertesi haftaya her şeyi unutuyordu",
-        "Çok kısa sürüyordu",
-        "Çok pahalıydı"
+        "Çalışma saatleri çok kısaydı",
+        "Dersleri çok geç bitiriyordu"
        ]
       },
       {
        "soru": "Öğretmen ne önerdi?",
        "secenekler": [
-        "Kısa çalışma, kendini sınama ve birkaç gün sonra geri dönme",
-        "Daha uzun çalışma ve tekrar okuma",
-        "Hiç ara vermeden çalışma"
+        "Kısa çalışma, kendini sınama, sonra geri dönme",
+        "Daha uzun çalışma, tekrar okuma, not alma",
+        "Ara vermeden çalışma ve ezberleme"
        ]
       },
       {
        "soru": "Yeni yöntem ilk başta nasıl hissettirdi?",
        "secenekler": [
         "Daha zor ve yavaş",
-        "Çok kolay",
-        "Çok eğlenceli"
+        "Çok kolay ve hızlı",
+        "Daha eğlenceli ve hızlı"
        ]
       },
       {
        "soru": "Konuşmacıyı şaşırtan şey neydi?",
        "secenekler": [
         "Daha zor hissettiren yöntemin daha iyi işlemesi",
-        "Öğretmenin hata yapması",
+        "Öğretmeninin yöntemi hemen reddetmesi",
         "Arkadaşlarının hepsinin aynı yöntemi kullanması"
        ]
       },
@@ -503,7 +503,7 @@
        "secenekler": [
         "Eski alışkanlıklarını tercih ediyor",
         "Yeni yöntemi hemen benimsedi",
-        "Çalışmayı bıraktı"
+        "Çalışmayı tamamen bıraktı"
        ]
       }
      ],
@@ -541,8 +541,8 @@
        "soru": "Rapora göre ne artmış?",
        "secenekler": [
         "İşe bisikletle gidenlerin sayısı",
-        "Otomobil sayısı",
-        "Park yeri sayısı"
+        "Şehirdeki otomobil sayısı",
+        "Merkezdeki park yeri sayısı"
        ]
       },
       {
@@ -558,7 +558,7 @@
        "soru": "Yetkililere göre asıl neden nedir?",
        "secenekler": [
         "Korumalı bisiklet yolları ağı",
-        "Benzin fiyatları",
+        "Yükselen benzin fiyatları",
         "Havaların ısınması"
        ]
       },
@@ -566,32 +566,32 @@
        "soru": "Merkezdeki trafikle ilgili ne söyleniyor?",
        "secenekler": [
         "Hafifçe azaldı ama yoğun saatlerde hâlâ yoğun",
-        "Tamamen bitti",
-        "Çok arttı"
+        "Tamamen bitti, yoğun saatlerde bile rahat",
+        "Çok arttı, özellikle yoğun saatlerde"
        ]
       },
       {
        "soru": "Bazı esnaf neden şikâyetçi?",
        "secenekler": [
         "Park yeri azaldıkça müşteri azalıyor",
-        "Bisikletliler gürültü yapıyor",
-        "Yollar çok dar"
+        "Bisikletliler çok gürültü yapıyor",
+        "Yollar mağazaların önünü kapatıyor"
        ]
       },
       {
        "soru": "Belediye ne yapacağını söylüyor?",
        "secenekler": [
         "Rakamları gelecek yıl yeniden inceleyecek",
-        "Hemen yeni yollar yapacak",
-        "Bisiklet yollarını kaldıracak"
+        "Hemen yeni yollar yapmaya başlayacak",
+        "Bisiklet yollarını tamamen kaldıracak"
        ]
       },
       {
        "soru": "Raporda yeni bisiklet yolları için bütçe ayrıldığı söyleniyor mu?",
        "secenekler": [
         "Hayır, bundan söz edilmiyor",
-        "Evet",
-        "Yalnızca merkez için"
+        "Evet, bütçe ayrıldı",
+        "Hayır, bütçe ayrılmayacağı söyleniyor"
        ],
        "aciklama": "Duymadığın bir şeyi tahmin etme."
       }
@@ -630,8 +630,8 @@
        "soru": "Konuşmacıya göre uyku sırasında beyin ne yapıyor gibi görünüyor?",
        "secenekler": [
         "Öğrenilenleri yeniden oynatıp düzenliyor",
-        "Tamamen kapanıyor",
-        "Yeni sözcükler üretiyor"
+        "Öğrenilenleri tamamen siliyor",
+        "Öğrenilenleri hiç işlemiyor"
        ]
       },
       {
@@ -647,7 +647,7 @@
        "secenekler": [
         "Temkinli",
         "Kesin ve iddialı",
-        "İlgisiz"
+        "Umursamaz"
        ],
        "aciklama": "“careful about how far the evidence goes”"
       },
@@ -655,32 +655,32 @@
        "soru": "Bulguların çoğu nereden geliyor?",
        "secenekler": [
         "Sözcük listeleri gibi laboratuvar görevlerinden",
-        "Okul sınav sonuçlarından",
-        "Hayvan deneylerinden"
+        "Okul sınavlarının gerçek sonuçlarından",
+        "Öğrencilerin uyku günlüklerinden"
        ]
       },
       {
        "soru": "Makul bir güvenle söylenebilen nedir?",
        "secenekler": [
         "Öğrendikten sonra uyuyanlar daha çok hatırlama eğiliminde",
-        "Herkesin sekiz saat uyuması gerektiği",
-        "Kâbusların öğrenmeyi artırdığı"
+        "Herkesin her gece sekiz saat uyuması gerektiği",
+        "Uykusuz kalanların daha çok öğrendiği"
        ]
       },
       {
        "soru": "Konuşmacı, sınavdan önceki gece için ne öneriyor?",
        "secenekler": [
         "Fazladan tekrar yerine uykuyu tercih etmeyi",
-        "Sabaha kadar çalışmayı",
-        "Hiç ders çalışmamayı"
+        "Sabaha kadar tekrar yapmayı sürdürmeyi",
+        "Hiç ders çalışmayıp erken yatmayı"
        ]
       },
       {
        "soru": "Konuşmacı kaç saat uyunması gerektiğini söylüyor mu?",
        "secenekler": [
         "Hayır, bundan söz edilmiyor",
-        "Evet, yedi saat",
-        "Evet, dokuz saat"
+        "Evet, yedi saat uyunmalı",
+        "Hayır, uykunun önemsiz olduğunu söylüyor"
        ],
        "aciklama": "Duymadığın bir şeyi tahmin etme."
       }
@@ -720,55 +720,55 @@
        "secenekler": [
         "Seçenek çoksa insan daha mutlu olur",
         "Seçenek azsa insan daha mutlu olur",
-        "İnsanlar karar vermeyi sever"
+        "İnsanlar karar vermeyi çok sever"
        ]
       },
       {
        "soru": "Birkaç araştırmaya göre çok sayıda seçenek ne yapabilir?",
        "secenekler": [
         "Kararları zorlaştırıp memnuniyeti azaltabilir",
-        "Kararları her zaman kolaylaştırır",
-        "Fiyatları düşürür"
+        "Kararları her zaman kolaylaştırıp hızlandırır",
+        "Kararları değiştirmez, yalnızca fiyatı düşürür"
        ]
       },
       {
        "soru": "Birinci açıklama nedir?",
        "secenekler": [
         "Vazgeçilen alternatifler seçimi daha az çekici gösterir",
-        "Seçenekler insanı korkutur",
-        "Ürünler pahalıdır"
+        "Çok seçenek, insanı seçim yapmaktan korkutur",
+        "Çok seçenek olunca ürünler pahalı görünür"
        ]
       },
       {
        "soru": "İkinci açıklama nedir?",
        "secenekler": [
         "Karar vermek çaba ister ve bu çaba birikir",
-        "İnsanların zamanı yoktur",
-        "Mağazalar kalabalıktır"
+        "İnsanların seçim için yeterli zamanı yoktur",
+        "Mağazalar çok kalabalık olduğundan yorulunur"
        ]
       },
       {
        "soru": "Konuşmacı bu etkiyle ilgili hangi uyarıyı yapıyor?",
        "secenekler": [
         "Her araştırma bu etkiyi bulmuyor",
-        "Etki kesin olarak kanıtlanmıştır",
-        "Etki yalnızca çocuklarda görülür"
+        "Etki kesin olarak kanıtlanmış durumda",
+        "Etki yalnızca çocuklarda görülüyor"
        ]
       },
       {
        "soru": "Konuşmacıya göre insanlar hangi durumda çok seçenekle genellikle iyi başa çıkar?",
        "secenekler": [
-        "Ne istediklerini zaten biliyorsa ya da önemli bir şey seçiyorsa",
-        "Hiç düşünmeden seçiyorsa",
-        "Seçenekler çok benzerse"
+        "Ne istediklerini biliyorlarsa ya da önemli bir şey seçiyorlarsa",
+        "Seçenekler birbirine çok benzediğinde ve acele edildiğinde",
+        "Seçenekler az, ucuz ve karşılaştırması kolay olduğunda"
        ]
       },
       {
        "soru": "Sorun asıl olarak ne zaman ortaya çıkıyor?",
        "secenekler": [
         "Seçenekler çok, benzer ve karşılaştırması zor olduğunda",
-        "Seçenek sayısı iki olduğunda",
-        "Seçenekler ucuz olduğunda"
+        "Seçenekler az, farklı ve karşılaştırması kolay olduğunda",
+        "Seçenekler pahalı ve ürünler az bulunduğunda"
        ]
       }
      ],
@@ -1001,8 +1001,8 @@
        "soru": "Anna ne sipariş etti?",
        "secenekler": [
         "Sıcak çikolata ve peynirli sandviç",
-        "Portakal suyu",
-        "Çay ve kek"
+        "Sıcak çikolata ve çikolatalı kek",
+        "Portakal suyu ve peynirli sandviç"
        ]
       },
       {
@@ -1072,8 +1072,8 @@
        "soru": "Mike neden bu akşam gelemiyor?",
        "secenekler": [
         "Bir okul projesini bitirmesi gerekiyor",
-        "Hasta",
-        "Başka bir arkadaşıyla buluşacak"
+        "Başka bir arkadaşıyla buluşacak",
+        "Ailesiyle akşam yemeğine gidecek"
        ]
       },
       {
@@ -1088,8 +1088,8 @@
        "soru": "Filmin seansları hangi saatlerde?",
        "secenekler": [
         "Yedi buçuk ve dokuzu çeyrek geçe",
-        "Altı ve dokuz",
-        "Yedi ve sekiz buçuk"
+        "Yedi buçuk ve dokuz buçuk",
+        "Yedi ve dokuzu çeyrek geçe"
        ]
       },
       {
@@ -1104,16 +1104,16 @@
        "soru": "Sara’dan ne rica ediliyor?",
        "secenekler": [
         "Altıdan sonra Mike’ı araması",
-        "Biletleri alması",
-        "Kuzeniyle görüşmesi"
+        "Biletleri internetten alması",
+        "Kuzeniyle önceden görüşmesi"
        ]
       },
       {
        "soru": "Mesajda kuzeninin kesin olarak geleceği söyleniyor mu?",
        "secenekler": [
         "Hayır, “gelebilir” deniyor",
-        "Evet, kesin geliyor",
-        "Hayır, hiç gelmeyecek"
+        "Evet, kesin olarak geliyor",
+        "Hayır, kesinlikle gelmeyecek"
        ],
        "aciklama": "“may come” = gelebilir, kesin değil."
       }
@@ -1151,40 +1151,41 @@
        "soru": "Konuşan kişi neden doktora gitti?",
        "secenekler": [
         "Kötü bir nezle olmuştu",
-        "Dişi ağrıyordu",
-        "Bir kaza geçirmişti"
+        "Bir spor kazası geçirmişti",
+        "Midesi çok ağrıyordu"
        ]
       },
       {
-       "soru": "Doktor hangi öneriyi YAPMADI?",
+       "soru": "Doktor hangi öneride bulundu?",
        "secenekler": [
-        "Hiç meyve yememesini",
-        "Bol su içmesini",
-        "Üç gün dinlenmesini"
-       ]
+        "Üç gün dinlenmesini",
+        "Hemen okula dönmesini",
+        "Hiç meyve yememesini"
+       ],
+       "aciklama": "“rest for three days” — üç gün dinlenmesini söyledi."
       },
       {
        "soru": "Doktor neden antibiyotik vermedi?",
        "secenekler": [
-        "Nezle virüsten kaynaklanır, antibiyotik yalnızca bakterilere işe yarar",
-        "Antibiyotik çok pahalıdır",
-        "İlaç stokta yoktu"
+        "Nezle virüsten gelir; antibiyotik virüse işlemez",
+        "Antibiyotik nezleyi daha da kötüleştirir",
+        "Hastanın antibiyotiğe alerjisi vardır"
        ]
       },
       {
        "soru": "Konuşan kişi ne zaman çok daha iyi hissetti?",
        "secenekler": [
         "Cuma gününe kadar",
-        "Salı günü",
-        "İki hafta sonra"
+        "Salı gününe kadar",
+        "Pazar gününe kadar"
        ]
       },
       {
        "soru": "Okula ne zaman döndü?",
        "secenekler": [
         "Sonraki pazartesi",
-        "Aynı cuma",
-        "Üç gün sonra, çarşamba"
+        "Aynı cuma günü",
+        "Sonraki çarşamba"
        ]
       }
      ],
@@ -1229,9 +1230,9 @@
       {
        "soru": "Tur nerede başlıyor?",
        "secenekler": [
-        "Zemin katta, Roma paralarının olduğu yerde",
-        "Birinci katta",
-        "İkinci kattaki kafede"
+        "Zemin katta, Roma paraları salonunda",
+        "Birinci katta, resim salonlarında",
+        "Girişteki hediyelik dükkânda"
        ]
       },
       {
@@ -1246,16 +1247,16 @@
        "soru": "Sırt çantaları nereye bırakılmalı?",
        "secenekler": [
         "Girişin yanındaki dolaplara",
-        "Zemin kattaki odaya",
-        "Kafede masaya"
+        "Zemin kattaki emanet odasına",
+        "Birinci kattaki dolaplara"
        ]
       },
       {
        "soru": "Mola nerede ve ne kadar sürecek?",
        "secenekler": [
         "İkinci kattaki kafede on beş dakika",
-        "Hediyelik dükkânda yarım saat",
-        "Girişte beş dakika"
+        "Birinci kattaki salonda yarım saat",
+        "Girişteki dükkânda on beş dakika"
        ]
       },
       {
@@ -1263,7 +1264,7 @@
        "secenekler": [
         "Yaklaşık on iki buçukta",
         "Yaklaşık bir buçukta",
-        "Yaklaşık on birde"
+        "Yaklaşık on bir buçukta"
        ]
       }
      ],
@@ -1301,8 +1302,8 @@
        "soru": "Birçok kişi dil öğrenmek için ne gerektiğini düşünüyor?",
        "secenekler": [
         "Yurtdışında yaşamak",
-        "Pahalı bir kurs",
-        "Çok genç olmak"
+        "Pahalı bir kurs almak",
+        "Çok genç yaşta başlamak"
        ]
       },
       {
@@ -1317,40 +1318,40 @@
        "soru": "Uzun kelime listeleriyle ne oldu?",
        "secenekler": [
         "Çoğunu bir hafta içinde unuttu",
-        "Hepsini hatırladı",
-        "Hiç ezberleyemedi"
+        "Hepsini aylarca hatırladı",
+        "Çoğunu hemen ezberleyemedi"
        ]
       },
       {
        "soru": "Konuşmacı yöntemini nasıl değiştirdi?",
        "secenekler": [
-        "Podcast dinleyip yüksek sesle tekrar etti, ertesi gün kendini sınadı",
-        "Yurtdışına taşındı",
-        "Daha uzun kelime listeleri yaptı"
+        "Podcast dinleyip yüksek sesle tekrar etti, kendini sınadı",
+        "Kelime listelerini uzatıp her gün tekrar okudu",
+        "Yurtdışındaki bir kursa yazılıp haftada bir ders aldı"
        ]
       },
       {
        "soru": "Altı ay sonra ne yapabiliyordu?",
        "secenekler": [
         "Basit bir konuşmayı takip edebiliyordu",
-        "Akıcı bir konuşma yapıyordu",
-        "Hâlâ hiçbir şey anlamıyordu"
+        "Akıcı bir konuşma yapabiliyordu",
+        "Yalnızca tek tek sözcük anlıyordu"
        ]
       },
       {
        "soru": "Konuşmacının çıkardığı ders nedir?",
        "secenekler": [
-        "Dili etkin biçimde kullanmak, hakkında okumaktan etkilidir",
-        "Dil öğrenmek mümkün değildir",
-        "Yurtdışında yaşamak şarttır"
+        "Dili aktif kullanmak, hakkında okumaktan etkilidir",
+        "Dil öğrenmek için yurtdışında yaşamak şarttır",
+        "Dil öğrenmede uzun kelime listeleri en etkilidir"
        ]
       },
       {
        "soru": "Konuşmacı İspanya’ya taşındığını söylüyor mu?",
        "secenekler": [
         "Hayır, bundan söz edilmiyor",
-        "Evet, bir yıllığına",
-        "Evet, altı aylığına"
+        "Evet, bir yıllığına taşındı",
+        "Hayır, İspanyolca öğrenmediğini söylüyor"
        ],
        "aciklama": "Duymadığın bir şeyi tahmin etme."
       }
@@ -1388,17 +1389,17 @@
       {
        "soru": "Kütüphane neden kapanacaktı?",
        "secenekler": [
-        "Belediyenin harcamalarını azaltması gerekiyordu",
-        "Bina yıkılacaktı",
-        "Okuyucu kalmamıştı"
+        "Belediye harcamalarını kısmak zorundaydı",
+        "Kütüphane binasının kirası artmıştı",
+        "Ziyaretçi sayısı çok azalmıştı"
        ]
       },
       {
        "soru": "Halk ne kadar sürede ne kadar para topladı?",
        "secenekler": [
         "Üç haftada kırk binden fazla pound",
-        "Üç günde dört bin pound",
-        "Üç ayda yirmi bin pound"
+        "Üç ayda yirmi binden fazla pound",
+        "Üç günde on binden fazla pound"
        ]
       },
       {
@@ -1420,17 +1421,17 @@
       {
        "soru": "Kütüphaneci neyi uyardı?",
        "secenekler": [
-        "Para yalnızca temel masrafları karşılar, gönüllüler gerekli",
-        "Kütüphane yine kapanacak",
-        "Çocuk programı kaldırılacak"
+        "Para yalnızca temel masrafları karşılıyor",
+        "Kütüphane bir yıl sonra kapanabilir",
+        "Çocuk okuma saati kaldırılabilir"
        ]
       },
       {
        "soru": "Haberde belediyenin kütüphaneyi süresiz açık tutacağı söyleniyor mu?",
        "secenekler": [
         "Hayır, “en az iki yıl” deniyor",
-        "Evet",
-        "Yalnızca çocuk bölümü için"
+        "Evet, süresiz açık kalacak",
+        "Hayır, bir yıl daha açık kalacak"
        ],
        "aciklama": "Duyduğunla duymadığını ayır."
       }
@@ -1468,17 +1469,17 @@
       {
        "soru": "Evden çalışmayı destekleyenler hangi yararı söylüyor?",
        "secenekler": [
-        "Gidiş geliş süresi kazanılıyor, gün daha esnek düzenleniyor",
-        "Maaşlar artıyor",
-        "Ofis kiraları düşüyor"
+        "Yolda geçen süre kazanılıyor ve gün esnekleşiyor",
+        "Maaşlar belirgin biçimde artıyor",
+        "İş arkadaşlarıyla bağ kuvvetleniyor"
        ]
       },
       {
        "soru": "Eleştirenlere göre genç çalışanlar neyi kaçırır?",
        "secenekler": [
-        "Deneyimli meslektaşlarını izleyerek öğrenmeyi",
-        "Daha yüksek maaşı",
-        "Uzun tatili"
+        "Deneyimlilerden izleyerek öğrenmeyi",
+        "Daha esnek çalışma saatlerini",
+        "Yeni yazılımları öğrenmeyi"
        ]
       },
       {
@@ -1486,7 +1487,7 @@
        "secenekler": [
         "Üç gün evde, iki gün ofiste",
         "Tamamen evden çalışmayı",
-        "Tamamen ofiste çalışmayı"
+        "İki gün evde, üç gün ofiste"
        ]
       },
       {
@@ -1500,25 +1501,25 @@
       {
        "soru": "Yöneticilerin görüşü nasıl?",
        "secenekler": [
-        "Bölünmüş durumda",
-        "Hepsi destekliyor",
-        "Hepsi karşı"
+        "Görüşleri bölünmüş durumda",
+        "Hepsi evden çalışmayı destekliyor",
+        "Hepsi evden çalışmaya karşı"
        ]
       },
       {
        "soru": "Konuşmacının kendi sonucu nedir?",
        "secenekler": [
         "Yanıt işin türüne ve kişiye bağlıdır",
-        "Evden çalışma yasaklanmalıdır",
-        "Herkes evden çalışmalıdır"
+        "Herkes tamamen evden çalışmalıdır",
+        "Evden çalışma kesinlikle yasaklanmalıdır"
        ]
       },
       {
        "soru": "Konuşmacı evden çalışmanın yasaklanması gerektiğini söylüyor mu?",
        "secenekler": [
         "Hayır, böyle bir şey söylenmiyor",
-        "Evet",
-        "Yalnızca genç çalışanlar için"
+        "Evet, kesinlikle yasaklanmalı",
+        "Hayır, tamamen serbest olması gerektiğini söylüyor"
        ],
        "aciklama": "Duymadığın bir şeyi tahmin etme."
       }

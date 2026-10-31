@@ -108,7 +108,7 @@
           "sorular": [
             { "soru": "Ece kaç yaşında?", "secenekler": ["16", "17", "60"], "aciklama": "sixteen = 16 (six + teen). Altmış olsaydı “sixty” denirdi." },
             { "soru": "Kulüp odası kaç numaralı?", "secenekler": ["13", "30", "3"], "aciklama": "thirteen = 13. Mr. Ray “One, three” diyerek rakamları tek tek söyledi." },
-            { "soru": "Ece neden “Thirteen or thirty?” diye sordu?", "secenekler": ["13 ile 30 kulağa benzediği için doğrulamak istedi", "Odayı bulamadığı için", "Yaşını unuttuğu için"], "aciklama": "Benzer duyulan sayılarda tekrar sorarak doğrulamak çok işe yarar." }
+            { "soru": "Ece neden “Thirteen or thirty?” diye sordu?", "secenekler": ["Sesleri benzediği için doğrulamak istedi", "Odanın numarasını unuttuğu için", "Sayıyı hiç duymadığı için"], "aciklama": "Benzer duyulan sayılarda tekrar sorarak doğrulamak çok işe yarar." }
           ],
           "kelimeler": ["old"],
           "not": "İki sayıyı karıştırınca ne yapılır? Ece'nin yaptığını yap: kısaca sor." },
