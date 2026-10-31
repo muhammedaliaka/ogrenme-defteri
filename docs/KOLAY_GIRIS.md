@@ -123,6 +123,8 @@ Başlık anahtarları:
 - **Seçenekler benzer uzunlukta olsun.** Doğru seçenek en uzun ve ayrıntılı, yanlışlar tek sözcük olursa öğrenci metni okumadan "uzun olanı" işaretler. Doğruyu kısaltmak ya da yanlışları aynı ayrıntıyla yazmak yetişir.
 - **Yanlış seçenekler metindeki sözcükleri kullansın ama yanlış olsun.** "Tamamen durur / hiç yapmaz" gibi saçma çeldiriciler doğruyu belli eder. Metnin gerçekten söylemediği ama makul görünen bir şey yaz.
 - **Üst seviyede (sv ≥ 30) doğru seçeneği metinden aynen alma;** başka sözcüklerle ifade et. Aksi hâlde "metinde geçen cümleyi bul" yeterli olur ve anlama ölçülmez.
+- **Çeldiriciler metindeki sözcükleri kullansın.** Yanlış seçeneği, doğru cümlenin bir ayrıntısını değiştirerek yaz (“mavi dağılıp gider” → “kırmızı dağılıp gider”). Metinle hiç ortak sözcüğü olmayan çeldirici, metni tarayıp en çok çakışanı seçen öğrenciye doğruyu ele verir.
+- **Doğru seçeneği metinden kopyalama,** başka sözcüklerle anlat (özellikle sv ≥ 30). Sayı ya da ad soran sorularda, metindeki sayıyı doğrudan sormak yerine bir adım çıkarım iste.
 - **Olumsuz soru kökü kullanma** ("…hangisi değildir/söylenmez"). Başka çare yoksa kökü olumluya çevir: "Metne göre hangisi doğrudur?".
 - **"Söz edilmiyor / metinde yok" cevabı hep doğru olmasın.** Bu seçenek her zaman doğruysa öğrenci onu ezberler. Yanına "Hayır, … söyleniyor" gibi **yanlış ama aynı biçimde** bir çeldirici koy; ayrıca ara sıra "Doğru" ya da "Yanlış" cevabı doğru olan sorular yaz.
 - **İki seçenek de savunulabiliyorsa** (ör. “ev” ile “ev ödevi”) birini değiştir. Sınavda haklı olan öğrenci cezalandırılmamalı.

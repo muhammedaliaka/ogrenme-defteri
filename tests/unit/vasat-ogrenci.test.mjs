@@ -23,10 +23,16 @@ test('doğru seçenek sistematik olarak en uzun değil', () => {
   assert.ok(yuzde('dinleme', 'en uzun seçenek') < 55);
 });
 
-test('metni tarayan okuyucu üst seviye okumada belirgin üstünlük sağlamıyor (kısa metinde arama kısmen doğal; sınır %70)', () => {
+test('arama okuyucuları (metni tara, anahtar sözcük) üst seviye okumada şansa yakın kalıyor (sınır %50)', () => {
   const satir = cikti.split('\n').find((l) => l.includes('okuma seviye ≥30'));
-  const m = satir.match(/metni tara %(\d+)/);
-  assert.ok(m && +m[1] < 70, satir);
+  for (const e of ['metni tara', 'anahtar-sözcük okuyucu']) {
+    const m = satir.match(new RegExp(e + ' %(\\d+)'));
+    assert.ok(m && +m[1] < 50, satir);
+  }
+});
+
+test('ipucu bayrağı yok', () => {
+  assert.match(cikti, /✓ 0 ipucu bayrağı/);
 });
 
 test('hiçbir soruda dört yüzeysel ipucundan üçü birden doğruyu göstermiyor', () => {

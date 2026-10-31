@@ -36,9 +36,9 @@
             { "kim": "Ece", "en": "Goodbye, Sam!", "tr": "Hoşça kal, Sam!" }
           ],
           "sorular": [
-            { "soru": "Ece nerede yaşıyor?", "secenekler": ["Bursa'da", "Ankara'da", "Londra'da"], "aciklama": "Ece: “I live in Bursa.” — live = yaşamak." },
+            { "soru": "Ece nerede yaşıyor?", "secenekler": ["Bursa'da", "Türkiye'de, Ankara'da", "Londra'da, Türkiye dışında"], "aciklama": "Ece: “I live in Bursa.” — live = yaşamak." },
             { "soru": "“Where are you from?” sorusu ne demek?", "secenekler": ["Nerelisin?", "Nerede yaşıyorsun?", "Adın ne?"], "aciklama": "where = nerede, from = …'den. Birlikte: “nerelisin?”. “Nerede yaşıyorsun?” sorusu ise “Where do you live?” olur." },
-            { "soru": "Sam, “How are you?” sorusuna ne cevap veriyor?", "secenekler": ["İyiyim, teşekkür ederim.", "Adım Sam, on yaşındayım.", "Öğrenciyim, İstanbul’dayım."], "aciklama": "Sam: “I'm fine, thank you.”" }
+            { "soru": "Sam, “How are you?” sorusuna ne cevap veriyor?", "secenekler": ["İyiyim, teşekkür ederim.", "Tanıştığımıza memnun oldum.", "Öğrenciyim, Bursa’da yaşıyorum."], "aciklama": "Sam: “I'm fine, thank you.”" }
           ],
           "kelimeler": ["hello", "name", "from", "live", "student", "fine"],
           "not": "Sam İngilizce konuşan bir öğrenci, Ece Türkiyeli. İki kişinin de sesi farklı; hangisinin konuştuğuna dikkat et." },

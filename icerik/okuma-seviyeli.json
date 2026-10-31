@@ -27,9 +27,9 @@
       {
        "soru": "Bir yılda kaç mevsim vardır?",
        "secenekler": [
-        "Dört",
-        "Üç",
-        "Beş"
+        "Dört mevsim vardır",
+        "Üç mevsim vardır",
+        "Beş mevsim vardır"
        ],
        "aciklama": "İlk cümle: dört mevsim vardır."
       },
@@ -91,8 +91,8 @@
        "soru": "Arılar çiçeklerden ne toplar?",
        "secenekler": [
         "Nektar",
-        "Su",
-        "Yaprak"
+        "Bal",
+        "Meyve"
        ]
       },
       {
@@ -116,8 +116,8 @@
        "soru": "Arılar neden önemlidir?",
        "secenekler": [
         "Çiçekten çiçeğe polen taşırlar",
-        "Meyveleri ağaçtan koparırlar",
-        "Kovanı çiçeklerle doldururlar"
+        "Meyveleri çiçekten çiçeğe taşırlar",
+        "Kovanları çiçeklerle doldururlar"
        ]
       },
       {
@@ -169,32 +169,32 @@
        "soru": "Su gökyüzüne nasıl çıkar?",
        "secenekler": [
         "Buharlaşarak",
-        "Donarak",
-        "Sıçrayarak"
+        "Bulutlara dönüşerek",
+        "Damlacıklara ayrılarak"
        ]
       },
       {
        "soru": "Bulutlar neden oluşur?",
        "secenekler": [
-        "Buhar soğuyup damlacıklara dönüşünce",
-        "Güneş suyu hızla tamamen kurutunca",
-        "Rüzgâr suyu gökyüzüne savurunca"
+        "Yukarıdaki soğuk havada su buharı küçük damlalara dönünce",
+        "Buhar ısınıp damlacıklara dönüşünce",
+        "Damlacıklar birleşip ağırlaşınca"
        ]
       },
       {
        "soru": "Damlacıklar ne zaman yere düşer?",
        "secenekler": [
-        "Birleşip ağırlaşınca",
-        "Soğuyup hafifleyince",
-        "Gökyüzüne yükselince"
+        "Birbirine katılıp ağırlaşınca",
+        "Ayrılıp hafifleyince",
+        "Buharlaşıp yükselince"
        ]
       },
       {
        "soru": "Yağmur suları sonunda nereye ulaşır?",
        "secenekler": [
-        "Denizlere, göllere ve nehirlere",
-        "Yalnızca denizlere ve okyanuslara",
-        "Doğrudan çöllerdeki kum tepelerine"
+        "Yeniden yeryüzündeki sulara",
+        "Yalnızca denizlere ve göllere",
+        "Yalnızca bulutlara ve nehirlere"
        ]
       },
       {
@@ -241,17 +241,17 @@
       {
        "soru": "Bitkiler besinlerini nasıl elde eder?",
        "secenekler": [
-        "Kendileri üretir",
-        "Hayvanlardan alır",
-        "Rüzgârdan toplar"
+        "Besinlerini kendileri hazırlar",
+        "Besinlerini hayvanlardan alır",
+        "Besinlerini rüzgârla toplar"
        ]
       },
       {
        "soru": "Kökler topraktan ne alır?",
        "secenekler": [
         "Su ve mineral",
-        "Karbondioksit",
-        "Güneş ışığı"
+        "Karbondioksit ve mineral",
+        "Su ve karbondioksit"
        ]
       },
       {
@@ -265,17 +265,17 @@
       {
        "soru": "Fotosentez sırasında havaya ne verilir?",
        "secenekler": [
-        "Oksijen",
-        "Karbondioksit",
-        "Şeker"
+        "Yaşamak için soluduğumuz gaz",
+        "Yapraktan havadan alınan gaz",
+        "Besin olarak üretilen madde"
        ]
       },
       {
        "soru": "Yaprakların içindeki yeşil madde ne yapar?",
        "secenekler": [
-        "Su ve karbondioksiti şekere çevirir",
-        "Su ile şekeri karbondioksite çevirir",
-        "Kökleri toprağa bağlayıp suyu tutar"
+        "Işık yardımıyla su ve karbondioksitten şeker yapar",
+        "Su ve oksijeni şekere çevirir",
+        "Şekeri oksijene çevirip havaya verir"
        ],
        "aciklama": "“Yeşil madde, güneş ışığının yardımıyla su ile karbondioksiti şekere dönüştürür.”"
       }
@@ -316,24 +316,24 @@
        "soru": "Kâğıdın hammaddesi çoğunlukla nedir?",
        "secenekler": [
         "Ağaç",
-        "Taş",
-        "Kum"
+        "Elek",
+        "Silindir"
        ]
       },
       {
        "soru": "Odun parçaları kaynatılınca ne olur?",
        "secenekler": [
-        "Yumuşak, sulu bir hamur oluşur",
-        "Sert, kuru bir blok oluşur",
-        "Köpüklü bir sıvıya dönüşür"
+        "Su katılmış yumuşak bir karışım çıkar",
+        "Sert, sulu bir hamur oluşur",
+        "Yumuşak, kuru bir tabaka oluşur"
        ]
       },
       {
        "soru": "Hamur ince bir tabaka haline nasıl getirilir?",
        "secenekler": [
-        "Silindirler arasında preslenerek",
-        "Kalıplara dökülüp dondurularak",
-        "Elle yoğrulup bekletilerek"
+        "Dönen makaraların arasından geçirilerek",
+        "Elekten geçirilip süzülerek",
+        "Kurutulup küçük parçalara ayrılarak"
        ]
       },
       {
@@ -388,9 +388,9 @@
       {
        "soru": "Ses nasıl oluşur?",
        "secenekler": [
-        "Bir şeyin titremesiyle",
+        "Bir cismin hızla ileri geri hareket etmesiyle",
         "Havanın hızla soğumasıyla",
-        "Işığın yayılmasıyla"
+        "Kulağın titreşimi algılamasıyla"
        ]
       },
       {
@@ -404,9 +404,9 @@
       {
        "soru": "Astronotlar birbirleriyle nasıl konuşur?",
        "secenekler": [
-        "Telsizle",
-        "Bağırarak",
-        "Yazarak"
+        "Uzayda kullanılan cihazla, telsizle",
+        "Havada dalgalar oluşturarak",
+        "Katı bir masaya kulaklarını dayayarak"
        ]
       },
       {
@@ -421,8 +421,8 @@
        "soru": "Metinde “ortam” sözcüğü hangi anlamda kullanılmıştır?",
        "secenekler": [
         "Sesin içinde yayıldığı madde",
-        "Sesin geldiği yön ve uzaklık",
-        "Bir odanın genel havası"
+        "Sesin kulağımızda algılandığı yer",
+        "Sesi titreştiren gitar teli gibi cisim"
        ]
       }
      ],
@@ -467,7 +467,7 @@
        "secenekler": [
         "İter",
         "Çeker",
-        "Hiçbir şey yapmaz"
+        "Önce çeker, sonra iter"
        ]
       },
       {
@@ -481,23 +481,23 @@
       {
        "soru": "Bir mıknatıs ortadan kırılırsa ne olur?",
        "secenekler": [
-        "Her parça iki kutuplu yeni bir mıknatıs olur",
-        "Parçalardan biri mıknatıslığını yitirir",
-        "Parçaların biri yalnız kuzey kutbu taşır"
+        "İki yeni mıknatıs olur, her birinin iki kutbu bulunur",
+        "Her parçada yalnız bir kutup kalır, diğeri kaybolur",
+        "Bir parça kuzey kutbunu, öbürü güney kutbunu taşır"
        ]
       },
       {
        "soru": "Pusulalar neden kuzeyi gösterir?",
        "secenekler": [
         "Dünya büyük bir mıknatıs gibi davrandığı için",
-        "Kuzeyde çok büyük bir demir dağı olduğu için",
-        "Pusula iğnesi kuzey rüzgârıyla itildiği için"
+        "Kuzey kutbu demir, nikel ve kobalt olduğu için",
+        "Pusulanın iki ucu da kuzeyi çektiği için"
        ]
       },
       {
        "soru": "Metnin ana fikri nedir?",
        "secenekler": [
-        "Mıknatısların özelliklerini anlatmak",
+        "Mıknatısların nasıl davrandığını tanıtmak",
         "Pusulanın nasıl yapıldığını anlatmak",
         "Dünyanın nasıl oluştuğunu anlatmak"
        ]
@@ -536,11 +536,11 @@
      ],
      "sorular": [
       {
-       "soru": "İlk çağlarda haberi kimler taşırdı?",
+       "soru": "Metne göre ilk çağlarda haberi ayaklarıyla ya da atla kimler taşırdı?",
        "secenekler": [
-        "Haberciler",
-        "Gemiciler",
-        "Çobanlar"
+        "Yaya ya da atlı görevliler",
+        "Posta teşkilatları",
+        "Telgrafçılar"
        ]
       },
       {
@@ -548,13 +548,13 @@
        "secenekler": [
         "Her zaman güvenilir değildi",
         "Her zaman en hızlı yöntemdi",
-        "Yalnızca savaşlarda kullanılırdı"
+        "Posta teşkilatlarından daha güvenilirdi"
        ]
       },
       {
        "soru": "Telgraf mesajları nasıl gönderirdi?",
        "secenekler": [
-        "Teller üzerinden elektrik sinyaliyle",
+        "Teller boyunca ilerleyen elektrik darbeleriyle",
         "Davul ve ateş yoluyla, tepelerden",
         "Atlı haberciler aracılığıyla yollardan"
        ]
@@ -571,8 +571,8 @@
        "soru": "Yazar, bütün bu yöntemler için hangi ortak noktayı vurguluyor?",
        "secenekler": [
         "Amaç hep haberi ulaştırmaktı",
-        "Hepsinde elektrik kullanılırdı",
-        "Hepsi yalnızca atla taşınırdı"
+        "Hepsinde elektrik sinyali kullanılırdı",
+        "Hepsi yalnızca haberciler aracılığıyla taşınırdı"
        ]
       }
      ],
@@ -616,24 +616,24 @@
        "soru": "Deprem nasıl oluşur?",
        "secenekler": [
         "Kayalarda biriken gerilim aniden boşalınca",
-        "Levhalar birbirinden uzaklaşıp soğuyunca",
-        "Yeraltı suları yüzeye çıkınca"
+        "Levhalar hiç gerilim biriktirmeden sürtününce",
+        "Kayalar gerilime dayanıp enerji yavaşça birikince"
        ]
       },
       {
        "soru": "Depremin yeryüzündeki tam üst noktasına ne denir?",
        "secenekler": [
         "Merkez üssü",
-        "Odak",
-        "Gerilim"
+        "Odak merkezi",
+        "Gerilim noktası"
        ]
       },
       {
        "soru": "Büyüklük ölçeğinde sayı büyüdükçe ne olur?",
        "secenekler": [
-        "Açığa çıkan enerji çok hızlı artar",
+        "Enerji çok hızlı bir şekilde büyür",
         "Açığa çıkan enerji yalnızca biraz artar",
-        "Depremin odağı daha derinde olur"
+        "Depremin yerin içinde başladığı nokta derinleşir"
        ]
       },
       {
@@ -647,9 +647,9 @@
       {
        "soru": "Yazara göre asıl koruma yolu nedir?",
        "secenekler": [
-        "Binaları dayanıklı yapıp ne yapılacağını öğrenmek",
-        "Depremi önceden bildiren yeni cihazlar kullanmak",
-        "Sarsıntı başlayınca hemen binadan dışarı koşmak"
+        "Yapıları sağlamlaştırmak ve sarsıntıda yapılacakları bilmek",
+        "Depremi önceden kesin olarak bilmeye çalışmak",
+        "Levhaların hareketini yavaşlatmak"
        ]
       }
      ],
@@ -692,16 +692,16 @@
        "soru": "Vitaminler hakkında hangisi doğrudur?",
        "secenekler": [
         "Vücut çoğunu kendi üretemez, besinlerle almalıdır",
-        "Vücut hepsini yeterince kendi üretir, besin gerekmez",
-        "Yalnızca hap biçiminde alındığında işe yarar"
+        "Vücut vitaminleri yeterince üretir ama besinlerle de almalıdır",
+        "Vitaminler yalnızca hap olarak alınınca vücuda yarar"
        ]
       },
       {
        "soru": "D vitaminini vücut hangi yolla da üretebilir?",
        "secenekler": [
-        "Güneş ışığıyla",
-        "Bol hareketle",
-        "Soğuk havayla"
+        "Güneşte kalarak",
+        "Karaciğer ve yumurtayla",
+        "Turunçgil ve biberle"
        ]
       },
       {
@@ -715,9 +715,9 @@
       {
        "soru": "Yazar vitamin takviyesi için ne öneriyor?",
        "secenekler": [
-        "Kullanmadan önce hekime danışmayı",
-        "Herkesin her gün hap almasını",
-        "Hiçbir koşulda kullanmamayı"
+        "Bir doktorun görüşünü almayı",
+        "Dengeli beslenen herkesin hap almasını",
+        "Fazla miktarda alıp vücutta biriktirmeyi"
        ]
       },
       {
@@ -776,7 +776,7 @@
       {
        "soru": "Aşı bağışıklık sistemine ne yapar?",
        "secenekler": [
-        "Mikrobu hastalık yapmadan tanıtır",
+        "Hasta etmeden bağışıklığa mikrobu öğretir",
         "Mikrobu vücuda sokup hasta eder",
         "Savunma maddelerini vücuttan temizler"
        ]
@@ -792,25 +792,25 @@
       {
        "soru": "Aşının yan etkileri çoğunlukla nasıldır?",
        "secenekler": [
-        "Hafif ve kısa sürelidir",
-        "Ağır ve uzun sürelidir",
-        "Hiçbir zaman görülmez"
+        "Çoğunlukla önemsiz ve çabuk geçer",
+        "Ağır ama kısa sürelidir",
+        "Hafif ama uzun sürelidir"
        ]
       },
       {
        "soru": "“Toplumsal koruma” ile ne kastedilmektedir?",
        "secenekler": [
         "Çok kişi aşılanınca aşısız kişilerin de korunması",
-        "Her hastanın ayrı bir odada tedavi edilmesi",
-        "Aşıların yalnızca çocuklara ücretsiz verilmesi"
+        "Aşısız kişilerin hastalığı yayacak yer bulması",
+        "Çok kişi hastalanınca bağışıklığın artması"
        ]
       },
       {
        "soru": "Yazar aşıyı neden bir tür “tanıtma” olarak anlatıyor?",
        "secenekler": [
         "Bağışıklığın mikrobu hatırlamasını anlatmak için",
-        "Mikrobun vücutta nasıl çoğaldığını göstermek için",
-        "Hastalığın ne kadar tehlikeli olduğunu vurgulamak için"
+        "Aşıdaki mikrobun vücutta hastalık yapacağını anlatmak için",
+        "Mikrobun öldürülmüş hâlini vücuttan temizlemek için"
        ]
       }
      ],
@@ -854,30 +854,30 @@
        "soru": "Takasın en büyük sorunu neydi?",
        "secenekler": [
         "Karşı tarafın elinizdekine ihtiyaç duyması gerekiyordu",
-        "Malların hepsinin aynı ağırlıkta olması gerekiyordu",
-        "Alışverişin yalnızca pazar yerlerinde yapılması gerekiyordu"
+        "Karşı tarafın size para vermesi gerekiyordu",
+        "Çiftçinin çömlekçiden daha fazla mal alması gerekiyordu"
        ]
       },
       {
        "soru": "Metne göre metaller para olarak neden öne çıktı?",
        "secenekler": [
-        "Bölünebilmeleri",
-        "Çok parlak olmaları",
-        "Her yerde bol bulunmaları"
+        "Dayanıklı, bölünebilir ve kolay taşınır olmaları",
+        "Deniz kabukları gibi her yerde bulunmaları",
+        "Kâğıt para gibi kolay basılabilmeleri"
        ]
       },
       {
        "soru": "Lidyalılar sikkelerini neyden yaptı?",
        "secenekler": [
-        "Altın ve gümüş karışımından",
+        "Gümüş ve altın alaşımından",
         "Tuz ve tahıl karışımından",
-        "Bakır ve demir karışımından"
+        "Altın ve bakır karışımından"
        ]
       },
       {
        "soru": "Aşağıdakilerden hangisi paranın işlevlerinden biridir?",
        "secenekler": [
-        "Değerin saklanmasını sağlamak",
+        "Biriktirilen değerin korunmasına yardım etmek",
         "Mal üretmeyi hızlandırmak",
         "Vergi toplamayı sağlamak"
        ]
@@ -886,8 +886,8 @@
        "soru": "Yazarın paranın değeri hakkındaki düşüncesi nedir?",
        "secenekler": [
         "Değer, insanların ona duyduğu güvene dayanır",
-        "Değer, paranın yapıldığı madenin cinsine dayanır",
-        "Değer, devletin parayı ne kadar bastığına dayanır"
+        "Değer, paranın yapıldığı metale ya da kâğıda dayanır",
+        "Değer, yalnızca paranın değişim aracı olmasına dayanır"
        ]
       }
      ],
@@ -1005,9 +1005,9 @@
       {
        "soru": "Dünya kendi çevresinde bir kez dönmek için ne kadar zaman harcar?",
        "secenekler": [
-        "Yaklaşık yirmi dört saat",
-        "Yaklaşık yirmi dört gün",
-        "Yaklaşık otuz altı saat"
+        "Yirmi dört saat",
+        "Yirmi dört gün",
+        "Yirmi dört dakika"
        ]
       },
       {
@@ -1030,8 +1030,8 @@
        "soru": "Güneş neden doğup batıyor gibi görünür?",
        "secenekler": [
         "Dünya döndüğü için",
-        "Güneş yürüdüğü için",
-        "Ay büyüdüğü için"
+        "Güneş döndüğü için",
+        "Dünya Güneş’ten uzaklaştığı için"
        ]
       },
       {
@@ -1078,8 +1078,8 @@
        "soru": "Dişi kelebek yumurtalarını nereye bırakır?",
        "secenekler": [
         "Bir yaprağın üzerine",
-        "Bir çiçeğin içine",
-        "Toprağın altına"
+        "Bir yaprağın altına",
+        "Bir pupanın üzerine"
        ]
       },
       {
@@ -1093,9 +1093,9 @@
       {
        "soru": "Tırtıl çoğunlukla ne yapar?",
        "secenekler": [
-        "Yaprak yer ve büyür",
-        "Çiçekten nektar içer",
-        "Pupanın içinde dinlenir"
+        "Yaprak yer ve hızla büyür",
+        "Yaprak yer ve kanatlarını kurutur",
+        "Yumurta bırakır ve hızla büyür"
        ]
       },
       {
@@ -1154,40 +1154,40 @@
        "soru": "Dişin mineyi aşındıran asidi ne üretir?",
        "secenekler": [
         "Şekerle beslenen bakteriler",
-        "Ağızdaki tüm bakteriler",
-        "Yediğimiz şekerin kendisi"
+        "Şekerle beslenmeyen bakteriler",
+        "Dişin dış tabakası olan mine"
        ]
       },
       {
        "soru": "Diş çürüğü nasıl oluşur?",
        "secenekler": [
         "Asit mineyi aşındırınca",
-        "Dişler çok sert olunca",
-        "Dişler çok beyaz olunca"
+        "Bakteri mineyi temizleyince",
+        "Mine asit üretince"
        ]
       },
       {
        "soru": "Metne göre günde en az kaç kez fırçalamak gerekir?",
        "secenekler": [
-        "İki",
-        "Bir",
-        "Beş"
+        "İki kez",
+        "Bir kez",
+        "Üç kez"
        ]
       },
       {
        "soru": "Hangisi daha yararlıdır?",
        "secenekler": [
-        "Şekeri bir seferde yiyip dişleri fırçalamak",
-        "Şekeri gün boyu azar azar atıştırmak",
-        "Dişleri yalnızca haftada bir fırçalamak"
+        "Şekerli yiyeceği bir seferde yiyip dişleri fırçalamak",
+        "Şekerli yiyeceği gün boyu sık sık atıştırmak",
+        "Şekerli yiyeceği bir seferde yiyip dişleri hiç fırçalamamak"
        ]
       },
       {
        "soru": "Dişçiye düzenli gitmenin yararı nedir?",
        "secenekler": [
-        "Sorunlar erken fark edilir",
-        "Fırçalamaya hiç gerek kalmaz",
-        "Bakteriler ağızdan tamamen yok olur"
+        "Bozukluklar erken yakalanır",
+        "Sorunlar geç fark edilir",
+        "Dişçi bakteri tabakasını temizler"
        ]
       }
      ],
@@ -1230,9 +1230,9 @@
       {
        "soru": "Mevsimlerin asıl nedeni nedir?",
        "secenekler": [
-        "Dünya’nın ekseninin eğik olması",
+        "Dünya’nın dönüş ekseninin yan yatık olması",
         "Dünya’nın Güneş’e yaklaşıp uzaklaşması",
-        "Güneş’in her yıl ısınıp soğuması"
+        "Dünya ekseninin her yıl başka yöne eğilmesi"
        ]
       },
       {
@@ -1247,16 +1247,16 @@
        "soru": "Kuzey Yarımküre Güneş’e daha dönükken ne olur?",
        "secenekler": [
         "Işınlar daha dik gelir, günler uzar",
-        "Işınlar eğik gelir, günler kısalır",
-        "Gece ile gündüz her zaman eşit olur"
+        "Işınlar daha dik gelir, günler kısalır",
+        "Işınlar eğik gelir, günler uzar"
        ]
       },
       {
        "soru": "Birçok kişi mevsimlerin nedeni hakkında neyi sanır?",
        "secenekler": [
-        "Dünya’nın Güneş’e yaklaşıp uzaklaştığını",
+        "Güneş’e olan uzaklığın değişmesinden oluştuğunu",
         "Dünya’nın ekseninin eğik olduğunu",
-        "Güneş’in her yıl biraz ısınıp soğuduğunu"
+        "Dünya ekseninin her yıl başka yöne eğildiğini"
        ]
       },
       {
@@ -1305,11 +1305,11 @@
      ],
      "sorular": [
       {
-       "soru": "Aşağıdakilerden hangisi fosil yakıttır?",
+       "soru": "Metne göre fosil yakıtlar hangi özellikteki kaynaklardır?",
        "secenekler": [
-        "Kömür",
-        "Rüzgâr",
-        "Güneş"
+        "Oluşması çok uzun süren, kullanıldıkça azalan",
+        "Rüzgâr ve güneş gibi kullanıldıkça tükenmeyen",
+        "Gece de çalışan ve havayı kirletmeyen"
        ]
       },
       {
@@ -1317,7 +1317,7 @@
        "secenekler": [
         "Oluşmaları milyonlarca yıl sürdüğü için",
         "Havaya karbondioksit verdikleri için",
-        "Rüzgâr ve güneşle üretildikleri için"
+        "Rüzgâr ve güneş gibi tükenmedikleri için"
        ]
       },
       {
@@ -1332,16 +1332,16 @@
        "soru": "Yenilenebilir kaynakların sınırı nedir?",
        "secenekler": [
         "Rüzgâr her zaman esmez, güneş geceleri yoktur",
-        "Kullandıkça birkaç yıl içinde tükenirler",
-        "Havaya fosil yakıttan fazla karbondioksit verirler"
+        "Rüzgâr her zaman eser, güneş geceleri de parlar",
+        "Kullandıkça tükenirler, havaya karbondioksit verirler"
        ]
       },
       {
        "soru": "Yazar neyi önemli buluyor?",
        "secenekler": [
-        "Elektriği depolamayı ve kaynakları birleştirmeyi",
-        "Tek bir yenilenebilir kaynağa bağlı kalmayı",
-        "Rüzgâr türbinlerinin hepsini tamamen kapatmayı"
+        "Üretilen gücü saklayıp farklı yöntemleri birlikte kullanmayı",
+        "Fosil yakıtları depolamayı ve yakmayı",
+        "Tek bir kaynağı kullanmayı"
        ]
       }
      ],
@@ -1461,17 +1461,17 @@
       {
        "soru": "Biz Dünya’nın hangi katmanı üzerinde yaşarız?",
        "secenekler": [
-        "Kabuk",
-        "Manto",
-        "Dış çekirdek"
+        "En dışta bulunan ince katman",
+        "Kabuğun hemen altındaki sıcak kaya katmanı",
+        "Mantonun altındaki sıvı metal katmanı"
        ]
       },
       {
        "soru": "Dünya’nın hacminin büyük bölümünü hangi katman oluşturur?",
        "secenekler": [
-        "Manto",
-        "Kabuk",
-        "İç çekirdek"
+        "Kabuğun altındaki sıcak kaya katmanı",
+        "Üzerinde yaşadığımız ince dış katman",
+        "Demir ve nikelden oluşan sıvı katman"
        ]
       },
       {
@@ -1493,7 +1493,7 @@
       {
        "soru": "Metne göre Dünya’nın merkezine ulaşmak ne durumdadır?",
        "secenekler": [
-        "Mümkün değildir",
+        "İnsanlar oraya hiçbir yolla inemez",
         "En derin sondajla ulaşılmıştır",
         "Yalnızca manto kadar inilebilmiştir"
        ]
@@ -1554,7 +1554,7 @@
       {
        "soru": "Sinan mühendislik deneyimini nasıl kazandı?",
        "secenekler": [
-        "Seferlerde köprü, kale ve depo yaparak",
+        "Orduda savaş yolculuklarında yapılar inşa ederek",
         "Saray mimarı olarak camiler yaparak",
         "Orduda yalnızca asker olarak çalışarak"
        ]
@@ -1578,7 +1578,7 @@
       {
        "soru": "Metne göre Sinan’ın yapılarının bugünkü durumu nedir?",
        "secenekler": [
-        "Birçoğu bugün de ayaktadır",
+        "Pek çoğu günümüze ulaşmıştır",
         "Camileri ayaktadır ama köprüleri yıkılmıştır",
         "Yalnızca Selimiye bugün ayaktadır"
        ]
@@ -1626,7 +1626,7 @@
       {
        "soru": "Ay’ın ışığı nereden gelir?",
        "secenekler": [
-        "Güneş’ten gelir, Ay yansıtır",
+        "Ay, Güneş’in ışığını geri çevirerek parlar",
         "Ay’ın aydınlık yarısı kendi ışığını yayar",
         "Dünya’dan gelen ışığı Ay yansıtır"
        ]
@@ -1658,7 +1658,7 @@
       {
        "soru": "Dünya’nın gölgesi Ay’a ne zaman düşer?",
        "secenekler": [
-        "Ay tutulması sırasında",
+        "Yalnızca Ay tutulduğu zamanlarda",
         "Her ay evresi sırasında",
         "Yeni ay evresi sırasında"
        ]
@@ -1707,7 +1707,7 @@
       {
        "soru": "Jeneratörde elektrik akımı nasıl oluşur?",
        "secenekler": [
-        "Bir telin yanında mıknatıs döndürülünce",
+        "Tel ile mıknatıs birbirine göre hareket edince",
         "Bir mıknatısın yanında tel ısıtılınca",
         "Bir telin yanında su döndürülünce"
        ]
@@ -1804,7 +1804,7 @@
       {
        "soru": "“Soğuk bir günde küresel ısınma yok” demek neden hatalı bir çıkarımdır?",
        "secenekler": [
-        "Tek bir günden iklim sonucu çıkarır",
+        "Kısa süreli bir durumdan uzun dönem hakkında karar verir",
         "Soğuk günlerde sera gazları azalır",
         "Küresel ortalama hiç ölçülemez"
        ]
@@ -1812,7 +1812,7 @@
       {
        "soru": "Sera gazları ne yapar?",
        "secenekler": [
-        "Dünya’dan kaçan ısının bir kısmını tutar",
+        "Isının uzaya çıkışını kısmen engeller",
         "Dünya’dan kaçan ısının tamamını dışarı çıkarır",
         "Dünya’ya gelen ısının bir kısmını yansıtır"
        ]

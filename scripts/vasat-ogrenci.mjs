@@ -150,15 +150,17 @@ const uzunSoru = SORU_TUM.filter((x) => parcala(x.soru).length > 18);
 const ort = (a) => a.reduce((t, x) => t + x, 0) / Math.max(1, a.length);
 const yuz = (x) => `%${Math.round(x * 100)}`;
 function z(gozlem, sans, n) { return n ? (gozlem - sans) / Math.sqrt(sans * (1 - sans) / n) : 0; }
-function tablo(ad, liste, ipuclar) {
+/** bilgi=true: sözcük-arama okuyucuları (metni tara, anahtar sözcük) için ⚠ konmaz, “bilgi” diye etiketlenir. Üç yerde: dinleme (kayıt dinlenmeden çözülemez → arama sızıntı değil sözcük bilgisi ölçer); seviye <30 okuma (4–6 cümlelik düz anlatımda ilgili cümleyi bulmak okumanın kendisidir); karma satırlar (üst seviye satırı belirleyicidir). */
+function tablo(ad, liste, ipuclar, bilgi = false) {
   const n = liste.length; if (!n) return [];
   const sans = ort(liste.map((o) => o.r.sans));
   const satir = [`  ${ad.padEnd(28)} n=${String(n).padStart(4)}  şans ${yuz(sans)}`];
   const bayrak = [];
   for (const [anahtar, etiket] of ipuclar) {
     const g = ort(liste.map((o) => o.r[anahtar] ?? 0)); const zz = z(g, sans, n);
-    const isaret = Math.abs(zz) >= 3 && g - sans >= 0.08 ? ' ⚠' : '';
-    satir.push(`${etiket} ${yuz(g)}${isaret}`);
+    const arama = bilgi && ['metniTara', 'anahtarOkuyucu'].includes(anahtar);
+    const isaret = !arama && Math.abs(zz) >= 3 && g - sans >= 0.08 ? ' ⚠' : '';
+    satir.push(`${etiket} ${yuz(g)}${isaret}${arama ? ' (bilgi)' : ''}`);
     if (isaret) bayrak.push({ ad, anahtar, etiket, g, sans, n, zz });
   }
   console.log(satir.join(' · '));
@@ -171,14 +173,14 @@ const IP_ANLAMA = [['uzun', 'en uzun seçenek'], ['kisa', 'en kısa'], ['ortakSe
 const bayraklar = [];
 for (const tur of ['okuma', 'dinleme', 'sahne']) {
   const alt = ANLAMA.filter((o) => o.src.tur === tur);
-  bayraklar.push(...tablo(tur, alt, IP_ANLAMA));
+  bayraklar.push(...tablo(tur, alt, IP_ANLAMA, tur !== 'sahne'));
   if (tur !== 'sahne') {
     const dusuk = alt.filter((o) => o.src.sv < 30), yuksek = alt.filter((o) => o.src.sv >= 30);
-    bayraklar.push(...tablo(`  ${tur} seviye <30`, dusuk, IP_ANLAMA.slice(4)));
-    bayraklar.push(...tablo(`  ${tur} seviye ≥30`, yuksek, IP_ANLAMA.slice(4)));
+    bayraklar.push(...tablo(`  ${tur} seviye <30`, dusuk, IP_ANLAMA.slice(4), true));
+    bayraklar.push(...tablo(`  ${tur} seviye ≥30`, yuksek, IP_ANLAMA.slice(4), tur === 'dinleme'));
   }
 }
-bayraklar.push(...tablo('hepsi', ANLAMA, IP_ANLAMA));
+bayraklar.push(...tablo('hepsi', ANLAMA, IP_ANLAMA, true));
 const hepsiAyni = ANLAMA.filter((o) => o.r.tumIpuclar >= 3);
 console.log(`\n  Dört yüzeysel ipucundan en az ÜÇÜ aynı (doğru) seçeneği gösteren soru: ${hepsiAyni.length}/${ANLAMA.length}`);
 if (AYRINTI) for (const o of hepsiAyni.slice(0, 40)) console.log(`    · ${o.src.ders}: ${o.q.soru}  → ${o.q.secenekler.join(' | ')}`);

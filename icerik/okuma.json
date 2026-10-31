@@ -35,10 +35,10 @@
           "kaynak": { "ad": "NASA, Haziran 2023 duyurusu", "url": "https://www.nasa.gov/missions/station/iss-research/nasa-achieves-water-recovery-milestone-on-international-space-station/" },
           "sorular": [
             { "soru": "İstasyondaki su neden tekrar tekrar kullanılıyor?", "secenekler": ["Roketle su taşımak çok pahalı", "Roketle su taşımak çok tehlikeli", "Roketle su taşımak çok yavaş"], "aciklama": "“Her litre suyu Dünya'dan roketle göndermek çok pahalıdır.”" },
-            { "soru": "Hangi sıvılar toplanıp temizleniyor?", "secenekler": ["Ter, nefes nemi ve idrar", "Yağmur ve deniz suyu", "Roketle gelen temiz su"], "aciklama": "2. paragraf: ter, nefes nemi ve idrar toplanır." },
+            { "soru": "Hangi sıvılar toplanıp temizleniyor?", "secenekler": ["Vücuttan çıkan nem ve idrar", "Yağmur ve deniz suyu", "Roketle gelen temiz su"], "aciklama": "2. paragraf: ter, nefes nemi ve idrar toplanır." },
             { "soru": "“Yüzde 98 geri kazanım” ne demek?", "secenekler": ["100 litrenin yaklaşık 98 litresi yeniden kullanılıyor", "100 litrenin yaklaşık 2 litresi yeniden kullanılıyor", "Astronotlar suyun yüzde 98'ini içmiyor"], "aciklama": "Yaklaşık 98 litre geri kazanılır, yaklaşık 2 litre kaybolur." },
             { "soru": "Metne göre hangisi doğrudur?", "secenekler": ["Yiyecek ve hava için ayrı sistemler çalışır", "Her uzay aracı suyun yüzde 98'ini geri kazanır", "Temizlenen suyun kalitesi kontrol edilmez"], "aciklama": "Son paragraf: yiyecek ve hava için ayrı sistemler çalışır." },
-            { "soru": "Metnin ana fikri hangisi?", "secenekler": ["İstasyonda su arıtılıp yeniden kullanılır", "Astronotlar suyu her gün Dünya'dan alır", "Uzayda yağmur suyu toplanıp kullanılır"] },
+            { "soru": "Metnin ana fikri hangisi?", "secenekler": ["Uzaydaki suyun neredeyse tamamı temizlenip tekrar değerlendirilir", "Astronotlar suyu her gün Dünya'dan alır", "Uzayda yağmur suyu toplanıp kullanılır"] },
             { "soru": "Metne göre: “Astronotlar günde 20 litre su içer.” Bu cümle için ne diyebilirsin?", "secenekler": ["Metinde bu bilgi yok", "Doğru, metinde yazıyor", "Yanlış, metin tersini söylüyor"], "aciklama": "Metinde içilen su miktarı verilmemiş. Metinde olmayan bir bilgiyi ne doğru ne yanlış say: “metinde yok” de." }
           ],
           "serbest": { "id": "anlat", "soru": "Metni kapat ve **kendi cümlelerinle** anlat: uzay istasyonunda su nasıl kullanılıyor ve neden?", "dil": "tr", "ornek": "İstasyona su taşımak çok pahalı olduğu için astronotların ter, nefes ve idrar nemi toplanıp arıtılarak yeniden kullanılıyor. NASA'ya göre bu sistemde suyun yaklaşık yüzde 98'i geri kazanılıyor.",
@@ -70,7 +70,7 @@
             { "k": "ufuk", "a": "gökyüzü ile yerin birleştiği gibi görünen çizgi" }
           ],
           "sorular": [
-            { "soru": "Güneş ışığı aslında nedir?", "secenekler": ["Bütün renklerin karışımı", "Tek renkli beyaz bir ışık", "Yalnızca sarı ve mavi ışık"], "aciklama": "1. paragraf: gökkuşağı bu karışımı ayırır." },
+            { "soru": "Güneş ışığı aslında nedir?", "secenekler": ["Birçok rengin bir araya gelmesi", "Tek renkli beyaz bir ışık", "Yalnızca sarı ve mavi ışık"], "aciklama": "1. paragraf: gökkuşağı bu karışımı ayırır." },
             { "soru": "Mavi ışık neden daha çok dağılır?", "secenekler": ["Dalga boyu kısa olduğu için", "Dalga boyu uzun olduğu için", "Güneş en çok mavi yaydığı için"], "aciklama": "2. paragraf: mavi ışığın dalga boyu kısadır." },
             { "soru": "Gökyüzü neden mor değil de mavi görünür?", "secenekler": ["Güneş az mor yayar, atmosfer bir kısmını yutar", "Güneş çok mor yayar, atmosfer bir kısmını yutar", "Mor ışığın dalga boyu daha uzun olduğu için"], "aciklama": "3. paragraf: üç neden birlikte mavinin baskın olmasını sağlar." },
             { "soru": "Gün batımı neden kızıl görünür?", "secenekler": ["Işık uzun yol kat eder, mavi dağılıp gider", "Işık uzun yol kat eder, kırmızı dağılıp gider", "Işık kısa yol kat eder, mavi dağılıp gider"], "aciklama": "4. paragraf: uzun yolda mavi kaybolur, kırmızı ve turuncu kalır." },
@@ -106,8 +106,8 @@
           "sorular": [
             { "soru": "Arı bir çiçek bahçesi buldu. Arkadaşlarına nasıl haber verir?", "secenekler": ["Dans ederek", "Ses çıkararak", "Çiçeği kovana taşıyarak"], "aciklama": "“Konuşamaz, ama dans eder.”" },
             { "soru": "Dansın düz kısmının **yönü** neyi gösterir?", "secenekler": ["Çiçeğin Güneş'e göre yönünü", "Çiçeğin hangi renkte olduğunu", "Kovanın Güneş'e uzaklığını"], "aciklama": "3. paragraf: yön = Güneş'e göre hangi yönde." },
-            { "soru": "Dansın düz kısmı uzadıkça ne anlaşılır?", "secenekler": ["Çiçek daha uzakta", "Çiçek daha yakında", "Çiçek daha büyük"], "aciklama": "Uzunluk = mesafe." },
-            { "soru": "Karl von Frisch kimdir?", "secenekler": ["Arı dansını inceleyen bilim insanı", "Kovandaki arıları yöneten ilk arı", "Bal arısı türlerinden birinin adı"] },
+            { "soru": "Dansın düz kısmı uzadıkça ne anlaşılır?", "secenekler": ["Çiçeğe olan mesafe fazladır", "Çiçek Güneş’e göre başka bir yöndedir", "Çiçek kovana daha yakındır"], "aciklama": "Uzunluk = mesafe." },
+            { "soru": "Karl von Frisch kimdir?", "secenekler": ["Arıların iletişimini yıllarca araştıran bir bilim insanı", "Karanlık petek üzerinde sekiz çizen bir arı", "Nobel Ödülü’nü veren kurulun başkanı"] },
             { "soru": "Metne göre: “Karl von Frisch arıların konuşabildiğini göstermiştir.” Bu cümle için ne diyebilirsin?", "secenekler": ["Yanlış", "Doğru", "Metinde bu bilgi yok"], "aciklama": "Metin, arıların konuşamadığını ama dans ettiğini söyler. Metinde olan bilgiyle çelişen cümle yanlıştır." }
           ],
           "serbest": { "id": "anlat", "soru": "Arıların dansını **bir arkadaşına anlat**: hangi bilgiyi veriyor, nasıl?", "dil": "tr", "ornek": "Arı çiçeği bulunca kovanda sallanma dansı yapar. Dansın yönü çiçeğin Güneş'e göre yönünü, uzunluğu da ne kadar uzakta olduğunu gösterir.",
@@ -140,7 +140,7 @@
           "kaynak": { "ad": "Amerikan Uyku Tıbbı Akademisi (2016): gençler için 8–10 saat uyku önerisi" },
           "sorular": [
             { "soru": "Uyku sırasında beyin ne yapar?", "secenekler": ["Öğrenilenleri düzenleyip kalıcı hâle getirir", "Öğrenilenleri düzenleyip kalıcı olarak siler", "Yalnızca gün boyu biriken yorgunluğu atar"], "aciklama": "1. paragraf: bu sürece pekişme denir." },
-            { "soru": "Gençler için önerilen uyku süresi nedir?", "secenekler": ["8–10 saat", "4–5 saat", "12–14 saat"], "aciklama": "3. paragraf." },
+            { "soru": "Gençler için önerilen uyku süresi nedir?", "secenekler": ["Sekiz ile on saat arası", "Dört ile beş saat arası", "On iki ile on dört saat arası"], "aciklama": "3. paragraf." },
             { "soru": "Metne göre uykusuzluğun etkisi hangisidir?", "secenekler": ["Dikkati dağıtır, öğrenmeyi zorlaştırır", "Dikkati dağıtır ama öğrenmeyi kolaylaştırır", "Belleği güçlendirir, dikkati artırır"], "aciklama": "2. paragraf." },
             { "soru": "Yazara göre düzenli uyku ile bir gece fazladan çalışma karşılaştırılınca ne söylenir?", "secenekler": ["Düzenli uyku çoğu zaman daha yararlıdır", "Fazladan çalışma çoğu zaman daha yararlıdır", "İkisi arasında çoğu zaman fark yoktur"], "aciklama": "Son cümle." },
             { "soru": "Metne göre: “Uyku sırasında kaç rüya görürüz?” Cevap?", "secenekler": ["Metinde bu bilgi yok", "Üç rüya, metinde yazıyor", "Yedi rüya, metinde yazıyor"], "aciklama": "Rüya sayısı metinde geçmiyor." }

@@ -351,13 +351,13 @@
           },
           "sorular": [
             {
-              "soru": "Dünya yüzeyinin yaklaşık ne kadarı suyla kaplı?",
+              "soru": "Dünya yüzeyinin suyla kaplı olmayan kısmı yaklaşık ne kadardır?",
               "secenekler": [
-                "Yüzde 71",
                 "Yüzde 29",
+                "Yüzde 71",
                 "Yüzde 97"
               ],
-              "aciklama": "1. paragraf."
+              "aciklama": "Yüzde 71’i su ile kaplıysa geriye yüzde 29 kalır."
             },
             {
               "soru": "Dünya'daki suyun yaklaşık yüzde 97'si nerededir?",
