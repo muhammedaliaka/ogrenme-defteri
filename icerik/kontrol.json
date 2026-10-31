@@ -363,8 +363,8 @@
               "soru": "Dünya'daki suyun yaklaşık yüzde 97'si nerededir?",
               "secenekler": [
                 "Okyanuslarda, tuzlu",
-                "Göllerde",
-                "Buzullarda"
+                "Göllerde ve nehirlerde",
+                "Buzullarda ve kutuplarda"
               ],
               "aciklama": "2. paragraf."
             },
@@ -381,8 +381,8 @@
               "soru": "Tatlı suyun büyük bölümü nerede bulunur?",
               "secenekler": [
                 "Buzullarda, donmuş hâlde",
-                "Nehirlerde, akarken",
-                "Bulutlarda"
+                "Nehirlerde ve göllerde, akarken",
+                "Bulutlarda, buhar hâlinde"
               ],
               "aciklama": "3. paragraf."
             },

@@ -49,8 +49,8 @@
               "soru": "Duyuruda hangi gün söyleniyor?",
               "secenekler": [
                 "Pazartesi",
-                "Salı",
-                "Cuma"
+                "Çarşamba",
+                "Perşembe"
               ],
               "aciklama": "“Today is Monday.”"
             },
@@ -77,7 +77,7 @@
               "secenekler": [
                 "Kütüphanede",
                 "Bahçede",
-                "Evde"
+                "Sınıfta"
               ],
               "aciklama": "“Please wait in the library.”"
             }
@@ -136,7 +136,7 @@
               "secenekler": [
                 "Defterini yarın getirmesini",
                 "Bugün ona telefon etmesini",
-                "Parkta buluşmayı"
+                "Ödevini yarın göndermesini"
               ],
               "aciklama": "“Can you bring my notebook tomorrow?”"
             },
@@ -144,8 +144,8 @@
               "soru": "Mesajda Sam'in kız kardeşinden söz ediliyor mu?",
               "secenekler": [
                 "Hayır, bahsedilmiyor",
-                "Evet",
-                "Bilinmiyor"
+                "Evet, kız kardeşi hasta",
+                "Hayır, kız kardeşi olmadığı söyleniyor"
               ],
               "aciklama": "Mesajda kız kardeş geçmiyor. Duymadığın bir şeyi tahmin etme."
             }
@@ -194,8 +194,8 @@
               "soru": "Maya sabah ne yapıyor?",
               "secenekler": [
                 "Uyanıyor, kahvaltı yapıp çay içiyor",
-                "Okula gidip ders çalışıyor",
-                "Akşam yemeği yiyor"
+                "Okula gidip arkadaşlarıyla oynuyor",
+                "Kütüphaneye gidip ders çalışıyor"
               ],
               "aciklama": "“I wake up in the morning. I eat breakfast and drink tea.”"
             },
@@ -203,7 +203,7 @@
               "soru": "Maya öğleden sonra nerede ders çalışıyor?",
               "secenekler": [
                 "Kütüphanede",
-                "Evde",
+                "Evinde",
                 "Parkta"
               ],
               "aciklama": "“In the afternoon I study in the library.”"
@@ -230,8 +230,8 @@
               "soru": "Hangisi doğru sırayı gösterir?",
               "secenekler": [
                 "Kahvaltı → kütüphanede ders → akşam yemeği → uyku",
-                "Akşam yemeği → kahvaltı → uyku → kütüphane",
-                "Uyku → akşam yemeği → kütüphane → kahvaltı"
+                "Kahvaltı → akşam yemeği → kütüphanede ders → uyku",
+                "Kütüphanede ders → kahvaltı → uyku → akşam yemeği"
               ],
               "aciklama": "morning → afternoon → evening → night"
             }

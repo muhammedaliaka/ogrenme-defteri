@@ -139,11 +139,11 @@ Then a teacher suggested a different approach: study for short periods, test you
 The surprising thing was that the method that felt more difficult actually worked better. Now I recommend it to everyone, although some of my friends say they prefer their old habits.
 
 ? Konuşmacı eskiden ne düşünüyordu? | Uzun çalışma oturumlarının en iyisi olduğunu | Kısa çalışma oturumlarının daha iyi olduğunu | Sadece geceleri çalışmak gerektiğini
-? Eski yöntemin sorunu neydi? | Ertesi haftaya her şeyi unutuyordu | Çalışma saatleri çok kısaydı | Dersleri çok geç bitiriyordu
-? Öğretmen ne önerdi? | Kısa çalışma, kendini sınama, sonra geri dönme | Daha uzun çalışma, tekrar okuma, not alma | Ara vermeden çalışma ve ezberleme
+? Eski yöntemin sorunu neydi? | Ertesi haftaya her şeyi unutuyordu | Çalışma süreleri çok kısa kalıyordu | Dersleri hep çok geç bitiriyordu
+? Öğretmen ne önerdi? | Kısa çalışma, kendini sınama, sonra geri dönme | Daha uzun çalışma, çok tekrar okuma, not alma | Hiç ara vermeden uzun çalışma ve ezber
 ? Yeni yöntem ilk başta nasıl hissettirdi? | Daha zor ve yavaş | Çok kolay ve hızlı | Daha eğlenceli ve hızlı
 ? Konuşmacıyı şaşırtan şey neydi? | Daha zor hissettiren yöntemin daha iyi işlemesi | Öğretmeninin yöntemi hemen reddetmesi | Arkadaşlarının hepsinin aynı yöntemi kullanması
-? Konuşmacının bazı arkadaşları ne diyor? | Eski alışkanlıklarını tercih ediyor | Yeni yöntemi hemen benimsedi | Çalışmayı tamamen bıraktı
+? Konuşmacının bazı arkadaşları ne diyor? | Eski alışkanlıklarını tercih ediyor | Yeni yöntemi hemen benimsemiş durumda | Çalışmayı büsbütün bırakmış durumda
 
 @dinleme
 sv: 52
@@ -161,7 +161,7 @@ At the same time, traffic in the centre has fallen slightly, although it is stil
 
 The council has promised to review the figures again next year before deciding whether to build more lanes.
 
-? Rapora göre ne artmış? | İşe bisikletle gidenlerin sayısı | Şehirdeki otomobil sayısı | Merkezdeki park yeri sayısı
+? Rapora göre ne artmış? | İşe bisikletle gidenlerin sayısı | Şehirdeki toplam otomobil sayısı | Merkezdeki toplam park yeri sayısı
 ? Artış yaklaşık ne kadar? | Üçte bir | Yarı yarıya | İki katı -> “almost a third”
 ? Yetkililere göre asıl neden nedir? | Korumalı bisiklet yolları ağı | Yükselen benzin fiyatları | Havaların ısınması
 ? Merkezdeki trafikle ilgili ne söyleniyor? | Hafifçe azaldı ama yoğun saatlerde hâlâ yoğun | Tamamen bitti, yoğun saatlerde bile rahat | Çok arttı, özellikle yoğun saatlerde
@@ -185,12 +185,12 @@ That said, scientists are careful about how far the evidence goes. Most findings
 
 What we can say with reasonable confidence is that people who sleep after learning tend to remember more than those who stay awake for the same period. So, if you have to choose between an extra hour of revision and an extra hour of sleep the night before an exam, the evidence leans towards sleep.
 
-? Konuşmacıya göre uyku sırasında beyin ne yapıyor gibi görünüyor? | Öğrenilenleri yeniden oynatıp düzenliyor | Öğrenilenleri tamamen siliyor | Öğrenilenleri hiç işlemiyor
+? Konuşmacıya göre uyku sırasında beyin ne yapıyor gibi görünüyor? | Öğrenilenleri yeniden oynatıp düzenliyor | Öğrenilenleri tamamen silip sıfırlıyor | Öğrenilenleri hiçbir biçimde işlemiyor
 ? Bütün gece ders çalışmak hakkında birçok araştırmacı ne savunuyor? | Yarardan çok zarar verebileceğini | Her zaman en iyi yöntem olduğunu | Yalnızca yaz aylarında işe yaradığını
 ? Bilim insanları kanıtın sınırları konusunda nasıl? | Temkinli | Kesin ve iddialı | Umursamaz -> “careful about how far the evidence goes”
-? Bulguların çoğu nereden geliyor? | Sözcük listeleri gibi laboratuvar görevlerinden | Okul sınavlarının gerçek sonuçlarından | Öğrencilerin uyku günlüklerinden
-? Makul bir güvenle söylenebilen nedir? | Öğrendikten sonra uyuyanlar daha çok hatırlama eğiliminde | Herkesin her gece sekiz saat uyuması gerektiği | Uykusuz kalanların daha çok öğrendiği
-? Konuşmacı, sınavdan önceki gece için ne öneriyor? | Fazladan tekrar yerine uykuyu tercih etmeyi | Sabaha kadar tekrar yapmayı sürdürmeyi | Hiç ders çalışmayıp erken yatmayı
+? Bulguların çoğu nereden geliyor? | Sözcük listeleri gibi laboratuvar görevlerinden | Okul sınavlarının gerçek ders sonuçlarından | Öğrencilerin tuttuğu uyku günlüklerinden
+? Makul bir güvenle söylenebilen nedir? | Öğrendikten sonra uyuyanlar daha çok hatırlama eğiliminde | Herkesin her gece en az sekiz saat uyuması gerektiği | Uykusuz kalanların daha çok hatırlama eğiliminde olduğu
+? Konuşmacı, sınavdan önceki gece için ne öneriyor? | Fazladan tekrar yerine uykuyu tercih etmeyi | Sabaha kadar durmadan tekrar yapmayı sürdürmeyi | Hiç ders çalışmayıp çok erken yatmayı
 ? Konuşmacı kaç saat uyunması gerektiğini söylüyor mu? | Hayır, bundan söz edilmiyor | Evet, yedi saat uyunmalı | Hayır, uykunun önemsiz olduğunu söylüyor -> Duymadığın bir şeyi tahmin etme.
 
 @dinleme
@@ -211,10 +211,10 @@ It would be wrong, however, to conclude that choice is always bad. Researchers p
 
 ? Konuşmacının başta andığı yaygın varsayım nedir? | Seçenek çoksa insan daha mutlu olur | Seçenek azsa insan daha mutlu olur | İnsanlar karar vermeyi çok sever
 ? Birkaç araştırmaya göre çok sayıda seçenek ne yapabilir? | Kararları zorlaştırıp memnuniyeti azaltabilir | Kararları her zaman kolaylaştırıp hızlandırır | Kararları değiştirmez, yalnızca fiyatı düşürür
-? Birinci açıklama nedir? | Vazgeçilen alternatifler seçimi daha az çekici gösterir | Çok seçenek, insanı seçim yapmaktan korkutur | Çok seçenek olunca ürünler pahalı görünür
+? Birinci açıklama nedir? | Vazgeçilen alternatifler seçimi daha az çekici gösterir | Çok seçenek, insanı seçim yapmaktan korkutup uzaklaştırır | Çok seçenek olunca ürünlerin fiyatı pahalı görünür
 ? İkinci açıklama nedir? | Karar vermek çaba ister ve bu çaba birikir | İnsanların seçim için yeterli zamanı yoktur | Mağazalar çok kalabalık olduğundan yorulunur
 ? Konuşmacı bu etkiyle ilgili hangi uyarıyı yapıyor? | Her araştırma bu etkiyi bulmuyor | Etki kesin olarak kanıtlanmış durumda | Etki yalnızca çocuklarda görülüyor
-? Konuşmacıya göre insanlar hangi durumda çok seçenekle genellikle iyi başa çıkar? | Ne istediklerini biliyorlarsa ya da önemli bir şey seçiyorlarsa | Seçenekler birbirine çok benzediğinde ve acele edildiğinde | Seçenekler az, ucuz ve karşılaştırması kolay olduğunda
+? Konuşmacıya göre insanlar hangi durumda çok seçenekle genellikle iyi başa çıkar? | Ne istediklerini biliyorlarsa ya da seçim önemliyse | Seçenekler birbirine çok benzediğinde ve acele edildiğinde | Seçenekler az, ucuz ve karşılaştırması kolay olduğunda
 ? Sorun asıl olarak ne zaman ortaya çıkıyor? | Seçenekler çok, benzer ve karşılaştırması zor olduğunda | Seçenekler az, farklı ve karşılaştırması kolay olduğunda | Seçenekler pahalı ve ürünler az bulunduğunda
 
 @dinleme
@@ -269,7 +269,7 @@ My bag is under the chair. On the wall there is a map of the world.
 ? Masa nerede? | Köşede | Pencerenin yanında | Yatağın altında
 ? Masanın üstünde ne var? | Bir lamba ve üç kitap | İki lamba ve bir kitap | Bir bilgisayar
 ? Çanta nerede? | Sandalyenin altında | Masanın üstünde | Yatağın üstünde
-? Duvarda ne asılı? | Dünya haritası | Bir saat | Bir resim
+? Duvarda ne asılı? | Dünya haritası | Büyük bir saat | Bir aile resmi
 
 @dinleme
 sv: 16
@@ -305,9 +305,9 @@ Hi Sara, it's Mike. I'm sorry, but I can't come to the cinema tonight because I 
 
 The film starts at seven thirty, and there is also a show at nine fifteen. I will buy the tickets online if you tell me which one you prefer. Also, my cousin may come with us. Please call me back after six.
 
-? Mike neden bu akşam gelemiyor? | Bir okul projesini bitirmesi gerekiyor | Başka bir arkadaşıyla buluşacak | Ailesiyle akşam yemeğine gidecek
+? Mike neden bu akşam gelemiyor? | Bir okul projesini bitirmesi gerekiyor | Başka bir arkadaşıyla buluşacak ve geç kalacak | Ailesiyle uzak bir akşam yemeğine gidecek
 ? Mike yeni bir gün olarak ne öneriyor? | Yarın | Cumartesi | Gelecek hafta
-? Filmin seansları hangi saatlerde? | Yedi buçuk ve dokuzu çeyrek geçe | Yedi buçuk ve dokuz buçuk | Yedi ve dokuzu çeyrek geçe
+? Filmin seansları hangi saatlerde? | Yedi buçuk ve dokuzu çeyrek geçe | Yedi buçuk ve dokuzu çeyrek var | Altı buçuk ve dokuzu çeyrek geçe
 ? Mike biletleri nasıl alacak? | İnternetten | Gişeden | Arkadaşından
 ? Sara’dan ne rica ediliyor? | Altıdan sonra Mike’ı araması | Biletleri internetten alması | Kuzeniyle önceden görüşmesi
 ? Mesajda kuzeninin kesin olarak geleceği söyleniyor mu? | Hayır, “gelebilir” deniyor | Evet, kesin olarak geliyor | Hayır, kesinlikle gelmeyecek -> “may come” = gelebilir, kesin değil.
@@ -330,7 +330,7 @@ By Friday, I felt much better, and the following Monday I went back to school.
 
 ? Konuşan kişi neden doktora gitti? | Kötü bir nezle olmuştu | Bir spor kazası geçirmişti | Midesi çok ağrıyordu
 ? Doktor hangi öneride bulundu? | Üç gün dinlenmesini | Hemen okula dönmesini | Hiç meyve yememesini -> “rest for three days” — üç gün dinlenmesini söyledi.
-? Doktor neden antibiyotik vermedi? | Nezle virüsten gelir; antibiyotik virüse işlemez | Antibiyotik nezleyi daha da kötüleştirir | Hastanın antibiyotiğe alerjisi vardır
+? Doktor neden antibiyotik vermedi? | Nezle virüsten gelir; antibiyotik virüse işlemez | Antibiyotik nezleyi daha da kötüleştirir ve uzatır | Hastanın antibiyotiğe ciddi bir alerjisi vardır
 ? Konuşan kişi ne zaman çok daha iyi hissetti? | Cuma gününe kadar | Salı gününe kadar | Pazar gününe kadar
 ? Okula ne zaman döndü? | Sonraki pazartesi | Aynı cuma günü | Sonraki çarşamba
 
@@ -377,7 +377,7 @@ After six months, I could follow a simple conversation. The lesson I learned is 
 ? Konuşmacı günde ne kadar çalıştı? | Otuz dakika | İki saat | Bir saat
 ? Uzun kelime listeleriyle ne oldu? | Çoğunu bir hafta içinde unuttu | Hepsini aylarca hatırladı | Çoğunu hemen ezberleyemedi
 ? Konuşmacı yöntemini nasıl değiştirdi? | Podcast dinleyip yüksek sesle tekrar etti, kendini sınadı | Kelime listelerini uzatıp her gün tekrar okudu | Yurtdışındaki bir kursa yazılıp haftada bir ders aldı
-? Altı ay sonra ne yapabiliyordu? | Basit bir konuşmayı takip edebiliyordu | Akıcı bir konuşma yapabiliyordu | Yalnızca tek tek sözcük anlıyordu
+? Altı ay sonra ne yapabiliyordu? | Basit bir konuşmayı takip edebiliyordu | Akıcı ve uzun bir konuşma yapabiliyordu | Yalnızca tek tek sözcükleri anlayabiliyordu
 ? Konuşmacının çıkardığı ders nedir? | Dili aktif kullanmak, hakkında okumaktan etkilidir | Dil öğrenmek için yurtdışında yaşamak şarttır | Dil öğrenmede uzun kelime listeleri en etkilidir
 ? Konuşmacı İspanya’ya taşındığını söylüyor mu? | Hayır, bundan söz edilmiyor | Evet, bir yıllığına taşındı | Hayır, İspanyolca öğrenmediğini söylüyor -> Duymadığın bir şeyi tahmin etme.
 
@@ -397,11 +397,11 @@ However, after a group of teenagers started an online campaign, hundreds of peop
 
 The council has agreed to keep the building open for at least two more years, but it has not promised more than that. The librarian said she was delighted, though she warned that the money will cover only the basic costs, and that volunteers are still needed to run the children's reading hour.
 
-? Kütüphane neden kapanacaktı? | Belediye harcamalarını kısmak zorundaydı | Kütüphane binasının kirası artmıştı | Ziyaretçi sayısı çok azalmıştı
+? Kütüphane neden kapanacaktı? | Belediye harcamalarını kısmak zorundaydı | Kütüphane binasının kirası çok artmıştı | Ziyaretçi sayısı yıllardır azalıyordu
 ? Halk ne kadar sürede ne kadar para topladı? | Üç haftada kırk binden fazla pound | Üç ayda yirmi binden fazla pound | Üç günde on binden fazla pound
 ? Online kampanyayı kim başlattı? | Bir grup genç | Kütüphaneci | Belediye başkanı
 ? Belediye binayı ne kadar süreyle açık tutmayı kabul etti? | En az iki yıl | Süresiz | Yalnızca altı ay
-? Kütüphaneci neyi uyardı? | Para yalnızca temel masrafları karşılıyor | Kütüphane bir yıl sonra kapanabilir | Çocuk okuma saati kaldırılabilir
+? Kütüphaneci neyi uyardı? | Para yalnızca temel masrafları karşılıyor | Kütüphane bir yıl sonra yeniden kapanabilir | Çocuk okuma saati tamamen kaldırılabilir
 ? Haberde belediyenin kütüphaneyi süresiz açık tutacağı söyleniyor mu? | Hayır, “en az iki yıl” deniyor | Evet, süresiz açık kalacak | Hayır, bir yıl daha açık kalacak -> Duyduğunla duymadığını ayır.
 
 @dinleme
@@ -420,8 +420,8 @@ Critics, however, point out that it can be lonely, and that younger employees mi
 
 A recent survey of one thousand employees found that most preferred a mixed arrangement, three days at home and two in the office, rather than working entirely from home. Managers remain divided. Some report that productivity has risen, while others say that creativity and teamwork suffer when people rarely meet face to face. What seems clear is that the answer depends on the type of job and on the individual.
 
-? Evden çalışmayı destekleyenler hangi yararı söylüyor? | Yolda geçen süre kazanılıyor ve gün esnekleşiyor | Maaşlar belirgin biçimde artıyor | İş arkadaşlarıyla bağ kuvvetleniyor
-? Eleştirenlere göre genç çalışanlar neyi kaçırır? | Deneyimlilerden izleyerek öğrenmeyi | Daha esnek çalışma saatlerini | Yeni yazılımları öğrenmeyi
+? Evden çalışmayı destekleyenler hangi yararı söylüyor? | Yolda geçen süre kazanılıyor | Maaşlar belirgin biçimde artıyor | İş arkadaşlarıyla bağ kuvvetleniyor
+? Eleştirenlere göre genç çalışanlar neyi kaçırır? | Deneyimlilerden izleyerek öğrenmeyi | Daha esnek ve uzun çalışma saatlerini | Yeni yazılımları kendi başına öğrenmeyi
 ? Ankete göre çoğu kişi hangi düzeni tercih ediyor? | Üç gün evde, iki gün ofiste | Tamamen evden çalışmayı | İki gün evde, üç gün ofiste
 ? Ankete kaç çalışan katılmış? | Bin | Yüz | On bin
 ? Yöneticilerin görüşü nasıl? | Görüşleri bölünmüş durumda | Hepsi evden çalışmayı destekliyor | Hepsi evden çalışmaya karşı

@@ -37,8 +37,8 @@
             { "kim": "Ece", "en": "Thank you! I understand.", "tr": "Teşekkür ederim! Anladım." }
           ],
           "sorular": [
-            { "soru": "Ece neden “I don't understand” dedi?", "secenekler": ["Öğretmenin söylediğini anlamadı", "Kitabını bulamadı", "Dersi sevmedi"], "aciklama": "“I don't understand” = “Anlamıyorum.”" },
-            { "soru": "Ece öğretmenden ne istedi?", "secenekler": ["Daha yavaş konuşmasını", "Kapıyı açmasını", "Dersi bitirmesini"], "aciklama": "“Can you speak more slowly, please?” = “Daha yavaş konuşur musun, lütfen?”" },
+            { "soru": "Ece neden “I don't understand” dedi?", "secenekler": ["Öğretmenin söylediğini anlamadı", "Kitabını bir türlü bulamadı", "Sınıf arkadaşını duyamadı"], "aciklama": "“I don't understand” = “Anlamıyorum.”" },
+            { "soru": "Ece öğretmenden ne istedi?", "secenekler": ["Daha yavaş konuşmasını", "Kapıyı açık bırakmasını", "Dersi erken bitirmesini"], "aciklama": "“Can you speak more slowly, please?” = “Daha yavaş konuşur musun, lütfen?”" },
             { "soru": "Öğretmen sınıftan ne yapmalarını istiyor?", "secenekler": ["Kitaplarını açmalarını", "Kapıyı kapatmalarını", "Beklemelerini"], "aciklama": "“Please open your books.”" }
           ],
           "kelimeler": ["good-morning", "excuse-me", "understand", "open", "please", "k-dont-understand", "k-speak-slowly"] },
@@ -94,7 +94,7 @@
             { "kim": "Sam", "en": "Your phone is on the table.", "tr": "Telefonun masanın üzerinde." }
           ],
           "sorular": [
-            { "soru": "Ece'nin çantası nerede?", "secenekler": ["Sandalyenin altında, kapının yanında", "Masanın üzerinde", "Odanın dışında"], "aciklama": "“It is under the chair, next to the door.”" },
+            { "soru": "Ece'nin çantası nerede?", "secenekler": ["Sandalyenin altında, kapının yanında", "Masanın üzerinde, pencerenin yanında", "Odanın dışında, kapının önünde"], "aciklama": "“It is under the chair, next to the door.”" },
             { "soru": "Ece'nin çantası nasıl?", "secenekler": ["Mavi ve küçük", "Kırmızı ve büyük", "Siyah ve yeni"], "aciklama": "“It is a blue bag. It is small.”" },
             { "soru": "Ece'nin telefonu nerede?", "secenekler": ["Masanın üzerinde", "Çantanın içinde", "Sandalyenin altında"], "aciklama": "“Your phone is on the table.”" }
           ],
@@ -259,7 +259,7 @@
           ],
           "sorular": [
             { "soru": "Ece kaçta uyanıyor?", "secenekler": ["Yedide", "Sekizde", "Altıda"], "aciklama": "“I wake up at seven.”" },
-            { "soru": "Ece ev ödevini ne zaman yapıyor?", "secenekler": ["Öğleden sonra", "Sabah", "Gece"], "aciklama": "“I do my homework in the afternoon.”" },
+            { "soru": "Ece ev ödevini ne zaman yapıyor?", "secenekler": ["Öğleden sonra", "Sabah okuldan önce", "Gece yatmadan önce"], "aciklama": "“I do my homework in the afternoon.”" },
             { "soru": "Ece akşam yemeğini kaçta yiyor?", "secenekler": ["Yedide", "Sekizde", "Onda"], "aciklama": "“I eat dinner at seven.”" },
             { "soru": "Ece kaçta uyuyor?", "secenekler": ["Onda", "Dokuzda", "Yedide"], "aciklama": "“I sleep at ten.”" }
           ],
@@ -313,7 +313,7 @@
             { "kim": "Sam", "en": "Thank you. I am happy now!", "tr": "Teşekkürler. Şimdi mutluyum!" }
           ],
           "sorular": [
-            { "soru": "Ece neleri yapabiliyor?", "secenekler": ["Yüzebiliyor ve koşabiliyor", "Sadece yürüyebiliyor", "Hiçbirini yapamıyor"], "aciklama": "“I can swim and run.”" },
+            { "soru": "Ece neleri yapabiliyor?", "secenekler": ["Yüzebiliyor ve koşabiliyor", "Yalnızca yürüyebiliyor", "Yalnızca yüzebiliyor"], "aciklama": "“I can swim and run.”" },
             { "soru": "Sam yüzebiliyor mu?", "secenekler": ["Hayır, ama koşabiliyor", "Evet, hem yüzüyor hem koşuyor", "Bilinmiyor"], "aciklama": "“No, I can't swim. But I can run.”" },
             { "soru": "Sam bugün neden koşmak istemiyor gibi?", "secenekler": ["Yorgun", "Çok mutlu", "Kitap okuyacak"], "aciklama": "“I am tired today.” (tired = yorgun)" },
             { "soru": "Ece, Sam'i nasıl rahatlatıyor?", "secenekler": ["Yürüyebileceklerini söylüyor", "Eve gitmelerini söylüyor", "Su içmelerini söylüyor"], "aciklama": "“We can walk, too.”" }

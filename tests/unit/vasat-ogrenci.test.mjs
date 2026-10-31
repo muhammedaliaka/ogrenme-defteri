@@ -23,12 +23,22 @@ test('doğru seçenek sistematik olarak en uzun değil', () => {
   assert.ok(yuzde('dinleme', 'en uzun seçenek') < 55);
 });
 
+test('metni tarayan okuyucu üst seviye okumada belirgin üstünlük sağlamıyor (kısa metinde arama kısmen doğal; sınır %70)', () => {
+  const satir = cikti.split('\n').find((l) => l.includes('okuma seviye ≥30'));
+  const m = satir.match(/metni tara %(\d+)/);
+  assert.ok(m && +m[1] < 70, satir);
+});
+
 test('hiçbir soruda dört yüzeysel ipucundan üçü birden doğruyu göstermiyor', () => {
   assert.match(cikti, /ÜÇÜ aynı \(doğru\) seçeneği gösteren soru: 0\//);
 });
 
 test('“Ne demek?” sorusunda resim cevabı ele vermiyor', () => {
   assert.match(cikti, /RESMİ \(emoji\) soru ekranında görünüyor: 0\//);
+});
+
+test('çeldirici de doğru sayılabilecek (biri ötekinin içinde geçen) karşılık yok', () => {
+  assert.match(cikti, /Haklı karışıklık[^\n]*: 0 durum/);
 });
 
 test('olumsuz soru kökü ve çok uzun soru yok', () => {

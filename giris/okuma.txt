@@ -47,7 +47,7 @@ Güneş denizleri, gölleri ve nehirleri ısıtır. Sular buharlaşır ve göky�
 Bulutlardaki damlacıklar birleşip ağırlaşınca yere düşer. Buna yağmur denir. Yağmur suları tekrar denizlere, göllere ve nehirlere ulaşır. Böylece su yolculuğu baştan başlar.
 
 ? Su gökyüzüne nasıl çıkar? | Buharlaşarak | Donarak | Sıçrayarak
-? Bulutlar neden oluşur? | Buhar soğuyup damlacıklara dönüşünce | Güneş suyu tamamen kurutunca | Rüzgâr suyu gökyüzüne savurunca
+? Bulutlar neden oluşur? | Buhar soğuyup damlacıklara dönüşünce | Güneş suyu hızla tamamen kurutunca | Rüzgâr suyu gökyüzüne savurunca
 ? Damlacıklar ne zaman yere düşer? | Birleşip ağırlaşınca | Soğuyup hafifleyince | Gökyüzüne yükselince
 ? Yağmur suları sonunda nereye ulaşır? | Denizlere, göllere ve nehirlere | Yalnızca denizlere ve okyanuslara | Doğrudan çöllerdeki kum tepelerine
 ? Metne göre yukarıda hava nasıldır? | Soğuk | Sıcak | Rüzgârsız
@@ -143,7 +143,7 @@ Yöntem değişti, ama amaç hep aynı kaldı: haberi karşıdaki kişiye ulaşt
 
 ? İlk çağlarda haberi kimler taşırdı? | Haberciler | Gemiciler | Çobanlar
 ? Metin, güvercinle haberleşme için ne söylüyor? | Her zaman güvenilir değildi | Her zaman en hızlı yöntemdi | Yalnızca savaşlarda kullanılırdı
-? Telgraf mesajları nasıl gönderirdi? | Teller üzerinden elektrik sinyaliyle | Davul ve ateşle tepeden tepeye | Atlı haberciler aracılığıyla
+? Telgraf mesajları nasıl gönderirdi? | Teller üzerinden elektrik sinyaliyle | Davul ve ateş yoluyla, tepelerden | Atlı haberciler aracılığıyla yollardan
 ? Metinde geçen yöntemlerden hangisi en son ortaya çıkmıştır? | İnternet | Telgraf | Ateş yakmak
 ? Yazar, bütün bu yöntemler için hangi ortak noktayı vurguluyor? | Amaç hep haberi ulaştırmaktı | Hepsinde elektrik kullanılırdı | Hepsi yalnızca atla taşınırdı
 
@@ -164,7 +164,7 @@ Depremi önceden kesin olarak bilmek bugün mümkün değildir. Bu yüzden asıl
 ? Depremin yeryüzündeki tam üst noktasına ne denir? | Merkez üssü | Odak | Gerilim
 ? Büyüklük ölçeğinde sayı büyüdükçe ne olur? | Açığa çıkan enerji çok hızlı artar | Açığa çıkan enerji yalnızca biraz artar | Depremin odağı daha derinde olur
 ? Deprem tahmini hakkında metin ne söylüyor? | Önceden kesin olarak bilinemez | Levha hareketleriyle gün gün hesaplanabilir | Küçük sarsıntılara bakarak kesin bilinir
-? Yazara göre asıl koruma yolu nedir? | Binaları dayanıklı yapıp ne yapılacağını öğrenmek | Depremi önceden bildiren cihazlar kullanmak | Sarsıntı başlayınca hemen dışarı koşmak
+? Yazara göre asıl koruma yolu nedir? | Binaları dayanıklı yapıp ne yapılacağını öğrenmek | Depremi önceden bildiren yeni cihazlar kullanmak | Sarsıntı başlayınca hemen binadan dışarı koşmak
 
 @okuma
 sv: 58
@@ -250,7 +250,7 @@ Dünya kendi çevresinde döner. Bir tam dönüş yaklaşık yirmi dört saat s�
 
 Biz Dünya ile birlikte döndüğümüz için Güneş sabah doğuyor, akşam batıyor gibi görünür. Aslında Güneş doğmaz ve batmaz. Dünya döner.
 
-? Dünya kendi çevresinde bir kez dönmek için ne kadar zaman harcar? | Yaklaşık yirmi dört saat | Yaklaşık bir yıl | Yaklaşık bir ay
+? Dünya kendi çevresinde bir kez dönmek için ne kadar zaman harcar? | Yaklaşık yirmi dört saat | Yaklaşık yirmi dört gün | Yaklaşık otuz altı saat
 ? Dünyanın Güneş’e dönük tarafında ne olur? | Gündüz | Gece | Kış
 ? Güneş’e dönük olmayan tarafta ne olur? | Gece | Gündüz | Yaz
 ? Güneş neden doğup batıyor gibi görünür? | Dünya döndüğü için | Güneş yürüdüğü için | Ay büyüdüğü için
@@ -306,7 +306,7 @@ Bu nedenle Türkiye’de yaz olduğunda Avustralya’da kış yaşanır.
 ? Mevsimlerin asıl nedeni nedir? | Dünya’nın ekseninin eğik olması | Dünya’nın Güneş’e yaklaşıp uzaklaşması | Güneş’in her yıl ısınıp soğuması
 ? Türkiye’de yaz olduğunda Avustralya’da hangi mevsim yaşanır? | Kış | Yaz | Sonbahar
 ? Kuzey Yarımküre Güneş’e daha dönükken ne olur? | Işınlar daha dik gelir, günler uzar | Işınlar eğik gelir, günler kısalır | Gece ile gündüz her zaman eşit olur
-? Birçok kişi mevsimlerin nedeni hakkında neyi sanır? | Dünya’nın Güneş’e yaklaşıp uzaklaştığını | Dünya’nın ekseninin eğik olduğunu | Güneş’in her yıl ısınıp soğuduğunu
+? Birçok kişi mevsimlerin nedeni hakkında neyi sanır? | Dünya’nın Güneş’e yaklaşıp uzaklaştığını | Dünya’nın ekseninin eğik olduğunu | Güneş’in her yıl biraz ısınıp soğuduğunu
 ? Yazar bu metni yazarken ne yapıyor? | Yaygın bir yanlışı düzeltiyor | Bir deneyin sonucunu duyuruyor | Bir yolculuğun anısını anlatıyor
 
 @okuma
@@ -326,7 +326,7 @@ Ancak her yöntemin bir sınırı vardır: rüzgâr her zaman esmez, güneş de 
 ? Fosil yakıtlar neden yenilenmez? | Oluşmaları milyonlarca yıl sürdüğü için | Havaya karbondioksit verdikleri için | Rüzgâr ve güneşle üretildikleri için
 ? Güneş panelleri ne ile elektrik üretir? | Işıkla | Rüzgârla | Suyla
 ? Yenilenebilir kaynakların sınırı nedir? | Rüzgâr her zaman esmez, güneş geceleri yoktur | Kullandıkça birkaç yıl içinde tükenirler | Havaya fosil yakıttan fazla karbondioksit verirler
-? Yazar neyi önemli buluyor? | Elektriği depolamayı ve kaynakları birleştirmeyi | Tek bir yenilenebilir kaynağa bağlı kalmayı | Rüzgâr türbinlerini tamamen kapatmayı
+? Yazar neyi önemli buluyor? | Elektriği depolamayı ve kaynakları birleştirmeyi | Tek bir yenilenebilir kaynağa bağlı kalmayı | Rüzgâr türbinlerinin hepsini tamamen kapatmayı
 
 @okuma
 sv: 34
@@ -343,8 +343,8 @@ Osmanlı’da Müslümanların kurduğu ilk matbaa ise çok daha sonra, on sekiz
 
 ? Matbaadan önce kitaplar nasıl çoğaltılırdı? | Elle kopyalanarak | Kalıplara dökülerek | Duvarlara yazılarak
 ? Kitaplar neden çok pahalıydı? | Bir kitabı kopyalamak aylar sürerdi | Kitapları yalnızca saraylar basardı | Kitaplar çok uzak yerlerden getirilirdi
-? Gutenberg ne geliştirdi? | Hareketli metal harfli bir baskı makinesi | Mürekkepsiz çalışan bir yazı makinesi | Harfleri taşa oyan bir yazı aleti
-? Matbaanın sonuçlarından biri nedir? | Kitaplar ucuzladı, okuma yazma yaygınlaştı | Yazıcılar daha çok kitap kopyalamaya başladı | Kitaplar daha da pahalı hale geldi
+? Gutenberg ne geliştirdi? | Hareketli metal harfli bir baskı makinesi | Hareketli ahşap harfli bir baskı makinesi | Harfleri taşa oyan bir yazı aleti
+? Matbaanın sonuçlarından biri nedir? | Kitaplar ucuzladı, okuma yazma yaygınlaştı | Kitaplar ucuzladı ama okuma yazma azaldı | Yazıcılar daha çok kitap kopyalamaya başladı
 ? Osmanlı’da Müslümanların kurduğu ilk matbaayı kim kurdu? | İbrahim Müteferrika | Johannes Gutenberg | Katip Çelebi
 
 @okuma
@@ -362,9 +362,9 @@ Dünya’nın merkezine ulaşmak mümkün değildir. Yapılan en derin sondaj bi
 
 ? Biz Dünya’nın hangi katmanı üzerinde yaşarız? | Kabuk | Manto | Dış çekirdek
 ? Dünya’nın hacminin büyük bölümünü hangi katman oluşturur? | Manto | Kabuk | İç çekirdek
-? Dış çekirdek neden sıvı haldedir? | Metaller çok sıcak olduğu için | Basınç çok yüksek olduğu için | Manto ile temas ettiği için
-? İç çekirdek neden katıdır? | Çok büyük basınç altında olduğu için | Metaller yeterince soğuk olduğu için | Demir ve nikel içermediği için
-? Metne göre Dünya’nın merkezine ulaşmak ne durumdadır? | Mümkün değildir | Kolaydır | Çoktan yapılmıştır
+? Dış çekirdek neden sıvı haldedir? | Metaller çok sıcak olduğu için | Çok büyük basınç altında olduğu için | Kabuğun altında yer aldığı için
+? İç çekirdek neden katıdır? | Çok büyük basınç altında olduğu için | Metaller çok sıcak olduğu için | Sıcaklığı Güneş’in yüzeyinden düşük olduğu için
+? Metne göre Dünya’nın merkezine ulaşmak ne durumdadır? | Mümkün değildir | En derin sondajla ulaşılmıştır | Yalnızca manto kadar inilebilmiştir
 
 @okuma
 sv: 40
@@ -380,10 +380,10 @@ Aktarıldığına göre Sinan, İstanbul’daki Şehzade Camii’ni çıraklık,
 Sinan’ın yaptığı yapılardan birçoğu bugün de ayaktadır.
 
 ? Mimar Sinan hangi yüzyılda yaşadı? | On altıncı | On dokuzuncu | Onuncu
-? Sinan mühendislik deneyimini nasıl kazandı? | Seferlerde köprü, kale ve depo yaparak | Saray okulunda uzun yıllar okuyarak | Yabancı ustaların yanında çalışarak
+? Sinan mühendislik deneyimini nasıl kazandı? | Seferlerde köprü, kale ve depo yaparak | Saray mimarı olarak camiler yaparak | Orduda yalnızca asker olarak çalışarak
 ? Sinan hangi camiyi ustalık eseri olarak nitelendirmiştir? | Selimiye Camii’ni | Şehzade Camii’ni | Süleymaniye Camii’ni
 ? Selimiye Camii hangi şehirdedir? | Edirne | İstanbul | Bursa
-? Metne göre Sinan’ın yapılarının bugünkü durumu nedir? | Birçoğu bugün de ayaktadır | Çoğu depremlerde yıkılmıştır | Yalnızca birkaçı kalmıştır
+? Metne göre Sinan’ın yapılarının bugünkü durumu nedir? | Birçoğu bugün de ayaktadır | Camileri ayaktadır ama köprüleri yıkılmıştır | Yalnızca Selimiye bugün ayaktadır
 
 @okuma
 sv: 43
@@ -396,11 +396,11 @@ Ay kendi ışığını yaymaz; yalnızca Güneş’ten aldığı ışığı yans
 
 Ay’ın bir yeni aydan bir sonraki yeni aya dönüşü yaklaşık yirmi dokuz buçuk gün sürer. Evreleri Dünya’nın gölgesinin yarattığını düşünenler yanılır; Dünya’nın gölgesi yalnızca ay tutulması sırasında Ay’a düşer.
 
-? Ay’ın ışığı nereden gelir? | Güneş’ten gelir, Ay yansıtır | Dünya’dan gelen ışıktan oluşur | Ay’ın kendi sıcak çekirdeğinden
+? Ay’ın ışığı nereden gelir? | Güneş’ten gelir, Ay yansıtır | Ay’ın aydınlık yarısı kendi ışığını yayar | Dünya’dan gelen ışığı Ay yansıtır
 ? Yeni aydan bir sonraki yeni aya yaklaşık ne kadar sürer? | Yirmi dokuz buçuk gün | On dört buçuk gün | Otuz altı buçuk gün
-? Dolunayda biz ne görürüz? | Ay’ın aydınlık yüzünün tamamını | Ay’ın karanlık yüzünün tamamını | Yalnızca ince bir parlak orak
+? Dolunayda biz ne görürüz? | Ay’ın aydınlık yüzünün tamamını | Ay’ın aydınlık yüzünün yarısını | Ay’ın aydınlık yüzünün hiçbirini
 ? Metne göre Ay’ın evrelerinin nedeni nedir? | Aydınlık yarının ne kadarını gördüğümüz | Dünya’nın gölgesinin Ay’a düşmesi | Ay’ın Güneş’ten ışık almayı bırakması
-? Dünya’nın gölgesi Ay’a ne zaman düşer? | Ay tutulması sırasında | Son dördün evresinde | Yeni ay evresinde
+? Dünya’nın gölgesi Ay’a ne zaman düşer? | Ay tutulması sırasında | Her ay evresi sırasında | Yeni ay evresi sırasında
 
 @okuma
 sv: 54
@@ -415,7 +415,7 @@ Jeneratörün dönmesi için bir güce gerek vardır. Termik santrallerde kömü
 
 Demek ki çoğu santralde ortak nokta aynıdır: bir güç türbini döndürür, türbin jeneratörü, jeneratör de elektriği üretir. Güneş panelleri ise bu zincirin dışındadır; ışıktan doğrudan elektrik üretirler.
 
-? Jeneratörde elektrik akımı nasıl oluşur? | Bir telin yanında mıknatıs döndürülünce | Bir mıknatısın yanında su ısıtılınca | Bir tel suya batırılıp ısıtılınca
+? Jeneratörde elektrik akımı nasıl oluşur? | Bir telin yanında mıknatıs döndürülünce | Bir mıknatısın yanında tel ısıtılınca | Bir telin yanında su döndürülünce
 ? Bu ilkeyi kim keşfetti? | Michael Faraday | Alessandro Volta | Nikola Tesla
 ? Termik ve nükleer santrallerin ortak noktası nedir? | İkisinde de ısı suyu buhara çevirir | İkisinde de akan su türbini çevirir | İkisi de yakıt olarak kömür yakar
 ? Hangisi “güç → türbin → jeneratör” zincirinin dışındadır? | Güneş panelleri | Hidroelektrik santral | Rüzgâr santrali
@@ -434,8 +434,8 @@ Bu nedenle soğuk bir kış gününde “küresel ısınma yok” demek, tek bir
 
 Karbondioksit gibi sera gazları, Dünya’dan uzaya kaçan ısının bir kısmını tutar. İnsan faaliyetleri, özellikle fosil yakıtların yakılması, bu gazların miktarını artırdığı için küresel ortalama sıcaklık yükselmektedir. Ancak bu, her bölgenin her mevsimde daha sıcak olacağı anlamına gelmez; yağış düzeni değişebilir ve bazı bölgelerde aşırı hava olayları artabilir.
 
-? Hava durumu neyi anlatır? | Belli bir yerdeki kısa süreli koşulları | Aynı yerde otuz yıllık ortalamayı | Yalnızca yağış ve rüzgâr miktarını
+? Hava durumu neyi anlatır? | Belli bir yerdeki kısa süreli koşulları | Aynı yerde otuz yıllık ortalama koşulları | Yalnızca yağışın yıllık toplam miktarını
 ? İklim için bilim insanları genellikle kaç yıllık verinin ortalamasına bakar? | Otuz | Yüz | Beş
 ? “Soğuk bir günde küresel ısınma yok” demek neden hatalı bir çıkarımdır? | Tek bir günden iklim sonucu çıkarır | Soğuk günlerde sera gazları azalır | Küresel ortalama hiç ölçülemez
-? Sera gazları ne yapar? | Dünya’dan kaçan ısının bir kısmını tutar | Dünya’ya gelen Güneş ışığını yansıtır | Atmosferdeki yağmur miktarını sabitler
-? Metne göre küresel ortalama sıcaklığın yükselmesiyle ilgili hangisi doğrudur? | Bazı bölgelerde aşırı hava olayları artabilir | Her bölge her mevsimde mutlaka daha sıcak olur | Hava durumu tek günde iklimi tamamen belirler -> Metin, yağış düzeninin değişebileceğini ve bazı bölgelerde aşırı hava olaylarının artabileceğini söyler; her bölgenin her mevsimde ısınacağını söylemez.
+? Sera gazları ne yapar? | Dünya’dan kaçan ısının bir kısmını tutar | Dünya’dan kaçan ısının tamamını dışarı çıkarır | Dünya’ya gelen ısının bir kısmını yansıtır
+? Metne göre küresel ortalama sıcaklığın yükselmesiyle ilgili hangisi doğrudur? | Bazı bölgelerde aşırı hava olayları artabilir | Her bölgenin her mevsimde daha sıcak olacağı kesindir | Hava durumu tek günde küresel ısınmayı çürütür -> Metin, yağış düzeninin değişebileceğini ve bazı bölgelerde aşırı hava olaylarının artabileceğini söyler; her bölgenin her mevsimde ısınacağını söylemez.

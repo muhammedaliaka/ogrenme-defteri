@@ -177,7 +177,7 @@
        "soru": "Bulutlar neden oluşur?",
        "secenekler": [
         "Buhar soğuyup damlacıklara dönüşünce",
-        "Güneş suyu tamamen kurutunca",
+        "Güneş suyu hızla tamamen kurutunca",
         "Rüzgâr suyu gökyüzüne savurunca"
        ]
       },
@@ -555,8 +555,8 @@
        "soru": "Telgraf mesajları nasıl gönderirdi?",
        "secenekler": [
         "Teller üzerinden elektrik sinyaliyle",
-        "Davul ve ateşle tepeden tepeye",
-        "Atlı haberciler aracılığıyla"
+        "Davul ve ateş yoluyla, tepelerden",
+        "Atlı haberciler aracılığıyla yollardan"
        ]
       },
       {
@@ -648,8 +648,8 @@
        "soru": "Yazara göre asıl koruma yolu nedir?",
        "secenekler": [
         "Binaları dayanıklı yapıp ne yapılacağını öğrenmek",
-        "Depremi önceden bildiren cihazlar kullanmak",
-        "Sarsıntı başlayınca hemen dışarı koşmak"
+        "Depremi önceden bildiren yeni cihazlar kullanmak",
+        "Sarsıntı başlayınca hemen binadan dışarı koşmak"
        ]
       }
      ],
@@ -1006,8 +1006,8 @@
        "soru": "Dünya kendi çevresinde bir kez dönmek için ne kadar zaman harcar?",
        "secenekler": [
         "Yaklaşık yirmi dört saat",
-        "Yaklaşık bir yıl",
-        "Yaklaşık bir ay"
+        "Yaklaşık yirmi dört gün",
+        "Yaklaşık otuz altı saat"
        ]
       },
       {
@@ -1256,7 +1256,7 @@
        "secenekler": [
         "Dünya’nın Güneş’e yaklaşıp uzaklaştığını",
         "Dünya’nın ekseninin eğik olduğunu",
-        "Güneş’in her yıl ısınıp soğuduğunu"
+        "Güneş’in her yıl biraz ısınıp soğuduğunu"
        ]
       },
       {
@@ -1341,7 +1341,7 @@
        "secenekler": [
         "Elektriği depolamayı ve kaynakları birleştirmeyi",
         "Tek bir yenilenebilir kaynağa bağlı kalmayı",
-        "Rüzgâr türbinlerini tamamen kapatmayı"
+        "Rüzgâr türbinlerinin hepsini tamamen kapatmayı"
        ]
       }
      ],
@@ -1401,7 +1401,7 @@
        "soru": "Gutenberg ne geliştirdi?",
        "secenekler": [
         "Hareketli metal harfli bir baskı makinesi",
-        "Mürekkepsiz çalışan bir yazı makinesi",
+        "Hareketli ahşap harfli bir baskı makinesi",
         "Harfleri taşa oyan bir yazı aleti"
        ]
       },
@@ -1409,8 +1409,8 @@
        "soru": "Matbaanın sonuçlarından biri nedir?",
        "secenekler": [
         "Kitaplar ucuzladı, okuma yazma yaygınlaştı",
-        "Yazıcılar daha çok kitap kopyalamaya başladı",
-        "Kitaplar daha da pahalı hale geldi"
+        "Kitaplar ucuzladı ama okuma yazma azaldı",
+        "Yazıcılar daha çok kitap kopyalamaya başladı"
        ]
       },
       {
@@ -1478,24 +1478,24 @@
        "soru": "Dış çekirdek neden sıvı haldedir?",
        "secenekler": [
         "Metaller çok sıcak olduğu için",
-        "Basınç çok yüksek olduğu için",
-        "Manto ile temas ettiği için"
+        "Çok büyük basınç altında olduğu için",
+        "Kabuğun altında yer aldığı için"
        ]
       },
       {
        "soru": "İç çekirdek neden katıdır?",
        "secenekler": [
         "Çok büyük basınç altında olduğu için",
-        "Metaller yeterince soğuk olduğu için",
-        "Demir ve nikel içermediği için"
+        "Metaller çok sıcak olduğu için",
+        "Sıcaklığı Güneş’in yüzeyinden düşük olduğu için"
        ]
       },
       {
        "soru": "Metne göre Dünya’nın merkezine ulaşmak ne durumdadır?",
        "secenekler": [
         "Mümkün değildir",
-        "Kolaydır",
-        "Çoktan yapılmıştır"
+        "En derin sondajla ulaşılmıştır",
+        "Yalnızca manto kadar inilebilmiştir"
        ]
       }
      ],
@@ -1555,8 +1555,8 @@
        "soru": "Sinan mühendislik deneyimini nasıl kazandı?",
        "secenekler": [
         "Seferlerde köprü, kale ve depo yaparak",
-        "Saray okulunda uzun yıllar okuyarak",
-        "Yabancı ustaların yanında çalışarak"
+        "Saray mimarı olarak camiler yaparak",
+        "Orduda yalnızca asker olarak çalışarak"
        ]
       },
       {
@@ -1579,8 +1579,8 @@
        "soru": "Metne göre Sinan’ın yapılarının bugünkü durumu nedir?",
        "secenekler": [
         "Birçoğu bugün de ayaktadır",
-        "Çoğu depremlerde yıkılmıştır",
-        "Yalnızca birkaçı kalmıştır"
+        "Camileri ayaktadır ama köprüleri yıkılmıştır",
+        "Yalnızca Selimiye bugün ayaktadır"
        ]
       }
      ],
@@ -1627,8 +1627,8 @@
        "soru": "Ay’ın ışığı nereden gelir?",
        "secenekler": [
         "Güneş’ten gelir, Ay yansıtır",
-        "Dünya’dan gelen ışıktan oluşur",
-        "Ay’ın kendi sıcak çekirdeğinden"
+        "Ay’ın aydınlık yarısı kendi ışığını yayar",
+        "Dünya’dan gelen ışığı Ay yansıtır"
        ]
       },
       {
@@ -1643,8 +1643,8 @@
        "soru": "Dolunayda biz ne görürüz?",
        "secenekler": [
         "Ay’ın aydınlık yüzünün tamamını",
-        "Ay’ın karanlık yüzünün tamamını",
-        "Yalnızca ince bir parlak orak"
+        "Ay’ın aydınlık yüzünün yarısını",
+        "Ay’ın aydınlık yüzünün hiçbirini"
        ]
       },
       {
@@ -1659,8 +1659,8 @@
        "soru": "Dünya’nın gölgesi Ay’a ne zaman düşer?",
        "secenekler": [
         "Ay tutulması sırasında",
-        "Son dördün evresinde",
-        "Yeni ay evresinde"
+        "Her ay evresi sırasında",
+        "Yeni ay evresi sırasında"
        ]
       }
      ],
@@ -1708,8 +1708,8 @@
        "soru": "Jeneratörde elektrik akımı nasıl oluşur?",
        "secenekler": [
         "Bir telin yanında mıknatıs döndürülünce",
-        "Bir mıknatısın yanında su ısıtılınca",
-        "Bir tel suya batırılıp ısıtılınca"
+        "Bir mıknatısın yanında tel ısıtılınca",
+        "Bir telin yanında su döndürülünce"
        ]
       },
       {
@@ -1789,8 +1789,8 @@
        "soru": "Hava durumu neyi anlatır?",
        "secenekler": [
         "Belli bir yerdeki kısa süreli koşulları",
-        "Aynı yerde otuz yıllık ortalamayı",
-        "Yalnızca yağış ve rüzgâr miktarını"
+        "Aynı yerde otuz yıllık ortalama koşulları",
+        "Yalnızca yağışın yıllık toplam miktarını"
        ]
       },
       {
@@ -1813,16 +1813,16 @@
        "soru": "Sera gazları ne yapar?",
        "secenekler": [
         "Dünya’dan kaçan ısının bir kısmını tutar",
-        "Dünya’ya gelen Güneş ışığını yansıtır",
-        "Atmosferdeki yağmur miktarını sabitler"
+        "Dünya’dan kaçan ısının tamamını dışarı çıkarır",
+        "Dünya’ya gelen ısının bir kısmını yansıtır"
        ]
       },
       {
        "soru": "Metne göre küresel ortalama sıcaklığın yükselmesiyle ilgili hangisi doğrudur?",
        "secenekler": [
         "Bazı bölgelerde aşırı hava olayları artabilir",
-        "Her bölge her mevsimde mutlaka daha sıcak olur",
-        "Hava durumu tek günde iklimi tamamen belirler"
+        "Her bölgenin her mevsimde daha sıcak olacağı kesindir",
+        "Hava durumu tek günde küresel ısınmayı çürütür"
        ],
        "aciklama": "Metin, yağış düzeninin değişebileceğini ve bazı bölgelerde aşırı hava olaylarının artabileceğini söyler; her bölgenin her mevsimde ısınacağını söylemez."
       }

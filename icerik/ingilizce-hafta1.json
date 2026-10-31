@@ -38,7 +38,7 @@
           "sorular": [
             { "soru": "Ece nerede yaşıyor?", "secenekler": ["Bursa'da", "Ankara'da", "Londra'da"], "aciklama": "Ece: “I live in Bursa.” — live = yaşamak." },
             { "soru": "“Where are you from?” sorusu ne demek?", "secenekler": ["Nerelisin?", "Nerede yaşıyorsun?", "Adın ne?"], "aciklama": "where = nerede, from = …'den. Birlikte: “nerelisin?”. “Nerede yaşıyorsun?” sorusu ise “Where do you live?” olur." },
-            { "soru": "Sam, “How are you?” sorusuna ne cevap veriyor?", "secenekler": ["İyiyim, teşekkür ederim.", "Adım Sam.", "Öğrenciyim."], "aciklama": "Sam: “I'm fine, thank you.”" }
+            { "soru": "Sam, “How are you?” sorusuna ne cevap veriyor?", "secenekler": ["İyiyim, teşekkür ederim.", "Adım Sam, on yaşındayım.", "Öğrenciyim, İstanbul’dayım."], "aciklama": "Sam: “I'm fine, thank you.”" }
           ],
           "kelimeler": ["hello", "name", "from", "live", "student", "fine"],
           "not": "Sam İngilizce konuşan bir öğrenci, Ece Türkiyeli. İki kişinin de sesi farklı; hangisinin konuştuğuna dikkat et." },
@@ -108,7 +108,7 @@
           "sorular": [
             { "soru": "Ece kaç yaşında?", "secenekler": ["16", "17", "60"], "aciklama": "sixteen = 16 (six + teen). Altmış olsaydı “sixty” denirdi." },
             { "soru": "Kulüp odası kaç numaralı?", "secenekler": ["13", "30", "3"], "aciklama": "thirteen = 13. Mr. Ray “One, three” diyerek rakamları tek tek söyledi." },
-            { "soru": "Ece neden “Thirteen or thirty?” diye sordu?", "secenekler": ["Sesleri benzediği için doğrulamak istedi", "Odanın numarasını unuttuğu için", "Sayıyı hiç duymadığı için"], "aciklama": "Benzer duyulan sayılarda tekrar sorarak doğrulamak çok işe yarar." }
+            { "soru": "Ece neden “Thirteen or thirty?” diye sordu?", "secenekler": ["Benzer duyulduğu için doğruladı", "Odanın numarasını unuttuğu için", "Öğretmen sayıyı söylemediği için"], "aciklama": "Benzer duyulan sayılarda tekrar sorarak doğrulamak çok işe yarar." }
           ],
           "kelimeler": ["old"],
           "not": "İki sayıyı karıştırınca ne yapılır? Ece'nin yaptığını yap: kısaca sor." },
@@ -164,7 +164,7 @@
           "sorular": [
             { "soru": "Ece'nin tükenmez kalemi hangi renk?", "secenekler": ["Mavi", "Yeşil", "Siyah"], "aciklama": "Ece: “My pen is blue.”" },
             { "soru": "Ece hangi eşyasını geri aldı?", "secenekler": ["Yeşil defterini", "Mavi tükenmez kalemini", "Siyah telefonunu"], "aciklama": "Defter için “Yes, it is!” dedi. Kalem ve telefon ona ait değildi." },
-            { "soru": "“Is this your pen?” ne demek?", "secenekler": ["Bu senin tükenmez kalemin mi?", "Bu bir tükenmez kalem.", "Tükenmez kalemin nerede?"], "aciklama": "Soru yaparken **is** başa geçer: This is… → Is this…?" }
+            { "soru": "“Is this your pen?” ne demek?", "secenekler": ["Bu senin tükenmez kalemin mi?", "Bu benim tükenmez kalemim.", "Tükenmez kalemin var mı?"], "aciklama": "Soru yaparken **is** başa geçer: This is… → Is this…?" }
           ],
           "kelimeler": ["pen", "notebook", "phone", "blue", "green", "black", "white", "have"] },
         { "tur": "soru", "bolum": "Küçük kontrol", "soru": "“Kırmızı bir çanta” hangisi?", "secenekler": ["a red bag", "a bag red", "red a bag"], "aciklama": "Renk, eşyanın önüne gelir: a + renk + eşya." },

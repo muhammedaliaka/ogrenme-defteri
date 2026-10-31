@@ -470,16 +470,16 @@
        "soru": "Eski yöntemin sorunu neydi?",
        "secenekler": [
         "Ertesi haftaya her şeyi unutuyordu",
-        "Çalışma saatleri çok kısaydı",
-        "Dersleri çok geç bitiriyordu"
+        "Çalışma süreleri çok kısa kalıyordu",
+        "Dersleri hep çok geç bitiriyordu"
        ]
       },
       {
        "soru": "Öğretmen ne önerdi?",
        "secenekler": [
         "Kısa çalışma, kendini sınama, sonra geri dönme",
-        "Daha uzun çalışma, tekrar okuma, not alma",
-        "Ara vermeden çalışma ve ezberleme"
+        "Daha uzun çalışma, çok tekrar okuma, not alma",
+        "Hiç ara vermeden uzun çalışma ve ezber"
        ]
       },
       {
@@ -502,8 +502,8 @@
        "soru": "Konuşmacının bazı arkadaşları ne diyor?",
        "secenekler": [
         "Eski alışkanlıklarını tercih ediyor",
-        "Yeni yöntemi hemen benimsedi",
-        "Çalışmayı tamamen bıraktı"
+        "Yeni yöntemi hemen benimsemiş durumda",
+        "Çalışmayı büsbütün bırakmış durumda"
        ]
       }
      ],
@@ -541,8 +541,8 @@
        "soru": "Rapora göre ne artmış?",
        "secenekler": [
         "İşe bisikletle gidenlerin sayısı",
-        "Şehirdeki otomobil sayısı",
-        "Merkezdeki park yeri sayısı"
+        "Şehirdeki toplam otomobil sayısı",
+        "Merkezdeki toplam park yeri sayısı"
        ]
       },
       {
@@ -630,8 +630,8 @@
        "soru": "Konuşmacıya göre uyku sırasında beyin ne yapıyor gibi görünüyor?",
        "secenekler": [
         "Öğrenilenleri yeniden oynatıp düzenliyor",
-        "Öğrenilenleri tamamen siliyor",
-        "Öğrenilenleri hiç işlemiyor"
+        "Öğrenilenleri tamamen silip sıfırlıyor",
+        "Öğrenilenleri hiçbir biçimde işlemiyor"
        ]
       },
       {
@@ -655,24 +655,24 @@
        "soru": "Bulguların çoğu nereden geliyor?",
        "secenekler": [
         "Sözcük listeleri gibi laboratuvar görevlerinden",
-        "Okul sınavlarının gerçek sonuçlarından",
-        "Öğrencilerin uyku günlüklerinden"
+        "Okul sınavlarının gerçek ders sonuçlarından",
+        "Öğrencilerin tuttuğu uyku günlüklerinden"
        ]
       },
       {
        "soru": "Makul bir güvenle söylenebilen nedir?",
        "secenekler": [
         "Öğrendikten sonra uyuyanlar daha çok hatırlama eğiliminde",
-        "Herkesin her gece sekiz saat uyuması gerektiği",
-        "Uykusuz kalanların daha çok öğrendiği"
+        "Herkesin her gece en az sekiz saat uyuması gerektiği",
+        "Uykusuz kalanların daha çok hatırlama eğiliminde olduğu"
        ]
       },
       {
        "soru": "Konuşmacı, sınavdan önceki gece için ne öneriyor?",
        "secenekler": [
         "Fazladan tekrar yerine uykuyu tercih etmeyi",
-        "Sabaha kadar tekrar yapmayı sürdürmeyi",
-        "Hiç ders çalışmayıp erken yatmayı"
+        "Sabaha kadar durmadan tekrar yapmayı sürdürmeyi",
+        "Hiç ders çalışmayıp çok erken yatmayı"
        ]
       },
       {
@@ -735,8 +735,8 @@
        "soru": "Birinci açıklama nedir?",
        "secenekler": [
         "Vazgeçilen alternatifler seçimi daha az çekici gösterir",
-        "Çok seçenek, insanı seçim yapmaktan korkutur",
-        "Çok seçenek olunca ürünler pahalı görünür"
+        "Çok seçenek, insanı seçim yapmaktan korkutup uzaklaştırır",
+        "Çok seçenek olunca ürünlerin fiyatı pahalı görünür"
        ]
       },
       {
@@ -758,7 +758,7 @@
       {
        "soru": "Konuşmacıya göre insanlar hangi durumda çok seçenekle genellikle iyi başa çıkar?",
        "secenekler": [
-        "Ne istediklerini biliyorlarsa ya da önemli bir şey seçiyorlarsa",
+        "Ne istediklerini biliyorlarsa ya da seçim önemliyse",
         "Seçenekler birbirine çok benzediğinde ve acele edildiğinde",
         "Seçenekler az, ucuz ve karşılaştırması kolay olduğunda"
        ]
@@ -963,8 +963,8 @@
        "soru": "Duvarda ne asılı?",
        "secenekler": [
         "Dünya haritası",
-        "Bir saat",
-        "Bir resim"
+        "Büyük bir saat",
+        "Bir aile resmi"
        ]
       }
      ],
@@ -1072,8 +1072,8 @@
        "soru": "Mike neden bu akşam gelemiyor?",
        "secenekler": [
         "Bir okul projesini bitirmesi gerekiyor",
-        "Başka bir arkadaşıyla buluşacak",
-        "Ailesiyle akşam yemeğine gidecek"
+        "Başka bir arkadaşıyla buluşacak ve geç kalacak",
+        "Ailesiyle uzak bir akşam yemeğine gidecek"
        ]
       },
       {
@@ -1088,8 +1088,8 @@
        "soru": "Filmin seansları hangi saatlerde?",
        "secenekler": [
         "Yedi buçuk ve dokuzu çeyrek geçe",
-        "Yedi buçuk ve dokuz buçuk",
-        "Yedi ve dokuzu çeyrek geçe"
+        "Yedi buçuk ve dokuzu çeyrek var",
+        "Altı buçuk ve dokuzu çeyrek geçe"
        ]
       },
       {
@@ -1168,8 +1168,8 @@
        "soru": "Doktor neden antibiyotik vermedi?",
        "secenekler": [
         "Nezle virüsten gelir; antibiyotik virüse işlemez",
-        "Antibiyotik nezleyi daha da kötüleştirir",
-        "Hastanın antibiyotiğe alerjisi vardır"
+        "Antibiyotik nezleyi daha da kötüleştirir ve uzatır",
+        "Hastanın antibiyotiğe ciddi bir alerjisi vardır"
        ]
       },
       {
@@ -1334,8 +1334,8 @@
        "soru": "Altı ay sonra ne yapabiliyordu?",
        "secenekler": [
         "Basit bir konuşmayı takip edebiliyordu",
-        "Akıcı bir konuşma yapabiliyordu",
-        "Yalnızca tek tek sözcük anlıyordu"
+        "Akıcı ve uzun bir konuşma yapabiliyordu",
+        "Yalnızca tek tek sözcükleri anlayabiliyordu"
        ]
       },
       {
@@ -1390,8 +1390,8 @@
        "soru": "Kütüphane neden kapanacaktı?",
        "secenekler": [
         "Belediye harcamalarını kısmak zorundaydı",
-        "Kütüphane binasının kirası artmıştı",
-        "Ziyaretçi sayısı çok azalmıştı"
+        "Kütüphane binasının kirası çok artmıştı",
+        "Ziyaretçi sayısı yıllardır azalıyordu"
        ]
       },
       {
@@ -1422,8 +1422,8 @@
        "soru": "Kütüphaneci neyi uyardı?",
        "secenekler": [
         "Para yalnızca temel masrafları karşılıyor",
-        "Kütüphane bir yıl sonra kapanabilir",
-        "Çocuk okuma saati kaldırılabilir"
+        "Kütüphane bir yıl sonra yeniden kapanabilir",
+        "Çocuk okuma saati tamamen kaldırılabilir"
        ]
       },
       {
@@ -1469,7 +1469,7 @@
       {
        "soru": "Evden çalışmayı destekleyenler hangi yararı söylüyor?",
        "secenekler": [
-        "Yolda geçen süre kazanılıyor ve gün esnekleşiyor",
+        "Yolda geçen süre kazanılıyor",
         "Maaşlar belirgin biçimde artıyor",
         "İş arkadaşlarıyla bağ kuvvetleniyor"
        ]
@@ -1478,8 +1478,8 @@
        "soru": "Eleştirenlere göre genç çalışanlar neyi kaçırır?",
        "secenekler": [
         "Deneyimlilerden izleyerek öğrenmeyi",
-        "Daha esnek çalışma saatlerini",
-        "Yeni yazılımları öğrenmeyi"
+        "Daha esnek ve uzun çalışma saatlerini",
+        "Yeni yazılımları kendi başına öğrenmeyi"
        ]
       },
       {

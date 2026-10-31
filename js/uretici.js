@@ -8,7 +8,10 @@ const ses = (ctx, metin, kim) => ({ metin, ses: kim ? (ctx.sesler?.konusmacilar?
 /** Çeldirici seç: önce aynı gruptan, sonra herhangi kelimeden; karşılık metni aynı olanlar elenir. */
 function celdiriciler(dogru, havuz, tumu, alan, n, rng) {
   const dogruNorm = sadelestir(dogru[alan]);
-  const uygun = (k) => k.id !== dogru.id && sadelestir(k[alan]) !== dogruNorm;
+  // “ev” ile “ev ödevi” gibi biri ötekinin içinde geçen karşılıklar birlikte sorulmaz: ikisi de savunulabilir görünür (haklı karışıklık)
+  const dogruSoz = new Set(dogruNorm.split(' '));
+  const icindeGecer = (s) => { const o = new Set(s.split(' ')); return [...o].every((x) => dogruSoz.has(x)) || [...dogruSoz].every((x) => o.has(x)); };
+  const uygun = (k) => k.id !== dogru.id && sadelestir(k[alan]) !== dogruNorm && !icindeGecer(sadelestir(k[alan]));
   const secilen = [];
   const goruldu = new Set([dogruNorm]);
   const ekle = (liste) => {
