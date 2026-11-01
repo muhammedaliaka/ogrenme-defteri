@@ -31,7 +31,7 @@ export function rutbe(xp) {
 
 // ---- XP ----
 /** Bir günde etkin sayılan olay türleri (seri ve haftalık hedef bunlara bakar). */
-export const ETKIN_TURLER = ['ders-bitir', 'seviye-oturum', 'yerlestirme', 'oyun', 'alan-tur', 'srs', 'gecikmeli-yanit', 'soru'];
+export const ETKIN_TURLER = ['ders-bitir', 'seviye-oturum', 'yerlestirme', 'oyun', 'alan-tur', 'srs', 'gecikmeli-yanit', 'soru', 'spor-hedef-kayit'];
 const SRS_GUNLUK_SINIR = 30, ALAN_GUNLUK_SINIR = 2;
 
 const oranYuz = (d, t) => (t > 0 ? d / t : 0);

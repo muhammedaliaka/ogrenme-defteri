@@ -12,6 +12,7 @@ import { cevrimdisiIndir, cevrimdisiDurum } from '../cevrimdisi.js';
 import { raporUret } from '../rapor.js';
 import { seviyeDurumu, kural } from '../seviye-ac.js';
 import { cefrYaklasim } from '../seviye.js';
+import { yerlestirmeSonucu, yuzdeMetni } from '../yerlestirme-sonuc.js';
 import { odakSuresi } from '../sure.js';
 import { rozetler } from '../oyun-ac.js';
 import { haftaHedefi } from '../oyunlastir.js';
@@ -61,6 +62,8 @@ function ilerleme() {
     ozetKutu('✅', `${biten}/${toplam}`, 'ders tamam'),
     ozetKutu('🧠', String(oz.toplam), 'madde tekrar sistemine girdi')));
 
+  const ys = yerlestirmeKarti();
+  if (ys) kok.append(ys);
   kok.append(seviyeKarti());
   kok.append(rozetIzgarasi(rozetler()));
   if (!qs.length) {
@@ -80,6 +83,29 @@ function ilerleme() {
 
   kok.append(raporKarti());
   return kok;
+}
+
+/** Yoklama haftası sonucu: her beceri için başlangıç seviyesi + güçlü/zayıf yönler. Hiçbir yoklama bitmediyse görünmez. */
+export function yerlestirmeKarti() {
+  const d = store.al();
+  const r = yerlestirmeSonucu({ olaylar: d.olaylar, bag: d.bag, seviye: seviyeDurumu(), kural: kural() });
+  if (!r.beceriler.length) return null;
+  const kart = h('div.kart', { data: { yerlestirmeSonucu: '1' } }, h('h3', '🧭 Yoklama sonucun'),
+    h('p.alt-yazi', r.hazir ? 'Yoklama bitti. Bu bir not değil; çalışma bu seviyelerden başlıyor. Rahat başlamak için bilerek geçtiğin basamağın biraz altından başlanır.' : `${r.bitenler}/${r.toplam} becerinin yoklaması bitti; kalanlar sürüyor.`));
+  for (const b of r.beceriler) {
+    const iz = IZLER[b.iz] || { simge: '•' };
+    kart.append(h('div', { style: 'margin:12px 0' },
+      h('div.satir', h('span', `${iz.simge} ${b.ad}`), h('span.bosluk'), h('strong', `Seviye ${b.sv}`)),
+      h('div.alt-yazi', `${b.cefr} · ${b.dogru}/${b.soru} soru doğru${b.azSoru ? ' (az soru: kesin değil)' : ''}`),
+      h('div', { style: 'font-size:.92rem;margin-top:2px' }, b.yorum)));
+  }
+  if (r.guclu.length || r.zayif.length) {
+    kart.append(h('h4', { style: 'margin:14px 0 6px' }, 'Güçlü ve gelişmeye açık yönler'));
+    for (const e of r.guclu) kart.append(h('div', { style: 'margin:4px 0' }, `💪 ${e.gorev} `, h('span.alt-yazi', `· ${IZLER[e.iz]?.ad || e.iz} · ${yuzdeMetni(e)}`)));
+    for (const e of r.zayif) kart.append(h('div', { style: 'margin:4px 0' }, `🌱 ${e.gorev} `, h('span.alt-yazi', `· ${IZLER[e.iz]?.ad || e.iz} · ${yuzdeMetni(e)}`)));
+    kart.append(h('p.alt-yazi', { style: 'margin:8px 0 0' }, 'Soru türlerine göre ilk denemelerin; her tür için en az 4 soru gerekir. Gelişmeye açık olanlar eksik değil, çalışmada daha çok yer alacak şeylerdir.'));
+  }
+  return kart;
 }
 
 /** Her becerinin güncel seviyesi, son değişikliği ve elle ayarlama (yoklama bittikten sonra). */

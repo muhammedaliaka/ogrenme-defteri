@@ -9,6 +9,12 @@ import { gunFarki } from './zaman.js';
 
 export const ODAK = { varsayilan: 30, enAz: 20, enCok: 50, adim: 5 };
 
+/** Yoklama haftası (ilk hafta) hafif geçer: bir oturum en çok 30 dakika, taşma payı yok, süre artırma önerisi yok. */
+export const ILK_HAFTA = { odakEnCok: 30, tolerans: 0 };
+
+/** O günün etkin odak süresi: ilk haftada ayardan bağımsız olarak 30 dakikayı aşmaz. */
+export const gunOdakDk = (odakDk, ilkHafta) => (ilkHafta ? Math.min(odakDk, ILK_HAFTA.odakEnCok) : odakDk);
+
 /** Sayfa türü başına kaba saniye (ölçülmüş değil; kalibrasyon düzeltir). */
 export const SAYFA_SN = {
   anlat: 20, kelime: 12, 'sahne-dinle': 35, 'sahne-metin': 25, dinle: 30, 'dinle-metin': 20, oku: 40, olcek: 8,

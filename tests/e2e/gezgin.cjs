@@ -49,7 +49,7 @@ async function gez(p, { ad, klasor, sonuc, dogru = 0.5, azami = 120, ekran = tru
     else if (await say('.kutu-izgara .kutu')) tur = 'eslestir';
     else if (await say('.cip[style*="font-size:1.05rem"]')) tur = 'cumle';
     else if (await say('textarea.metin-alani')) tur = 'metin';
-    else if (await say('input.girdi[type=text], input.girdi[type=number]')) tur = 'girdi';
+    else if (await say('input.girdi[type=text], .oyuncu input.girdi[type=number]')) tur = 'girdi';
     else if (await say('.adim-sayac')) tur = 'sayac';
     else if (await say('.cip[aria-pressed]')) tur = 'cip';
     if (!gorulen.has(tur + ipucu.slice(0, 20))) {

@@ -66,6 +66,7 @@ docs/                                     kılavuzlar
 | [docs/SURE_VE_OTURUM.md](docs/SURE_VE_OTURUM.md) | Tek tuşla başlama, süre tahmini ve kalibrasyon, odak süresi (30→50 dk), mola, bonus |
 | [docs/OYUNLASTIRMA.md](docs/OYUNLASTIRMA.md) | XP, rütbe, hafta hedefi, esnek seri, rozet, kombo; **kanıt notu** ve bilerek yapılmayanlar |
 | [docs/SERBEST_ALAN.md](docs/SERBEST_ALAN.md) | Parkta/çalışma alanında hafıza sarayı, mekân avı, sesli tur |
+| [docs/SPOR_HEDEFI.md](docs/SPOR_HEDEFI.md) | Haftalık spor hedefi: “1 haftada 10 şınav” gibi kendi hedefin, küçük adımlar, hafta sonu denemesi |
 | [docs/SPOR_VIDEOLARI.md](docs/SPOR_VIDEOLARI.md) | Hareket videoları nasıl üretildi, neyi gösterir/göstermez, yeni hareket ekleme |
 | [docs/KOLAY_GIRIS.md](docs/KOLAY_GIRIS.md) | JSON yazmadan düz metinle kelime/okuma/dinleme/hafıza içeriği ekleme |
 | [docs/MCP.md](docs/MCP.md) | Yapay zekâ asistanını bağlama: kurulum, araçlar, güvenlik, sorun giderme |

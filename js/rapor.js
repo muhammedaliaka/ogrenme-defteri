@@ -8,12 +8,14 @@ import { IZLER } from './paket.js';
 import { ozet as srsOzet } from './srs.js';
 import { gunFarki, uzunTarih } from './zaman.js';
 import { cefrYaklasim } from './seviye.js';
+import { hareketBul, HEDEF_GUN, hedefDurumu } from './spor-hedef.js';
+import { yerlestirmeSonucu, yuzdeMetni } from './yerlestirme-sonuc.js';
 
 /** Raporda ayrı bir biçimi olan kayıt türleri. Yeni bir olay türü eklenirse buraya biçim yazılmalıdır (test denetler). */
 export const RAPOR_TURLERI = new Set([
   'ders-bitir', 'soru', 'serbest', 'serbest-kontrol', 'liste-sun', 'liste', 'gecikmeli-kur', 'gecikmeli-yanit',
   'saray', 'saray-hayal', 'dinleme', 'okuma', 'olcek', 'spor', 'dis', 'oyun',
-  'yerlestirme', 'yerlestirme-son', 'seviye-oturum', 'seviye-ayar', 'sure', 'alan-tur',
+  'yerlestirme', 'yerlestirme-son', 'seviye-oturum', 'seviye-ayar', 'sure', 'alan-tur', 'spor-hedef', 'spor-hedef-kayit',
 ]);
 /** Raporda tek tek yazılmayan kayıt türleri ve nedeni. */
 export const RAPOR_ATLANAN = {
@@ -150,6 +152,8 @@ export function raporUret({ durum, oku = {}, bas = null, son = null, bugun, ayri
   if (bekleyen.length) { L(`Yanıtlanmayı bekleyen gecikmeli hatırlama kontrolü: ${bekleyen.length} (${[...new Set(bekleyen.map((x) => x.g.baslik))].join('; ')}).`); L(); }
 
   if (seviye) seviyeBolumu(L, seviye, seviyeKural, bas, son);
+  if (seviye && seviyeKural) yerlestirmeBolumu(L, { olaylar: tum, bag, seviye, kural: seviyeKural });
+  sporHedefBolumu(L, tum, bugun);
 
   // ---------- Günlük kayıt ----------
   L('## Günlük kayıt'); L();
@@ -266,6 +270,16 @@ function bicimle(o, b, kontrolEslesme, oku) {
       const y = (o.yapilanlar || []).map((x) => `${x.ad}: ${sayiMetni(x.yapilan)} ${x.birim}${x.hedef ? ` (hedef: ${x.hedef})` : ''}`);
       return [`- ${etiket('Spor kaydı')} ${b.baslik ? tirnak(b.baslik) + ' · ' : ''}Yapılanlar: ${y.length ? y.join('; ') : '(ayrıntı yok)'} · Beyan: zorlanma ${o.zorlanma ?? '-'}/10 (0 çok rahat, 10 çok zor)${o.destek ? ', destek kullandı' : ''}${o.kismi ? ', planın bir kısmını yaptı' : ', planı tamamladı'}${o.not ? ` · Not: ${tirnak(o.not)}` : ''}`];
     }
+    case 'spor-hedef': {
+      const x = hareketBul(o.hareket);
+      return [`- ${etiket('Spor hedefi konuldu')} ${x?.ad || o.hareket} · başlangıç (kendi denemesi): ${o.bas} ${x?.birim || ''} · ${HEDEF_GUN} günlük hedef: ${o.hedef}`];
+    }
+    case 'spor-hedef-kayit': {
+      const x = hareketBul(o.hareket);
+      return [o.kayitTur === 'deneme'
+        ? `- ${etiket('Spor hedef denemesi')} ${x?.ad || o.hareket} · tek seferde ${o.tekrar} ${x?.birim || ''} (beyan)`
+        : `- ${etiket('Spor hedefi antrenmanı')} ${x?.ad || o.hareket} · günün küçük antrenmanı yapıldı (beyan)`];
+    }
     case 'dis': return [`- ${etiket('Dış uygulama')} ${o.ad || o.uygulama} · Görev: ${tirnak(o.gorev)} · ${o.yapilmadi ? 'Beyan: bugün yapmadı' : o.dogru != null && o.toplam ? `Beyan: ${o.dogru}/${o.toplam} doğru (%${o.yuzde})` : 'Sonuç girilmedi'}${o.not ? ` · Not: ${tirnak(o.not)}` : ''}`];
     case 'oyun': return [`- ${etiket(`Oyun · ${b.oyunAd || o.oyun}`)} İlk denemede ${o.dogru}/${o.toplam} doğru (%${o.yuzde})`];
     case 'yerlestirme': return [`- ${etiket('Yoklama sonucu')} ${izAdi(o.iz)} · denenen seviye ${o.sv}: ${o.dogru}/${o.toplam} doğru${o.toplam ? ` (%${yuzde(o.dogru, o.toplam)})` : ''}${o.ders ? ` · yazılı ders: ${o.ders}` : ''}`];
@@ -287,6 +301,33 @@ function bicimle(o, b, kontrolEslesme, oku) {
       return [`- [Tanımsız kayıt türü: ${tur}] ${JSON.stringify(veri)}`];
     }
   }
+}
+
+/** Yoklama haftası sonucu: beceri başına başlangıç seviyesi ve dayanağı, güçlü ve zayıf yönler. */
+function yerlestirmeBolumu(L, p) {
+  const r = yerlestirmeSonucu(p);
+  if (!r.beceriler.length) return;
+  L('## Yoklama haftası sonucu'); L();
+  L(`${r.bitenler}/${r.toplam} becerinin yoklaması tamamlandı. Yoklama not değildir; çalışmanın nereden başlayacağını bulmak içindir. Az soruya dayanan yüzde kesin bir şey söylemez.`); L();
+  L('| Beceri | Başlangıç seviyesi | Yaklaşık düzey | Yoklama | Soru (doğru/toplam) | Yorum |'); L('|---|---:|---|---:|---:|---|');
+  for (const b of r.beceriler) L(`| ${hucre(b.ad)} | ${b.sv} | ${b.cefr} | ${b.yoklama} | ${b.dogru}/${b.soru}${b.azSoru ? ' (az soru)' : ''} | ${hucre(b.yorum)} |`);
+  L();
+  if (r.guclu.length || r.zayif.length) {
+    L('Soru türüne göre (yoklama haftası, ilk denemeler; en az 4 soru):'); L();
+    for (const e of r.guclu) L(`- 💪 Güçlü: ${izAdi(e.iz)} · ${e.gorev} — ${yuzdeMetni(e)}`);
+    for (const e of r.zayif) L(`- 🌱 Gelişmeye açık: ${izAdi(e.iz)} · ${e.gorev} — ${yuzdeMetni(e)}`);
+    L();
+  }
+}
+
+/** Haftalık spor hedefi: hedef, başlangıç ölçümü ve sonuç (hepsi öğrencinin beyanı). */
+function sporHedefBolumu(L, tum, bugun) {
+  const d = hedefDurumu(tum, bugun);
+  if (!d) return;
+  L('## Spor hedefi'); L();
+  L(`- ${d.ad}: öğrencinin kendi denemesine göre başlangıç ${d.bas} ${d.birim}; ${HEDEF_GUN} gün sonrası için kendi koyduğu hedef ${d.hedef}. Tüm sayılar öğrencinin beyanıdır.`);
+  L(d.bitti ? `- Sonuç: hedef denemesinde ${d.sonuc} ${d.birim}${d.ulasti ? ' — hedefe ulaşıldı' : ` — hedefe ${d.hedef - d.enIyi} kala`}.` : `- Durum: ${d.gun}. gün · bugünün adımı: ${{ olcum: 'ölçüm yapıldı', antrenman: 'küçük antrenman', dinlenme: 'dinlenme', deneme: 'hedef denemesi' }[d.tur]}.`);
+  L();
 }
 
 /** Seviyeler: şu anki durum, kurallar ve (aralıktaki) değişiklikler. */

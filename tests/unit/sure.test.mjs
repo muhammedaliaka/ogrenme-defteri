@@ -1,7 +1,7 @@
 // Süre tahmini, kalibrasyon, odak kesimi ve +5 dakika önerisi (js/sure.js).
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { sayfaSn, sayfalarSn, kalibrasyon, odakKesimi, odakOnerisi, odakSuresi, bugunOdakDk, dakika, SAYFA_SN } from '../../js/sure.js';
+import { sayfaSn, sayfalarSn, kalibrasyon, odakKesimi, odakOnerisi, odakSuresi, bugunOdakDk, dakika, SAYFA_SN, gunOdakDk, ILK_HAFTA } from '../../js/sure.js';
 
 const sure = (g, sn, tahmin = 600) => ({ tur: 'sure', g, sn, tahmin });
 
@@ -88,4 +88,15 @@ test('+5 önerisi: spor süreleri günün odak toplamına katılmaz', () => {
   const gun = (g) => [sure(g, 10 * 60), { ...sure(g, 40 * 60), iz: 'spor' }];
   const olaylar = [...gun('2026-11-02'), ...gun('2026-11-03'), ...gun('2026-11-05')];
   assert.equal(odakOnerisi({ olaylar, odakDk: 30, bugun: '2026-11-06', ayar: {} }), null, 'oturan çalışma 10 dk; spor 40 dk sayılmamalı');
+});
+
+test('ilk hafta: odak süresi ayardan bağımsız en çok 30, taşma payı yok', () => {
+  assert.equal(gunOdakDk(45, true), 30);
+  assert.equal(gunOdakDk(20, true), 20);
+  assert.equal(gunOdakDk(45, false), 45);
+  const G = (anahtar, dk) => ({ anahtar, dk, bitti: false, istege: false });
+  // 3 dk taşma payıyla (normal gün) 31 dakika "şimdi"ye sığar; ilk haftada payı yok, ikinci görev mola sonrasına geçer
+  const gorevler = [G('a', 15), G('b', 16)];
+  assert.equal(odakKesimi(gorevler, 30).simdi.length, 2);
+  assert.equal(odakKesimi(gorevler, 30, ILK_HAFTA.tolerans).simdi.length, 1);
 });

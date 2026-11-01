@@ -7,7 +7,7 @@ import { ctxOlustur } from './oyuncu.js';
 import { hazirla, sayfalar as oturumSayfalari } from './seviye-oturum.js';
 import { kuralKur } from './seviye.js';
 import { bugun } from './zaman.js';
-import { sayfalarSn, kalibrasyon, dakika, odakKesimi, odakSuresi } from './sure.js';
+import { sayfalarSn, kalibrasyon, dakika, odakKesimi, odakSuresi, gunOdakDk, ILK_HAFTA } from './sure.js';
 
 const VARSAYILAN_DK = { ingilizce: 8, okuma: 6, dinleme: 6, hafiza: 6, spor: 10 };
 const onbellek = new Map();
@@ -34,12 +34,13 @@ function hamSn(g, no) {
 /** Planın görevlerine { sn, dk, odak } ekler ve odak kesimini hesaplar. */
 export function sureEkle(plan) {
   const k = kalibrasyon(store.al().olaylar);
-  const odakDk = odakSuresi(store.al().ayar);
+  const ilkHafta = plan.no <= kuralKur(icerik.ic()).yerlestirme.sonGun;
+  const odakDk = gunOdakDk(odakSuresi(store.al().ayar), ilkHafta);
   const gorevler = plan.gorevler.map((g) => {
     const spor = g.iz === 'spor';
     const ham = spor ? null : hamSn(g, plan.no);
     const dk = ham == null ? (VARSAYILAN_DK[g.iz] ?? 6) : dakika(ham * k);
     return { ...g, dk: spor ? VARSAYILAN_DK.spor : dk, odak: !spor };
   });
-  return { ...plan, gorevler, odakDk, kesim: odakKesimi(gorevler, odakDk), katsayi: k };
+  return { ...plan, gorevler, odakDk, kesim: odakKesimi(gorevler, odakDk, ilkHafta ? ILK_HAFTA.tolerans : undefined), katsayi: k, ilkHafta };
 }

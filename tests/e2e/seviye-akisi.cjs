@@ -71,6 +71,11 @@ fs.mkdirSync(CIKTI, { recursive: true });
   // ---- Ben ve rapor ----
   await p.goto(U(GUN_SAYISI, '#/ben')); await p.waitForTimeout(400);
   if (!(await p.locator('h3:has-text("Seviyelerin")').count())) sorunlar.push('Ben → İlerleme: "Seviyelerin" kartı yok');
+  if (!(await p.locator('[data-yerlestirme-sonucu] h3:has-text("Yoklama sonucun")').count())) sorunlar.push('Ben → İlerleme: "Yoklama sonucun" kartı yok');
+  else {
+    const kartMetni = await p.locator('[data-yerlestirme-sonucu]').innerText();
+    if (!/Seviye \d+/.test(kartMetni) || /undefined|NaN|\bnull\b/.test(kartMetni)) sorunlar.push(`Yoklama sonucu kartı bozuk: ${kartMetni.slice(0, 200)}`);
+  }
   await p.screenshot({ path: `${CIKTI}/seviye-ben.png`, fullPage: true });
   const veri = await p.evaluate(async () => {
     const ben = await import('/js/gorunum/ben.js');
@@ -80,6 +85,7 @@ fs.mkdirSync(CIKTI, { recursive: true });
   fs.writeFileSync(`${CIKTI}/seviye-rapor.md`, veri.tam);
   if (!/## Seviyeler/.test(veri.tam)) sorunlar.push('rapor: "Seviyeler" bölümü yok');
   if (!/\[Yoklama sonucu/.test(veri.tam)) sorunlar.push('rapor: yoklama sonucu satırı yok');
+  if (!/## Yoklama haftası sonucu/.test(veri.tam)) sorunlar.push('rapor: "Yoklama haftası sonucu" bölümü yok');
   const kotu = (veri.tam + veri.kisa).match(/undefined|\bnull\b|NaN|\[object|Tanımsız kayıt türü/g);
   if (kotu) sorunlar.push(`rapor: kötü ifade: ${[...new Set(kotu)].join(', ')}`);
   for (const t of ['yerlestirme']) if (!veri.turler.includes(t)) sorunlar.push(`olay türü hiç yazılmadı: ${t}`);

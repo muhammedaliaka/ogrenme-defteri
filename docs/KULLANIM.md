@@ -44,6 +44,7 @@ Yarım bıraktığın ders için bir sonraki açılışta "kaldığın yerden de
 ### Süre, mola ve spor
 - **Odak süresi** (Ben → Ayarlar, 20–50 dk, varsayılan 30): oturup çalışma için tek seferlik pencere. Dolunca uygulama **mola** önerir; mola yerine spor da sayılır. Spor oturup çalışma sayılmaz, odak süresine eklenmez.
 - Dakika tahminleri ilk günlerde kabadır; gerçek hızına göre kendini ayarlar. Üç etkin gün üst üste odak süreni doldurursan uygulama **+5 dakika önerir**; kabul etmek zorunda değilsin. Ayrıntı: [SURE_VE_OTURUM.md](SURE_VE_OTURUM.md).
+- **Haftalık spor hedefi:** Bugün'deki 🎯 kartından “1 haftada 10 şınav” gibi kendi hedefini koyarsın; uygulama küçük antrenmanlara böler ([SPOR_HEDEFI.md](SPOR_HEDEFI.md)). İlk hafta oturumlar en çok 30 dk'dır; yoklama bitince Ben'de **Yoklama sonucun** kartı çıkar.
 - **Spor** kartında hareketin **videosu** (kendi çizimli animasyonum; gerçek kişi çekimi değil), nerede hissedileceği, nefes, hatalar ve kolay/zor seçenek vardır; ayrıca NHS sayfaları ve YouTube arama bağlantıları ([SPOR_VIDEOLARI.md](SPOR_VIDEOLARI.md)).
 - **Dışarıdayken** (park, çalışma alanı, yağmurlu gün): Bugün → **Serbest alan**. Gerçek yerde hafıza sarayı, mekân avı ve sesli tur ([SERBEST_ALAN.md](SERBEST_ALAN.md)).
 

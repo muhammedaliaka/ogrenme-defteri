@@ -30,6 +30,7 @@ node tests/e2e/gorunum-taramasi.cjs
 
 # Bugün: Başla düğmesi, süre bölümleri, mola, spor videosu kartı
 node tests/e2e/bugun-sure.cjs
+node tests/e2e/spor-hedef.cjs   # haftalık spor hedefi kartı
 
 # Serbest alan: mekân avı, gerçek mekânda hafıza sarayı (rota → yerleştir → hatırla → canavar turu), sesli tur
 node tests/e2e/alan.cjs

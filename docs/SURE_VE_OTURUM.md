@@ -12,6 +12,10 @@ Amaç: "bugün ne kadar sürecek, nereden başlayayım?" sorusunu ortadan kaldı
 6. **Spor "Hareket"** grubundadır: oturup çalışma değildir, odak süresine sayılmaz, mola yerine geçer.
 7. **Bonus.** Bugünün zorunlu işleri bitince "🎁 Hâlâ enerjin var mı?" ile isteğe bağlı görevler önerilir; zorunlu değildir.
 
+## İlk hafta (yoklama haftası) hafif geçer
+
+Programın ilk 7 gününde odak süresi ayardan bağımsız **en çok 30 dakikadır**, 3 dakikalık taşma payı yoktur ve "+5 dakika" önerisi gösterilmez (`ILK_HAFTA` in `js/sure.js`). Yoklamalar kısadır (tahmini gün 1 toplamı ≈ 10 dk). Fazlası "Mola sonrası"na geçer. Amaç: ilk hafta komplike değil, hafif ve kaliteli başlamak.
+
 ## Dayanıklılığın artması (30 → 50 dk)
 
 Son **üç etkin günde** odak süreni (≥ %85) doldurduysan uygulama **+5 dakika önerir**. Karar senindir: "N dk yap" ya da "Şimdi değil" (7 gün susar). Her öneri arasında en az 7 gün vardır; ayardan her zaman geri alabilirsin. Bu eşikler (3 gün, %85, 7 gün) **kanıta değil, tasarım tahminime** dayanır. Dikkat süresinin kesin bir "doğru" değeri yoktur; kişiden kişiye ve konudan konuya değişir.

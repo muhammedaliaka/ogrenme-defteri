@@ -13,6 +13,7 @@ import { gorevAdresi } from '../plan.js';
 import { cefrYaklasim } from '../seviye.js';
 import { ozet as oyunOzeti, gorulmemisRozetler, gorulduIsaretle } from '../oyun-ac.js';
 import { oyunSeridi, yeniRozetKarti } from './oyun-kart.js';
+import { sporHedefKarti } from './spor-hedef-kart.js';
 
 export function bugunGorunum() {
   const d = store.al();
@@ -86,15 +87,19 @@ function gunKarti(kok, pg) {
   if (sirada) {
     kok.append(h('a.dugme.birincil.tam.basla', { href: sirada.href },
       h('span.basla-ana', sirada.bonus ? '🎁 Hâlâ enerjin var mı?' : biten ? '▶ Devam et' : '▶ Başla'),
-      h('span.basla-alt', sirada.bonus ? sirada.etiket : `kalan ≈ ${k.kalanDk} dk · odak süren ${plan.odakDk} dk`)));
+      h('span.basla-alt', sirada.bonus ? sirada.etiket : `kalan ≈ ${k.kalanDk} dk · ${plan.ilkHafta ? 'ilk hafta: en çok ' : 'odak süren '}${plan.odakDk} dk`)));
   }
-  odakOneriKarti(kok);
+  if (!plan.ilkHafta) odakOneriKarti(kok); // ilk hafta hafif: süre artırma önerisi yok
   oyunKartlari(kok);
 
   if (yoklamada) {
     kok.append(h('div.kart.duz', h('h3', 'İlk hafta: nereden başlayacağını bulalım'),
       h('p', { style: 'margin:0' }, 'Her beceri için kısa bir yoklama var. Sorular kolaydan zora doğru gider; bilmediğine “Bilmiyorum” de, tahmin etme. Sonuç not değil, yalnızca başlangıç seviyeni belirler; yoklama bitince gerçek çalışma başlar.')));
   }
+  if (!yoklamada && plan.no <= kural().yerlestirme.sonGun + 7 && Object.values(plan.seviye).some((s) => s.yerlestirme?.bitti)) {
+    kok.append(h('a.kart.duz', { href: '#/ben', style: 'display:block;text-decoration:none;color:inherit' }, h('strong', '🧭 Yoklama bitti: sonucuna bak'), h('div.alt-yazi', 'Her becerinin başlangıç seviyesi, güçlü ve gelişmeye açık yönlerin Ben sayfasında.')));
+  }
+  kok.append(sporHedefKarti());
   if (tamam) kok.append(h('div.kart.duz', { style: 'background:var(--dogru-zemin);border-color:transparent;color:var(--dogru)' }, h('strong', '✅ Bugünkü görevlerin tamam. Eline sağlık!'), h('div.alt-yazi', { style: 'color:inherit' }, 'Hâlâ enerjin varsa aşağıdaki bonuslara, Tekrar’a ya da Oyunlar’a bakabilirsin. Durmak da tamamen yeterli.')));
 
   const bolum = (baslik, alt, liste) => {
