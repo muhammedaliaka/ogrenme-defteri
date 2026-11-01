@@ -31,6 +31,14 @@ test('arama okuyucuları (metni tara, anahtar sözcük) üst seviye okumada şan
   }
 });
 
+test('seviye <30 okumada da arama okuyucuları yarıya yaklaşmıyor (sınır %55)', () => {
+  const satir = cikti.split('\n').find((l) => l.includes('okuma seviye <30'));
+  for (const e of ['metni tara', 'anahtar-sözcük okuyucu']) {
+    const m = satir.match(new RegExp(e + ' %(\\d+)'));
+    assert.ok(m && +m[1] < 55, satir);
+  }
+});
+
 test('ipucu bayrağı yok', () => {
   assert.match(cikti, /✓ 0 ipucu bayrağı/);
 });

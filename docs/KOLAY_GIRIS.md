@@ -125,6 +125,7 @@ Başlık anahtarları:
 - **Üst seviyede (sv ≥ 30) doğru seçeneği metinden aynen alma;** başka sözcüklerle ifade et. Aksi hâlde "metinde geçen cümleyi bul" yeterli olur ve anlama ölçülmez.
 - **Çeldiriciler metindeki sözcükleri kullansın.** Yanlış seçeneği, doğru cümlenin bir ayrıntısını değiştirerek yaz (“mavi dağılıp gider” → “kırmızı dağılıp gider”). Metinle hiç ortak sözcüğü olmayan çeldirici, metni tarayıp en çok çakışanı seçen öğrenciye doğruyu ele verir.
 - **Doğru seçeneği metinden kopyalama,** başka sözcüklerle anlat (özellikle sv ≥ 30). Sayı ya da ad soran sorularda, metindeki sayıyı doğrudan sormak yerine bir adım çıkarım iste.
+- **Düşük seviyede de çıkarım sor.** “Çiçekler hangi mevsimde açar?” yerine, metindeki bilgiyi yeni bir duruma uygulatan bir soru yaz (“Bahçede yapraklar sararıp düşüyor; hangi mevsim?”). Cevap metinde aynen yazmasın, açıklamada hangi cümleden çıktığı görünsün.
 - **Olumsuz soru kökü kullanma** ("…hangisi değildir/söylenmez"). Başka çare yoksa kökü olumluya çevir: "Metne göre hangisi doğrudur?".
 - **"Söz edilmiyor / metinde yok" cevabı hep doğru olmasın.** Bu seçenek her zaman doğruysa öğrenci onu ezberler. Yanına "Hayır, … söyleniyor" gibi **yanlış ama aynı biçimde** bir çeldirici koy; ayrıca ara sıra "Doğru" ya da "Yanlış" cevabı doğru olan sorular yaz.
 - **İki seçenek de savunulabiliyorsa** (ör. “ev” ile “ev ödevi”) birini değiştir. Sınavda haklı olan öğrenci cezalandırılmamalı.

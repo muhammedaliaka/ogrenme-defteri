@@ -360,31 +360,31 @@
               "aciklama": "Yüzde 71’i su ile kaplıysa geriye yüzde 29 kalır."
             },
             {
-              "soru": "Dünya'daki suyun yaklaşık yüzde 97'si nerededir?",
+              "soru": "Dünya’daki sulardan rastgele bir damla seçsen, büyük olasılıkla nasıl bir damla olur?",
               "secenekler": [
-                "Okyanuslarda, tuzlu",
-                "Göllerde ve nehirlerde",
-                "Buzullarda ve kutuplarda"
+                "Tuzlu ve okyanusta",
+                "Tatlı ve nehirde",
+                "Donmuş ve buzulda"
               ],
-              "aciklama": "2. paragraf."
+              "aciklama": "Suyun yaklaşık yüzde 97’si okyanuslardadır ve tuzludur; bu yüzden rastgele bir damla büyük olasılıkla tuzlu okyanus suyudur."
             },
             {
-              "soru": "Tatlı su, toplam suyun yaklaşık yüzde kaçıdır?",
+              "soru": "Dünya’daki 1000 litre suyun yaklaşık kaç litresi tatlı sudur?",
               "secenekler": [
-                "Yüzde 3",
-                "Yüzde 30",
-                "Yüzde 71"
+                "Yaklaşık 30 litre",
+                "Yaklaşık 300 litre",
+                "Yaklaşık 970 litre"
               ],
-              "aciklama": "2. paragraf."
+              "aciklama": "Tatlı su yaklaşık yüzde 3’tür; 1000 litrenin yüzde 3’ü 30 litre eder."
             },
             {
-              "soru": "Tatlı suyun büyük bölümü nerede bulunur?",
+              "soru": "Susuz kalan bir köyün insanları, Dünya’da tatlı su çok olduğu hâlde neden ona kolay ulaşamaz?",
               "secenekler": [
-                "Buzullarda, donmuş hâlde",
-                "Nehirlerde ve göllerde, akarken",
-                "Bulutlarda, buhar hâlinde"
+                "Çoğu buzullarda donmuş hâldedir",
+                "Çoğu okyanuslara karışmıştır",
+                "Çoğu bulutlarda saklıdır"
               ],
-              "aciklama": "3. paragraf."
+              "aciklama": "Tatlı suyun büyük bölümü buzullarda ve kutuplardaki buz tabakalarında donmuş hâldedir; insanın ulaşabildiği nehir ve göl suyu çok küçük bir paydır."
             },
             {
               "soru": "Metne göre “Dünya'daki suyun çoğu içilebilir” cümlesi için ne denir?",

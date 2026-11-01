@@ -12,8 +12,8 @@
    "sv": 4,
    "emoji": "🍂",
    "baslik": "Dört mevsim",
-   "hedef": "Kısa bir metni okuyup ayrıntıları bulmak.",
-   "neden": "Kısa ve basit metinlerde “ne, ne zaman” sorularının cevabını metinden bulma alışkanlığı kurulur.",
+   "hedef": "Metinde yazmayan ama metinden çıkan bir sonucu bulmak: öğrendiğini yeni bir durumda uygulamak.",
+   "neden": "Metindeki cümleyi bulmak yetmez; öğrendiğini yeni bir durumda kullanabilmek anlamanın asıl işaretidir. Bu derste cevap metinde aynen yazmıyor, metinden çıkarıyorsun.",
    "adimlar": [
     {
      "tur": "oku",
@@ -25,45 +25,49 @@
      ],
      "sorular": [
       {
-       "soru": "Bir yılda kaç mevsim vardır?",
+       "soru": "Ayşe’nin bahçesinde yapraklar sararıp yere düşüyor. Şimdi hangi mevsimdir?",
        "secenekler": [
-        "Dört mevsim vardır",
-        "Üç mevsim vardır",
-        "Beş mevsim vardır"
+        "Sonbahar",
+        "Yaz",
+        "İlkbahar"
        ],
-       "aciklama": "İlk cümle: dört mevsim vardır."
+       "aciklama": "Yapraklar sonbaharda sararır ve yere düşer."
       },
       {
-       "soru": "Çiçekler hangi mevsimde açar?",
-       "secenekler": [
-        "İlkbaharda",
-        "Kışın",
-        "Sonbaharda"
-       ]
-      },
-      {
-       "soru": "Metne göre hangi mevsimde hava sıcak olur?",
+       "soru": "Ali yılın en sıcak mevsiminde denize girmek istiyor. Ne zaman gitmelidir?",
        "secenekler": [
         "Yazın",
         "Kışın",
         "Sonbaharda"
-       ]
+       ],
+       "aciklama": "Yazın hava sıcak olur."
       },
       {
-       "soru": "Yapraklar ne zaman yere düşer?",
+       "soru": "Bir çocuk elinde kar topuyla oynuyor. Hangi mevsimdedir?",
        "secenekler": [
-        "Sonbaharda",
+        "Kışın",
         "Yazın",
         "İlkbaharda"
-       ]
+       ],
+       "aciklama": "Kar kışın yağar."
       },
       {
-       "soru": "Metne göre kışın ne olabilir?",
+       "soru": "Çiçeklerin açtığı mevsimden hemen sonra hangi mevsim gelir?",
        "secenekler": [
-        "Kar yağabilir",
-        "Çiçekler açar",
-        "Yapraklar sararır"
-       ]
+        "Yaz",
+        "Sonbahar",
+        "Kış"
+       ],
+       "aciklama": "Sıra: ilkbahar, yaz, sonbahar, kış."
+      },
+      {
+       "soru": "Yaprakların sararıp düştüğü mevsimden sonra hangi mevsim gelir?",
+       "secenekler": [
+        "Kış",
+        "Yaz",
+        "İlkbahar"
+       ],
+       "aciklama": "Sonbahardan sonra kış gelir."
       }
      ]
     }
@@ -75,7 +79,8 @@
    "sv": 8,
    "emoji": "🐝",
    "baslik": "Arılar",
-   "hedef": "Bir hayvanın yaşamını anlatan metinden ayrıntıları ve nedeni bulmak.",
+   "hedef": "Metinde yazmayan ama metinden çıkan bir sonucu bulmak: öğrendiğini yeni bir durumda uygulamak.",
+   "neden": "Metindeki cümleyi bulmak yetmez; öğrendiğini yeni bir durumda kullanabilmek anlamanın asıl işaretidir. Bu derste cevap metinde aynen yazmıyor, metinden çıkarıyorsun.",
    "adimlar": [
     {
      "tur": "oku",
@@ -88,46 +93,49 @@
      ],
      "sorular": [
       {
-       "soru": "Arılar çiçeklerden ne toplar?",
+       "soru": "Bir bölgede bütün arılar yok olsa elma ağaçlarına ne olur?",
        "secenekler": [
-        "Nektar",
-        "Bal",
-        "Meyve"
-       ]
-      },
-      {
-       "soru": "Arıların yaşadığı yere ne denir?",
-       "secenekler": [
-        "Kovan",
-        "Ağıl",
-        "Kümes"
-       ]
-      },
-      {
-       "soru": "Her kovanda kaç kraliçe arı yaşar?",
-       "secenekler": [
-        "Bir",
-        "İki",
-        "Binlerce"
+        "Daha az meyve verirler",
+        "Daha çok meyve verirler",
+        "Hiç çiçek açmazlar"
        ],
-       "aciklama": "“bir kraliçe arı ve binlerce işçi arı”"
+       "aciklama": "Arılar polen taşıyarak bitkilerin meyve vermesini sağlar."
       },
       {
-       "soru": "Arılar neden önemlidir?",
+       "soru": "Kovan çok kirlendi. Bu işi kimlerin yapması beklenir?",
        "secenekler": [
-        "Çiçekten çiçeğe polen taşırlar",
-        "Meyveleri çiçekten çiçeğe taşırlar",
-        "Kovanları çiçeklerle doldururlar"
-       ]
-      },
-      {
-       "soru": "Metne göre işçi arıların görevlerinden biri hangisidir?",
-       "secenekler": [
-        "Yavruları beslemek",
-        "Kraliçe arıyı korumak",
-        "Çiçek tohumu ekmek"
+        "İşçi arıların",
+        "Kraliçe arının",
+        "Yavruların"
        ],
-       "aciklama": "“Çiçek toplar, kovanı temizler ve yavruları besler.”"
+       "aciklama": "Kovanı temizleyen işçi arılardır."
+      },
+      {
+       "soru": "Bir arı kovana nektar getirdi. Bu nektara sonunda ne olacak?",
+       "secenekler": [
+        "Bal olacak",
+        "Kraliçe arı olacak",
+        "Polen olacak"
+       ],
+       "aciklama": "Kovanda nektardan bal yapılır."
+      },
+      {
+       "soru": "Bir kovandaki arıların çoğu hangi türdendir?",
+       "secenekler": [
+        "İşçi arılar",
+        "Kraliçe arılar",
+        "Kovanı koruyan askerler"
+       ],
+       "aciklama": "Bir kraliçe arı ve binlerce işçi arı yaşar; çoğunluk işçidir."
+      },
+      {
+       "soru": "Bir öğrenci “Arılar yalnızca bal yapar, başka işe yaramaz.” dedi. Bu düşünce neden eksiktir?",
+       "secenekler": [
+        "Arılar polen taşıyıp bitkilerin meyve vermesini sağlar",
+        "Arılar yalnızca kraliçe arı için nektar toplar",
+        "Arılar çiçeklere zarar verdiği için işe yaramaz"
+       ],
+       "aciklama": "Arılar çiçekten çiçeğe polen taşır; bu yüzden birçok bitki meyve verir."
       }
      ],
      "sozluk": [
@@ -153,7 +161,8 @@
    "sv": 12,
    "emoji": "🌧️",
    "baslik": "Yağmur nasıl oluşur?",
-   "hedef": "Olayların sırasını (önce, sonra) bir metinden çıkarmak.",
+   "hedef": "Metinde yazmayan ama metinden çıkan bir sonucu bulmak: öğrendiğini yeni bir durumda uygulamak.",
+   "neden": "Metindeki cümleyi bulmak yetmez; öğrendiğini yeni bir durumda kullanabilmek anlamanın asıl işaretidir. Bu derste cevap metinde aynen yazmıyor, metinden çıkarıyorsun.",
    "adimlar": [
     {
      "tur": "oku",
@@ -166,44 +175,49 @@
      ],
      "sorular": [
       {
-       "soru": "Su gökyüzüne nasıl çıkar?",
+       "soru": "Çamaşırlar sıcak güneşte hızla kuruyor. Metindeki hangi olay buna benzer?",
        "secenekler": [
-        "Buharlaşarak",
-        "Bulutlara dönüşerek",
-        "Damlacıklara ayrılarak"
-       ]
+        "Güneşin suyu ısıtıp buharlaştırması",
+        "Bulutlardaki damlacıkların birleşmesi",
+        "Yağmurun denize ulaşması"
+       ],
+       "aciklama": "Çamaşırdaki su da ısınıp buharlaşır."
       },
       {
-       "soru": "Bulutlar neden oluşur?",
+       "soru": "Yukarıda hava soğuk olmasaydı bulutlara ne olurdu?",
        "secenekler": [
-        "Yukarıdaki soğuk havada su buharı küçük damlalara dönünce",
-        "Buhar ısınıp damlacıklara dönüşünce",
-        "Damlacıklar birleşip ağırlaşınca"
-       ]
+        "Buhar soğumazdı, bu yüzden bulut oluşmazdı",
+        "Damlacıklar daha hızlı birleşip yağmur yapardı",
+        "Sular denizlerde ve göllerde buharlaşmazdı"
+       ],
+       "aciklama": "Buhar soğuyunca damlacığa dönüşür ve bulut olur."
       },
       {
-       "soru": "Damlacıklar ne zaman yere düşer?",
+       "soru": "Küçük bir damlacık havada hafifçe duruyor. Yağmur olarak düşmesi için ne gerekir?",
        "secenekler": [
-        "Birbirine katılıp ağırlaşınca",
-        "Ayrılıp hafifleyince",
-        "Buharlaşıp yükselince"
-       ]
+        "Diğer damlacıklarla birleşip ağırlaşması",
+        "Daha da küçülüp hafiflemesi",
+        "Yeniden buhara dönüşmesi"
+       ],
+       "aciklama": "Damlacıklar birleşip ağırlaşınca yere düşer."
       },
       {
-       "soru": "Yağmur suları sonunda nereye ulaşır?",
+       "soru": "Bir göldeki su bugün yağmur olarak yağdı. Bu suyun yolculuğu biter mi?",
        "secenekler": [
-        "Yeniden yeryüzündeki sulara",
-        "Yalnızca denizlere ve göllere",
-        "Yalnızca bulutlara ve nehirlere"
-       ]
+        "Hayır, denizlere ulaşıp yeniden başlar",
+        "Evet, su toprakta kaybolup biter",
+        "Evet, su bulutlarda sonsuza kadar kalır"
+       ],
+       "aciklama": "Yağmur suları tekrar denizlere, göllere ve nehirlere ulaşır."
       },
       {
-       "soru": "Metne göre yukarıda hava nasıldır?",
+       "soru": "Sıcak bir yaz günü deniz kenarında sular çok buharlaşıyor. Ne beklenir?",
        "secenekler": [
-        "Soğuk",
-        "Sıcak",
-        "Rüzgârsız"
-       ]
+        "Havaya daha çok su buharı çıkar",
+        "Bulutlar hemen yere iner",
+        "Yağmur suları denizden kaçar"
+       ],
+       "aciklama": "Güneş suyu ısıtınca buharlaşır ve gökyüzüne çıkar."
       }
      ],
      "sozluk": [
@@ -225,7 +239,8 @@
    "sv": 17,
    "emoji": "🌱",
    "baslik": "Bitkiler nasıl beslenir?",
-   "hedef": "Bir sürecin parçalarını (girenler, çıkanlar) metinden ayırmak.",
+   "hedef": "Metinde yazmayan ama metinden çıkan bir sonucu bulmak: öğrendiğini yeni bir durumda uygulamak.",
+   "neden": "Metindeki cümleyi bulmak yetmez; öğrendiğini yeni bir durumda kullanabilmek anlamanın asıl işaretidir. Bu derste cevap metinde aynen yazmıyor, metinden çıkarıyorsun.",
    "adimlar": [
     {
      "tur": "oku",
@@ -239,45 +254,49 @@
      ],
      "sorular": [
       {
-       "soru": "Bitkiler besinlerini nasıl elde eder?",
+       "soru": "Bir saksı bitkisi karanlık bir dolapta haftalarca kalıyor. Ne olması beklenir?",
        "secenekler": [
-        "Besinlerini kendileri hazırlar",
-        "Besinlerini hayvanlardan alır",
-        "Besinlerini rüzgârla toplar"
-       ]
+        "Şeker üretemediği için zayıflar",
+        "Daha çok oksijen verir",
+        "Daha çok su alır"
+       ],
+       "aciklama": "Fotosentez için güneş ışığı gerekir."
       },
       {
-       "soru": "Kökler topraktan ne alır?",
+       "soru": "Bir bitkiyi sulamayı unuttuk. Fotosentez neden aksar?",
+       "secenekler": [
+        "Gereken su eksik kalır",
+        "Yapraklar karbondioksit gazını vermeye başlar",
+        "Güneş ışığı yeşil maddeye ulaşamaz"
+       ],
+       "aciklama": "Fotosentezde su ile karbondioksit şekere dönüşür; su yoksa bu olay aksar."
+      },
+      {
+       "soru": "Bir yerde ormanlar çoğalırsa havada ne artar?",
+       "secenekler": [
+        "Soluduğumuz oksijen",
+        "Karbondioksit gazı",
+        "Mineral"
+       ],
+       "aciklama": "Fotosentez sırasında oksijen havaya verilir."
+      },
+      {
+       "soru": "Hayvanlar yemek yer ama bitkiler yemez. Bunun nedeni nedir?",
+       "secenekler": [
+        "Besinlerini kendileri üretirler",
+        "Ağızları çok küçüktür",
+        "Besine ihtiyaçları yoktur"
+       ],
+       "aciklama": "Bitkiler besinlerini kendileri üretir."
+      },
+      {
+       "soru": "Kökleri kesilmiş bir bitki topraktan neyi alamaz?",
        "secenekler": [
         "Su ve mineral",
-        "Karbondioksit ve mineral",
-        "Su ve karbondioksit"
-       ]
-      },
-      {
-       "soru": "Fotosentez için hangi üçü gerekir?",
-       "secenekler": [
-        "Su, karbondioksit ve güneş ışığı",
-        "Su, oksijen ve güneş ışığı",
-        "Mineral, rüzgâr ve güneş ışığı"
-       ]
-      },
-      {
-       "soru": "Fotosentez sırasında havaya ne verilir?",
-       "secenekler": [
-        "Yaşamak için soluduğumuz gaz",
-        "Yapraktan havadan alınan gaz",
-        "Besin olarak üretilen madde"
-       ]
-      },
-      {
-       "soru": "Yaprakların içindeki yeşil madde ne yapar?",
-       "secenekler": [
-        "Işık yardımıyla su ve karbondioksitten şeker yapar",
-        "Su ve oksijeni şekere çevirir",
-        "Şekeri oksijene çevirip havaya verir"
+        "Karbondioksit",
+        "Güneş ışığı"
        ],
-       "aciklama": "“Yeşil madde, güneş ışığının yardımıyla su ile karbondioksiti şekere dönüştürür.”"
+       "aciklama": "Kökler topraktan su ve mineral alır."
       }
      ],
      "sozluk": [
@@ -299,7 +318,8 @@
    "sv": 22,
    "emoji": "📄",
    "baslik": "Kâğıt nasıl yapılır?",
-   "hedef": "Aşamalı bir üretim sürecini doğru sıraya koymak.",
+   "hedef": "Metinde yazmayan ama metinden çıkan bir sonucu bulmak: öğrendiğini yeni bir durumda uygulamak.",
+   "neden": "Metindeki cümleyi bulmak yetmez; öğrendiğini yeni bir durumda kullanabilmek anlamanın asıl işaretidir. Bu derste cevap metinde aynen yazmıyor, metinden çıkarıyorsun.",
    "adimlar": [
     {
      "tur": "oku",
@@ -313,28 +333,31 @@
      ],
      "sorular": [
       {
-       "soru": "Kâğıdın hammaddesi çoğunlukla nedir?",
+       "soru": "Bir fabrikada hamurun eleğe dökülmesi atlandı. Ne sorun çıkar?",
        "secenekler": [
-        "Ağaç",
-        "Elek",
-        "Silindir"
-       ]
+        "Hamurun suyu süzülmez, ince tabaka olmaz",
+        "Odunlar küçük parçalara ayrılamaz",
+        "Kullanılmış kâğıtlar geri dönüşemez"
+       ],
+       "aciklama": "Hamurun suyu elekte süzülür; sonra tabaka haline getirilir."
       },
       {
-       "soru": "Odun parçaları kaynatılınca ne olur?",
+       "soru": "Okulda herkes eski kâğıtlarını geri dönüşüme verirse ne olur?",
        "secenekler": [
-        "Su katılmış yumuşak bir karışım çıkar",
-        "Sert, sulu bir hamur oluşur",
-        "Yumuşak, kuru bir tabaka oluşur"
-       ]
+        "Daha az ağaç kesilir",
+        "Daha çok ağaç kesilir",
+        "Kâğıt hiç üretilmez"
+       ],
+       "aciklama": "Kullanılmış kâğıt yeniden hamura çevrilir; bu sayede daha az ağaç kesilir."
       },
       {
-       "soru": "Hamur ince bir tabaka haline nasıl getirilir?",
+       "soru": "Presleme adımından hemen önce hangi işlem yapılır?",
        "secenekler": [
-        "Dönen makaraların arasından geçirilerek",
-        "Elekten geçirilip süzülerek",
-        "Kurutulup küçük parçalara ayrılarak"
-       ]
+        "Hamurun eleğe dökülüp suyunun süzülmesi",
+        "Odunların kaynatılması",
+        "Kâğıdın kurutulması"
+       ],
+       "aciklama": "Sıra: kesme, parçalama, kaynatma, eleme, presleme, kurutma."
       },
       {
        "soru": "Hangisi doğru sıradır?",
@@ -342,15 +365,17 @@
         "Kesme → kaynatma → eleme → presleme → kurutma",
         "Kurutma → kaynatma → kesme → presleme → eleme",
         "Kaynatma → kesme → kurutma → eleme → presleme"
-       ]
+       ],
+       "aciklama": "Önce ağaç kesilir, en son kâğıt kurutulur."
       },
       {
-       "soru": "Geri dönüşümün metindeki yararı nedir?",
+       "soru": "Odunlar kaynatılmadan önce ne yapılır?",
        "secenekler": [
-        "Daha az ağaç kesilir",
-        "Kâğıt daha beyaz olur",
-        "Kâğıt daha ince olur"
-       ]
+        "Küçük parçalara ayrılır",
+        "Elekten geçirilir",
+        "Kurutulur"
+       ],
+       "aciklama": "Önce kabuk soyulur, sonra odunlar küçük parçalara ayrılır, sonra kaynatılır."
       }
      ],
      "sozluk": [
@@ -372,7 +397,8 @@
    "sv": 27,
    "emoji": "🔊",
    "baslik": "Ses nasıl yayılır?",
-   "hedef": "Neden–sonuç ilişkisini ve ayrıntıları aynı metinde birlikte izlemek.",
+   "hedef": "Metinde yazmayan ama metinden çıkan bir sonucu bulmak: öğrendiğini yeni bir durumda uygulamak.",
+   "neden": "Metindeki cümleyi bulmak yetmez; öğrendiğini yeni bir durumda kullanabilmek anlamanın asıl işaretidir. Bu derste cevap metinde aynen yazmıyor, metinden çıkarıyorsun.",
    "adimlar": [
     {
      "tur": "oku",
@@ -386,44 +412,49 @@
      ],
      "sorular": [
       {
-       "soru": "Ses nasıl oluşur?",
+       "soru": "Bir gitar telinin titremesini eliniz durduruyor. Ses ne olur?",
        "secenekler": [
-        "Bir cismin hızla ileri geri hareket etmesiyle",
-        "Havanın hızla soğumasıyla",
-        "Kulağın titreşimi algılamasıyla"
-       ]
+        "Kesilir, çünkü ses titremeyle oluşur",
+        "Daha da yükselir",
+        "Aynı şiddette sürer"
+       ],
+       "aciklama": "Ses, bir şeyin titremesiyle oluşur."
       },
       {
-       "soru": "Uzayda sesler neden yayılamaz?",
+       "soru": "Uzay boşluğunda bir astronot bağırsa, arkadaşı neden duymaz?",
        "secenekler": [
-        "Orada sesi taşıyacak hava yoktur",
-        "Orada kulaklar titreşimi algılayamaz",
-        "Astronotlar telsiz kullandığı için"
-       ]
+        "Titreşimi taşıyacak hava yoktur",
+        "Kulakları titreşimi algılayamaz",
+        "Ses katı maddelerde daha hızlıdır"
+       ],
+       "aciklama": "Sesin yayılması için ortam gerekir; uzayda hava yoktur."
       },
       {
-       "soru": "Astronotlar birbirleriyle nasıl konuşur?",
+       "soru": "Bir çocuk kulağını demiryoluna dayayıp uzaktaki treni erken duyuyor. Neden?",
        "secenekler": [
-        "Uzayda kullanılan cihazla, telsizle",
-        "Havada dalgalar oluşturarak",
-        "Katı bir masaya kulaklarını dayayarak"
-       ]
+        "Ses katı maddede havadan hızlı yayılır",
+        "Ses havada daha hızlı yayılır",
+        "Raylar sesi hiç yayamaz"
+       ],
+       "aciklama": "Ses katı maddelerde havadan daha hızlı yayılır."
       },
       {
-       "soru": "Ses hangi ortamda daha hızlı yayılır?",
+       "soru": "Deniz altında bir dalgıç arkadaşına seslenirse ses ulaşabilir mi?",
        "secenekler": [
-        "Katı maddede",
-        "Havada",
-        "Boşlukta"
-       ]
+        "Evet, çünkü su da bir ortamdır",
+        "Hayır, çünkü ses yalnızca havada yayılır",
+        "Hayır, çünkü suda titreşim olmaz"
+       ],
+       "aciklama": "Ortam hava, su ya da katı bir madde olabilir."
       },
       {
-       "soru": "Metinde “ortam” sözcüğü hangi anlamda kullanılmıştır?",
+       "soru": "Konser salonunda müziği dinleyen kişi sesi nasıl duyar?",
        "secenekler": [
-        "Sesin içinde yayıldığı madde",
-        "Sesin kulağımızda algılandığı yer",
-        "Sesi titreştiren gitar teli gibi cisim"
-       ]
+        "Havadaki titreşimler kulağa ulaşır, kulak algılar",
+        "Müzisyenler sesi doğrudan kulağa gönderir",
+        "Kulak titreşir ve sesi havaya yayar"
+       ],
+       "aciklama": "Titreşim havada dalgalar halinde yayılıp kulağa ulaşır."
       }
      ],
      "sozluk": [
@@ -914,7 +945,8 @@
    "sv": 6,
    "emoji": "💧",
    "baslik": "Suyun üç hali",
-   "hedef": "Çok kısa ve basit bir metinde “ne olur?” sorusunun cevabını bulmak.",
+   "hedef": "Metinde yazmayan ama metinden çıkan bir sonucu bulmak: öğrendiğini yeni bir durumda uygulamak.",
+   "neden": "Metindeki cümleyi bulmak yetmez; öğrendiğini yeni bir durumda kullanabilmek anlamanın asıl işaretidir. Bu derste cevap metinde aynen yazmıyor, metinden çıkarıyorsun.",
    "adimlar": [
     {
      "tur": "oku",
@@ -927,44 +959,49 @@
      ],
      "sorular": [
       {
-       "soru": "Su çok soğuyunca ne olur?",
+       "soru": "Dondurucuda unuttuğun bir bardak su ertesi gün nasıl olur?",
        "secenekler": [
-        "Buz olur",
-        "Buhar olur",
-        "Kum olur"
-       ]
+        "Buz olur ve sertleşir",
+        "Buhar olur ve uçar",
+        "Daha akıcı olur"
+       ],
+       "aciklama": "Su çok soğuyunca buz olur."
       },
       {
-       "soru": "Buz nasıl bir şeydir?",
-       "secenekler": [
-        "Katı ve sert",
-        "Akıcı",
-        "Görünmez"
-       ]
-      },
-      {
-       "soru": "Su ısınınca ne olur?",
-       "secenekler": [
-        "Buhar olur",
-        "Buz olur",
-        "Toprak olur"
-       ]
-      },
-      {
-       "soru": "Çay kaynarken çaydanlıktan ne çıkar?",
+       "soru": "Annen tencerede suyu çok ısıtıyor. Kapağın altında ne görürsün?",
        "secenekler": [
         "Buhar",
         "Buz",
         "Kar"
-       ]
+       ],
+       "aciklama": "Su ısınınca buhar olur."
       },
       {
-       "soru": "Suyu ne için kullanırız?",
+       "soru": "Elinde sert, soğuk bir şey var ve su gibi akmıyor. Bu ne olabilir?",
        "secenekler": [
-        "İçmek ve el yıkamak için",
-        "Giyinmek ve uyumak için",
-        "Koşmak ve zıplamak için"
-       ]
+        "Buz",
+        "Buhar",
+        "Su"
+       ],
+       "aciklama": "Buz katıdır ve serttir."
+      },
+      {
+       "soru": "Hangisi bir sıvıya örnektir?",
+       "secenekler": [
+        "Elimizi yıkadığımız su",
+        "Sert bir buz parçası",
+        "Çaydanlıktan çıkan buhar"
+       ],
+       "aciklama": "Sıvı akan maddedir; su bir sıvıdır."
+      },
+      {
+       "soru": "Soğuktan sıcağa doğru hangi sıra doğrudur?",
+       "secenekler": [
+        "Buz, su, buhar",
+        "Buhar, su, buz",
+        "Su, buhar, buz"
+       ],
+       "aciklama": "Su soğuyunca buz, ısınınca buhar olur."
       }
      ],
      "sozluk": [
@@ -990,7 +1027,8 @@
    "sv": 10,
    "emoji": "🌗",
    "baslik": "Gece ve gündüz",
-   "hedef": "Kısa bir açıklamada neden–sonuç bağını (“bu yüzden”) bulmak.",
+   "hedef": "Metinde yazmayan ama metinden çıkan bir sonucu bulmak: öğrendiğini yeni bir durumda uygulamak.",
+   "neden": "Metindeki cümleyi bulmak yetmez; öğrendiğini yeni bir durumda kullanabilmek anlamanın asıl işaretidir. Bu derste cevap metinde aynen yazmıyor, metinden çıkarıyorsun.",
    "adimlar": [
     {
      "tur": "oku",
@@ -1003,44 +1041,49 @@
      ],
      "sorular": [
       {
-       "soru": "Dünya kendi çevresinde bir kez dönmek için ne kadar zaman harcar?",
+       "soru": "Bizim bulunduğumuz yerde şimdi gece. Burası Güneş’e göre nerededir?",
        "secenekler": [
+        "Güneş’e dönük olmayan tarafta",
+        "Güneş’e dönük tarafta",
+        "Güneş’in hemen yanında"
+       ],
+       "aciklama": "Güneş’e dönük olmayan tarafta gece olur."
+      },
+      {
+       "soru": "Bir çocuk “Güneş akşam yatıp sabah kalkıyor.” dedi. Bu söz metne göre neden hatalıdır?",
+       "secenekler": [
+        "Güneş doğmaz ve batmaz, Dünya döner",
+        "Güneş her akşam yok olur",
+        "Güneş Dünya’nın çevresinde döner"
+       ],
+       "aciklama": "Güneş sadece doğup batıyor gibi görünür."
+      },
+      {
+       "soru": "Dünya bir tam dönüşü yirmi dört saatte yapar. İki tam dönüş ne kadar sürer?",
+       "secenekler": [
+        "Kırk sekiz saat",
         "Yirmi dört saat",
-        "Yirmi dört gün",
-        "Yirmi dört dakika"
-       ]
+        "Doksan altı saat"
+       ],
+       "aciklama": "24 saat × 2 = 48 saat."
       },
       {
-       "soru": "Dünyanın Güneş’e dönük tarafında ne olur?",
+       "soru": "Dünya dönmeyi bıraksaydı Güneş’e dönük taraf ne olurdu?",
        "secenekler": [
-        "Gündüz",
-        "Gece",
-        "Kış"
-       ]
+        "Hep gündüz kalırdı",
+        "Hep gece kalırdı",
+        "Her saat değişirdi"
+       ],
+       "aciklama": "Gündüz Güneş’e dönük tarafta olur; dönme olmazsa orası hep gündüz kalır."
       },
       {
-       "soru": "Güneş’e dönük olmayan tarafta ne olur?",
+       "soru": "Trenle giderken ağaçlar geriye gidiyor gibi görünür. Bu hangi duruma benzer?",
        "secenekler": [
-        "Gece",
-        "Gündüz",
-        "Yaz"
-       ]
-      },
-      {
-       "soru": "Güneş neden doğup batıyor gibi görünür?",
-       "secenekler": [
-        "Dünya döndüğü için",
-        "Güneş döndüğü için",
-        "Dünya Güneş’ten uzaklaştığı için"
-       ]
-      },
-      {
-       "soru": "Metne göre gerçekte ne olur?",
-       "secenekler": [
-        "Dünya döner",
-        "Güneş batar",
-        "Gece Güneş saklanır"
-       ]
+        "Güneş’in doğup batıyor gibi görünmesine",
+        "Dünya’nın yirmi dört saatte dönmesine",
+        "Gece ve gündüzün oluşmasına"
+       ],
+       "aciklama": "Biz hareket ediyoruz ama karşıdaki şey hareket ediyor gibi görünür."
       }
      ],
      "sozluk": [
@@ -1062,7 +1105,8 @@
    "sv": 15,
    "emoji": "🦋",
    "baslik": "Kelebeğin yaşamı",
-   "hedef": "Bir yaşam döngüsündeki aşamaları sırayla izlemek.",
+   "hedef": "Metinde yazmayan ama metinden çıkan bir sonucu bulmak: öğrendiğini yeni bir durumda uygulamak.",
+   "neden": "Metindeki cümleyi bulmak yetmez; öğrendiğini yeni bir durumda kullanabilmek anlamanın asıl işaretidir. Bu derste cevap metinde aynen yazmıyor, metinden çıkarıyorsun.",
    "adimlar": [
     {
      "tur": "oku",
@@ -1075,44 +1119,49 @@
      ],
      "sorular": [
       {
-       "soru": "Dişi kelebek yumurtalarını nereye bırakır?",
+       "soru": "Bir bahçıvan yaprağın üzerinde küçük bir yumurta buldu. Birkaç gün sonra orada ne görmesi beklenir?",
        "secenekler": [
-        "Bir yaprağın üzerine",
-        "Bir yaprağın altına",
-        "Bir pupanın üzerine"
-       ]
+        "Küçük bir tırtıl",
+        "Bir kelebek",
+        "Bir pupa"
+       ],
+       "aciklama": "Yumurtadan tırtıl çıkar."
       },
       {
-       "soru": "Yumurtadan ne çıkar?",
+       "soru": "Bahçede bir bitkinin yaprakları çok yenmiş. Bunu büyük olasılıkla kim yapmıştır?",
        "secenekler": [
-        "Tırtıl",
-        "Kelebek",
-        "Pupa"
-       ]
+        "Tırtıllar",
+        "Pupalar",
+        "Yeni çıkan kelebekler"
+       ],
+       "aciklama": "Tırtıl sürekli yaprak yer ve hızla büyür."
       },
       {
-       "soru": "Tırtıl çoğunlukla ne yapar?",
-       "secenekler": [
-        "Yaprak yer ve hızla büyür",
-        "Yaprak yer ve kanatlarını kurutur",
-        "Yumurta bırakır ve hızla büyür"
-       ]
-      },
-      {
-       "soru": "Kelebeğin yaşam döngüsü hangi sıradadır?",
-       "secenekler": [
-        "Yumurta → tırtıl → pupa → kelebek",
-        "Yumurta → kelebek → tırtıl → pupa",
-        "Tırtıl → yumurta → kelebek → pupa"
-       ]
-      },
-      {
-       "soru": "Pupa döneminde ne olur?",
+       "soru": "Pupa hareketsiz durur. İçinde ne olur?",
        "secenekler": [
         "Vücut içeriden tamamen değişir",
-        "Tırtıl yaprak yiyip hızla büyür",
-        "Pupa kanatlarını kurutup uçar"
-       ]
+        "Tırtıl yaprak yiyip büyür",
+        "Kanatlar hemen kurur"
+       ],
+       "aciklama": "Pupa döneminde vücut içeriden tamamen değişir."
+      },
+      {
+       "soru": "Yeni çıkan bir kelebek hemen uçamaz. Önce ne yapar?",
+       "secenekler": [
+        "Kanatlarını kurutur",
+        "Yumurta bırakır",
+        "Yaprak yemeye başlar"
+       ],
+       "aciklama": "Kelebek kanatlarını kurutur ve sonra uçmaya başlar."
+      },
+      {
+       "soru": "Pupa olan bir canlı bundan sonra ne olacak?",
+       "secenekler": [
+        "Kelebek",
+        "Tırtıl",
+        "Yumurta"
+       ],
+       "aciklama": "Sıra: yumurta, tırtıl, pupa, kelebek."
       }
      ],
      "sozluk": [
@@ -1138,7 +1187,8 @@
    "sv": 20,
    "emoji": "🦷",
    "baslik": "Dişler ve şeker",
-   "hedef": "Bir sebep zincirini (şeker → bakteri → asit → çürük) sırasıyla yakalamak.",
+   "hedef": "Metinde yazmayan ama metinden çıkan bir sonucu bulmak: öğrendiğini yeni bir durumda uygulamak.",
+   "neden": "Metindeki cümleyi bulmak yetmez; öğrendiğini yeni bir durumda kullanabilmek anlamanın asıl işaretidir. Bu derste cevap metinde aynen yazmıyor, metinden çıkarıyorsun.",
    "adimlar": [
     {
      "tur": "oku",
@@ -1151,44 +1201,49 @@
      ],
      "sorular": [
       {
-       "soru": "Dişin mineyi aşındıran asidi ne üretir?",
+       "soru": "Elif her gün tatlı yiyor ama dişlerini hiç fırçalamıyor. Zamanla ne olması beklenir?",
        "secenekler": [
-        "Şekerle beslenen bakteriler",
-        "Şekerle beslenmeyen bakteriler",
-        "Dişin dış tabakası olan mine"
-       ]
+        "Dişin mine tabakası aşınıp diş çürür",
+        "Dişleri daha da beyazlar",
+        "Ağzındaki bakteriler kaybolur"
+       ],
+       "aciklama": "Şekerle beslenen bakteriler asit üretir; asit mineyi aşındırır."
       },
       {
-       "soru": "Diş çürüğü nasıl oluşur?",
+       "soru": "İki kardeş aynı miktarda şeker yiyor: biri bir seferde yiyip fırçalıyor, öteki gün boyu atıştırıyor. Hangisinin dişi daha çok risk altındadır?",
        "secenekler": [
-        "Asit mineyi aşındırınca",
-        "Bakteri mineyi temizleyince",
-        "Mine asit üretince"
-       ]
+        "Gün boyu atıştıranın",
+        "Bir seferde yiyenin",
+        "İkisinin de aynı"
+       ],
+       "aciklama": "Sık sık atıştırmak yerine bir seferde yiyip fırçalamak daha yararlıdır."
       },
       {
-       "soru": "Metne göre günde en az kaç kez fırçalamak gerekir?",
+       "soru": "Ahmet dişlerini günde yalnızca bir kez fırçalıyor. Ne yapması gerekir?",
        "secenekler": [
-        "İki kez",
-        "Bir kez",
-        "Üç kez"
-       ]
+        "Günde en az iki kez fırçalaması",
+        "Günde bir kez fırçalamayı sürdürmesi",
+        "Haftada iki kez fırçalaması"
+       ],
+       "aciklama": "Dişleri günde en az iki kez fırçalamak bakteri tabakasını temizler."
       },
       {
-       "soru": "Hangisi daha yararlıdır?",
+       "soru": "Dişçiye hiç gitmeyen bir çocuğun dişinde küçük bir çürük var. Düzenli dişçi ziyareti neyi sağlardı?",
        "secenekler": [
-        "Şekerli yiyeceği bir seferde yiyip dişleri fırçalamak",
-        "Şekerli yiyeceği gün boyu sık sık atıştırmak",
-        "Şekerli yiyeceği bir seferde yiyip dişleri hiç fırçalamamak"
-       ]
+        "Sorunun erken fark edilmesini",
+        "Şekerin dişe zarar vermemesini",
+        "Bakterilerin tamamen yok olmasını"
+       ],
+       "aciklama": "Dişçiye düzenli gitmek sorunların erken fark edilmesini sağlar."
       },
       {
-       "soru": "Dişçiye düzenli gitmenin yararı nedir?",
+       "soru": "Ağzımızdaki bakterilerin hepsi zararlı mıdır?",
        "secenekler": [
-        "Bozukluklar erken yakalanır",
-        "Sorunlar geç fark edilir",
-        "Dişçi bakteri tabakasını temizler"
-       ]
+        "Hayır, çoğu zararsız; bazıları asit üretir",
+        "Evet, hepsi diş çürüğüne yol açar",
+        "Hayır, hiçbiri şekeri kullanmaz"
+       ],
+       "aciklama": "Bakterilerin çoğu zararsızdır; bazıları şekerle beslenir ve asit üretir."
       }
      ],
      "sozluk": [
@@ -1214,7 +1269,8 @@
    "sv": 25,
    "emoji": "🌍",
    "baslik": "Mevsimler neden oluşur?",
-   "hedef": "Yaygın bir yanlış inancın düzeltildiği metni izlemek.",
+   "hedef": "Metinde yazmayan ama metinden çıkan bir sonucu bulmak: öğrendiğini yeni bir durumda uygulamak.",
+   "neden": "Metindeki cümleyi bulmak yetmez; öğrendiğini yeni bir durumda kullanabilmek anlamanın asıl işaretidir. Bu derste cevap metinde aynen yazmıyor, metinden çıkarıyorsun.",
    "adimlar": [
     {
      "tur": "oku",
@@ -1228,36 +1284,40 @@
      ],
      "sorular": [
       {
-       "soru": "Mevsimlerin asıl nedeni nedir?",
+       "soru": "Türkiye’de yaz, Avustralya’da kış olması neyi gösterir?",
        "secenekler": [
-        "Dünya’nın dönüş ekseninin yan yatık olması",
-        "Dünya’nın Güneş’e yaklaşıp uzaklaşması",
-        "Dünya ekseninin her yıl başka yöne eğilmesi"
-       ]
+        "Mevsimleri uzaklık değil eksen eğikliği belirler",
+        "Dünya o sırada Güneş’e tamamen yaklaşmıştır",
+        "Avustralya’ya Güneş ışığı hiç ulaşmaz"
+       ],
+       "aciklama": "Dünya Güneş’e yaklaşsaydı her yerde aynı mevsim olurdu."
       },
       {
-       "soru": "Türkiye’de yaz olduğunda Avustralya’da hangi mevsim yaşanır?",
+       "soru": "Kuzey Yarımküre’de ışınlar dik geliyor ve günler uzuyorsa Türkiye’de hangi mevsimdir?",
        "secenekler": [
-        "Kış",
         "Yaz",
+        "Kış",
         "Sonbahar"
-       ]
+       ],
+       "aciklama": "Işınlar daha dik gelir, günler uzar ve yaz yaşanır."
       },
       {
-       "soru": "Kuzey Yarımküre Güneş’e daha dönükken ne olur?",
+       "soru": "Türkiye’de şu an yaz. Altı ay sonra durum tersine dönünce Avustralya’da hangi mevsim olur?",
        "secenekler": [
-        "Işınlar daha dik gelir, günler uzar",
-        "Işınlar daha dik gelir, günler kısalır",
-        "Işınlar eğik gelir, günler uzar"
-       ]
+        "Yaz",
+        "Kış",
+        "İlkbahar"
+       ],
+       "aciklama": "Altı ay sonra durum tersine döner; Avustralya’da yaz, Türkiye’de kış olur."
       },
       {
-       "soru": "Birçok kişi mevsimlerin nedeni hakkında neyi sanır?",
+       "soru": "Bir arkadaşın “Yaz, Dünya Güneş’e en yakın olduğu için sıcaktır.” diyor. Ona ne dersin?",
        "secenekler": [
-        "Güneş’e olan uzaklığın değişmesinden oluştuğunu",
-        "Dünya’nın ekseninin eğik olduğunu",
-        "Dünya ekseninin her yıl başka yöne eğildiğini"
-       ]
+        "Asıl neden Dünya’nın ekseninin eğik olmasıdır",
+        "Haklısın, yaz Güneş’e yakınlıktan olur",
+        "Yaz Güneş’in soğumasından olur"
+       ],
+       "aciklama": "Birçok kişi böyle sanır; oysa mevsimlerin asıl nedeni eksen eğikliğidir."
       },
       {
        "soru": "Yazar bu metni yazarken ne yapıyor?",
@@ -1265,7 +1325,8 @@
         "Yaygın bir yanlışı düzeltiyor",
         "Bir deneyin sonucunu duyuruyor",
         "Bir yolculuğun anısını anlatıyor"
-       ]
+       ],
+       "aciklama": "Metin “Birçok kişi … sanır. Oysa durum böyle değildir.” diye başlar."
       }
      ],
      "sozluk": [
@@ -1291,7 +1352,8 @@
    "sv": 29,
    "emoji": "🌬️",
    "baslik": "Yenilenebilir enerji",
-   "hedef": "Bir konunun iki tarafını (yararı ve sınırı) metinde ayırt etmek.",
+   "hedef": "Metinde yazmayan ama metinden çıkan bir sonucu bulmak: öğrendiğini yeni bir durumda uygulamak.",
+   "neden": "Metindeki cümleyi bulmak yetmez; öğrendiğini yeni bir durumda kullanabilmek anlamanın asıl işaretidir. Bu derste cevap metinde aynen yazmıyor, metinden çıkarıyorsun.",
    "adimlar": [
     {
      "tur": "oku",
@@ -1305,44 +1367,49 @@
      ],
      "sorular": [
       {
-       "soru": "Metne göre fosil yakıtlar hangi özellikteki kaynaklardır?",
+       "soru": "Bir ülke elektriğini yalnızca rüzgâr türbinlerinden üretiyor. Hava günlerce hiç esmezse ne olur?",
        "secenekler": [
-        "Oluşması çok uzun süren, kullanıldıkça azalan",
-        "Rüzgâr ve güneş gibi kullanıldıkça tükenmeyen",
-        "Gece de çalışan ve havayı kirletmeyen"
-       ]
+        "Elektrik üretimi azalır",
+        "Yeni fosil yakıt oluşur",
+        "Güneş panelleri rüzgârla çalışır"
+       ],
+       "aciklama": "Rüzgâr her zaman esmez; her yöntemin bir sınırı vardır."
       },
       {
-       "soru": "Fosil yakıtlar neden yenilenmez?",
+       "soru": "Bir şehirde yalnızca güneş paneli kullanılıyor. Geceleri elektrik nasıl sağlanır?",
        "secenekler": [
-        "Oluşmaları milyonlarca yıl sürdüğü için",
-        "Havaya karbondioksit verdikleri için",
-        "Rüzgâr ve güneş gibi tükenmedikleri için"
-       ]
+        "Depolanan elektrikle ya da başka kaynakla",
+        "Paneller geceleri de aynı güçle çalışır",
+        "Fosil yakıt hemen yenilenir"
+       ],
+       "aciklama": "Güneş geceleri yoktur; bu yüzden elektriği depolamak ya da başka kaynak kullanmak gerekir."
       },
       {
-       "soru": "Güneş panelleri ne ile elektrik üretir?",
+       "soru": "Kömürün yenilenmemesi, kullandıkça ne anlama gelir?",
        "secenekler": [
-        "Işıkla",
-        "Rüzgârla",
-        "Suyla"
-       ]
+        "Bir gün tükenebilir",
+        "Hiç bitmez",
+        "Daha ucuz olur"
+       ],
+       "aciklama": "Oluşmaları milyonlarca yıl sürdüğü için kullanıldıkça yenilenmezler; bir gün tükenebilirler."
       },
       {
-       "soru": "Yenilenebilir kaynakların sınırı nedir?",
+       "soru": "Rüzgâr ve güneşin kullanıldıkça tükenmemesi neden avantajdır?",
        "secenekler": [
-        "Rüzgâr her zaman esmez, güneş geceleri yoktur",
-        "Rüzgâr her zaman eser, güneş geceleri de parlar",
-        "Kullandıkça tükenirler, havaya karbondioksit verirler"
-       ]
+        "Gelecekte de elektrik üretmeye devam edebilirler",
+        "Havaya daha çok karbondioksit verirler",
+        "Her zaman çalışırlar"
+       ],
+       "aciklama": "Yenilenebilir kaynaklar kullanıldıkça tükenmez."
       },
       {
-       "soru": "Yazar neyi önemli buluyor?",
+       "soru": "Yazar neden farklı kaynakların birlikte kullanılmasını önerir?",
        "secenekler": [
-        "Üretilen gücü saklayıp farklı yöntemleri birlikte kullanmayı",
-        "Fosil yakıtları depolamayı ve yakmayı",
-        "Tek bir kaynağı kullanmayı"
-       ]
+        "Biri yetersiz kaldığında öteki yardım eder",
+        "Fosil yakıtlar hiç tükenmeyeceği için",
+        "Güneş ve rüzgâr hep birlikte eser"
+       ],
+       "aciklama": "Her yöntemin bir sınırı vardır; kaynakları birlikte kullanmak bu sınırı aşmaya yardım eder."
       }
      ],
      "sozluk": [
